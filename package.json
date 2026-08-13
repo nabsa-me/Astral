@@ -1,0 +1,19 @@
+{
+  "name": "astral",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Guia de viajes interactiva. Piloto: Cordoba.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@astral/web",
+    "build": "npm run build --workspace=@astral/web",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

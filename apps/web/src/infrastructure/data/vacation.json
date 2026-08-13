@@ -1,0 +1,57 @@
+{
+  "id": "verano-2026",
+  "title": "Vacaciones de verano 2026",
+  "subtitle": "Fuente Palmera · Córdoba · Almodóvar del Río · Extremadura",
+  "days": [
+    {
+      "id": "dia-1",
+      "number": 1,
+      "title": "Día 1 · Viaje a Fuente Palmera",
+      "summary": "Día de viaje. Llegada por la tarde a Fuente Palmera.",
+      "paragraphs": [
+        "Salida desde casa por la mañana, jornada de carretera y llegada por la tarde a Fuente Palmera, base de operaciones para los siguientes días."
+      ],
+      "map": null
+    },
+    {
+      "id": "dia-2",
+      "number": 2,
+      "title": "Día 2 · Fuente Palmera",
+      "summary": "Día completo en Fuente Palmera.",
+      "paragraphs": [
+        "Día de descanso y descubrimiento del pueblo. Fuente Palmera es una de las Nuevas Poblaciones fundadas por Carlos III en el siglo XVIII, con trazado urbano ilustrado y colonos centroeuropeos."
+      ],
+      "map": { "center": [37.71678, -5.10169], "zoom": 14 }
+    },
+    {
+      "id": "dia-3",
+      "number": 3,
+      "title": "Día 3 · Córdoba",
+      "summary": "Mezquita, Puente Romano y paseo de tarde por la Judería.",
+      "paragraphs": [
+        "Día completo en Córdoba. Por la mañana, visita a la Mezquita-Catedral siguiendo la cronología del edificio. Cruce del Puente Romano hasta la Torre de la Calahorra. Por la tarde, paseo por la Judería, el Zoco, la Puerta de Almodóvar y las callejas más pintorescas, con el atardecer en el Puente Romano y remate en la Plaza de la Corredera."
+      ],
+      "map": { "cityId": "cordoba" }
+    },
+    {
+      "id": "dia-4",
+      "number": 4,
+      "title": "Día 4 · Almodóvar del Río",
+      "summary": "Castillo de Almodóvar del Río y pueblo.",
+      "paragraphs": [
+        "Excursión de un día a Almodóvar del Río. La visita gira en torno a su castillo de origen andalusí sobre el Guadalquivir, restaurado en el siglo XX y célebre por sus escenas en producciones televisivas recientes."
+      ],
+      "map": { "center": [37.81066, -5.02216], "zoom": 14 }
+    },
+    {
+      "id": "dia-5",
+      "number": 5,
+      "title": "Día 5 · Viaje a Extremadura pasando por Huelva",
+      "summary": "Trayecto largo con parada en Huelva.",
+      "paragraphs": [
+        "Día de carretera. Salida temprana desde Fuente Palmera hacia Huelva para una parada intermedia y continuación hacia Extremadura, destino final de la etapa."
+      ],
+      "map": { "center": [37.7, -6.5], "zoom": 8 }
+    }
+  ]
+}
