@@ -1,0 +1,25 @@
+[
+  {
+    "id": "diario-verano-2026",
+    "ownerId": "u-noelia",
+    "sharedRouteId": "verano-2026",
+    "title": "Diario · Verano 2026",
+    "summary": "Notas del viaje por Córdoba y Extremadura, día a día.",
+    "entries": [
+      {
+        "id": "e-1",
+        "dayId": "dia-1",
+        "heading": "Día 1 · Viaje a Fuente Palmera",
+        "body": "Jornada de carretera y llegada por la tarde a Fuente Palmera, base de operaciones para los siguientes días."
+      },
+      {
+        "id": "e-3",
+        "dayId": "dia-3",
+        "heading": "Día 3 · Córdoba",
+        "body": "Mezquita-Catedral por la mañana siguiendo la cronología del edificio y Judería al atardecer. El Puente Romano al caer el sol es imbatible."
+      }
+    ],
+    "stats": { "likes": 0, "comments": 0 },
+    "createdAt": "2026-08-02"
+  }
+]

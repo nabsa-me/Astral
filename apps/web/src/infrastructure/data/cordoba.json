@@ -44,7 +44,7 @@
       "description": "Salida por la Puerta del Puente hacia el Triunfo de San Rafael y cruce del Puente Romano de norte a sur hasta la Torre de la Calahorra.",
       "from": "mezquita-cordoba",
       "to": "puente-romano",
-      "color": "#8c2f23",
+      "color": "#6f1fd6",
       "waypoints": [
         {
           "name": "Mezquita-Catedral",
@@ -346,7 +346,7 @@
       "id": "tarde-cordoba",
       "name": "La otra Córdoba: de la Judería a la Corredera",
       "description": "Paseo de tarde por la Judería, el Zoco, la Puerta de Almodóvar, las callejas y la Corredera, con parada al atardecer en el Puente Romano.",
-      "color": "#2f5b8c",
+      "color": "#00753b",
       "guideId": "tarde-cordoba",
       "waypoints": [
         {

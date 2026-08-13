@@ -1,0 +1,57 @@
+/* Global stylesheet. Loaded once from the app entry point (app/index.tsx).
+ * @import lines must come first (CSS spec). Each component/feature owns its
+ * own stylesheet and registers it here. */
+@import '../shared/components/icons/iconsStyles.css';
+@import '../shared/components/navigationCards/navigationCardsStyles.css';
+@import '../shared/components/buttons/buttonsStyles.css';
+@import '../shared/components/misc/miscStyles.css';
+@import '../shared/components/emptyState/emptyStateStyles.css';
+@import '../shared/components/card/cardStyles.css';
+@import '../layouts/Desktop/desktopStyles.css';
+@import '../pages/pages.css';
+@import '../features/map/mapStyles.css';
+@import '../features/guide/guideStyles.css';
+@import '../features/vacation/vacationStyles.css';
+
+:root {
+  --border-radius: 8px;
+  --border-radius-small: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Segoe UI', 'Roboto', Tahoma, Verdana, sans-serif;
+}
+
+.appRoot {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar);
+  border-radius: 7px;
+}

@@ -1,0 +1,51 @@
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  font-size: 24px;
+  line-height: 1;
+  color: inherit;
+}
+
+.icon > svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--border-radius-small);
+  color: var(--color-text-soft);
+  cursor: pointer;
+  outline: none;
+  transition:
+    background-color 0.15s ease-out,
+    color 0.15s ease-out;
+}
+
+.icon-button:hover:not([aria-disabled='true']),
+.icon-button:focus-visible:not([aria-disabled='true']),
+.icon-button[data-open] {
+  color: var(--color-text);
+}
+
+.icon-button[aria-disabled='true'] {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.icon-button .icon {
+  font-size: 18px;
+  color: inherit;
+}

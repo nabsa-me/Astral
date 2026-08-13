@@ -1,0 +1,59 @@
+@import './palette.module.css';
+
+/* Dark theme — stub kept for future parity. Not applied this iteration
+ * (useTheme only ever activates the light theme for now), but every token
+ * from light.module.css is mirrored so a future toggle resolves cleanly. */
+.theme {
+  --color-background: var(--gray-900);
+  --color-background-enphasis: #1c1c1c;
+  --color-background-hover: #262626;
+  --color-background-selected: #303030;
+  --color-background-contrast: var(--gray-400);
+
+  --color-background-token: #303030;
+  --color-background-avatar: var(--purple-272-100-500);
+
+  --color-background-done-gradient: linear-gradient(
+    135deg,
+    var(--green-150-100-500) 0%,
+    var(--purple-272-100-500) 100%
+  );
+  --color-background-superDone-gradient: linear-gradient(
+    135deg,
+    var(--green-150-100-400) 0%,
+    var(--green-150-100-600) 35%,
+    var(--purple-272-100-500) 70%,
+    var(--purple-272-100-700) 100%
+  );
+
+  --color-scrollbar: var(--gray-700);
+
+  --color-border: #2c2c2c;
+  --color-line: #333333;
+  --color-line-hover: var(--gray-600);
+  --color-line-dark: var(--gray-500);
+  --color-line-accent: var(--green-150-100-400);
+
+  --color-text: var(--gray-150);
+  --color-text-soft: var(--gray-400);
+  --color-text-token: var(--gray-300);
+
+  --color-background-accent: var(--green-150-100-500);
+  --color-background-accent-mid: var(--green-150-100-400);
+  --color-background-accent-light: var(--green-150-100-300);
+  --color-background-accent-strong: var(--green-150-100-600);
+
+  --color-accent: var(--green-150-100-400);
+  --color-accent-secondary: var(--purple-272-100-300);
+
+  --color-danger: var(--red-351-100-500);
+  --color-warning: var(--yellow-39-100-500);
+  --color-success: var(--green-150-100-400);
+
+  --color-priority-low-background: var(--green-150-60-700);
+  --color-priority-low-text: var(--green-150-100-300);
+  --color-priority-medium-background: #4a3a10;
+  --color-priority-medium-text: var(--yellow-39-100-500);
+  --color-priority-high-background: #4a1520;
+  --color-priority-high-text: var(--red-351-100-500);
+}

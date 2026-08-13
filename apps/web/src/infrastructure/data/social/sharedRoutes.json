@@ -1,0 +1,17 @@
+[
+  {
+    "id": "verano-2026",
+    "ownerId": "u-noelia",
+    "title": "Vacaciones de verano 2026",
+    "summary": "Fuente Palmera, Córdoba, Almodóvar del Río y Extremadura en cinco días, con la Mezquita-Catedral y la Judería como plato fuerte.",
+    "cityId": "cordoba",
+    "cityName": "Córdoba y alrededores",
+    "vacationId": "verano-2026",
+    "routeIds": ["mezquita-a-puente-romano", "tarde-cordoba"],
+    "durationDays": 5,
+    "tags": ["Córdoba", "Andalucía", "Cultura"],
+    "visibility": "public",
+    "stats": { "likes": 0, "comments": 0 },
+    "createdAt": "2026-08-01"
+  }
+]

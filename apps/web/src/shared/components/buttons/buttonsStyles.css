@@ -1,0 +1,106 @@
+/* ─── Shared Button ─────────────────────────────────────────────────────── */
+
+.button {
+  height: 40px;
+  padding: 0 18px;
+  border-radius: var(--border-radius-small);
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition:
+    opacity ease-in-out 0.2s,
+    background-color ease-in-out 0.15s;
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.button--primary {
+  background: var(--color-background-done-gradient);
+  color: var(--white);
+  border-color: transparent;
+}
+
+.button--primary:hover:not(:disabled) {
+  opacity: 0.88;
+}
+
+.button--secondary {
+  background-color: transparent;
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.button--secondary:hover:not(:disabled) {
+  background-color: var(--color-background-hover);
+}
+
+.button--danger {
+  background-color: var(--color-danger);
+  color: var(--white);
+  border-color: transparent;
+}
+
+.button--danger:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.button--size-compact {
+  height: 28px;
+  padding: 0 12px;
+  font-size: 12px;
+}
+
+.button-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid color-mix(in srgb, var(--white) 40%, transparent);
+  border-top-color: var(--white);
+  border-radius: 50%;
+  animation: button-spin 0.7s linear infinite;
+}
+
+@keyframes button-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ─── Square Button ──────────────────────────────────────────────────── */
+
+.square-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--border-radius-small);
+  color: var(--color-text-soft);
+  cursor: pointer;
+  outline: none;
+  transition:
+    background-color 0.15s ease-out,
+    color 0.15s ease-out;
+}
+
+.square-button:hover,
+.square-button:focus-visible,
+.square-button[data-open] {
+  background-color: var(--color-background-selected);
+  color: var(--color-text);
+}
+
+.square-button .icon {
+  font-size: 18px;
+  color: inherit;
+}

@@ -1,0 +1,58 @@
+@import './palette.module.css';
+
+/* Light theme (default). White background, electric-green primary,
+ * vibrant-purple secondary. Applied to <html> via useTheme. */
+.theme {
+  --color-background: var(--white);
+  --color-background-enphasis: var(--gray-100);
+  --color-background-hover: var(--gray-150);
+  --color-background-selected: var(--gray-200);
+  --color-background-contrast: var(--gray-600);
+
+  --color-background-token: var(--gray-150);
+  --color-background-avatar: var(--purple-272-100-600);
+
+  --color-background-done-gradient: linear-gradient(
+    135deg,
+    var(--green-150-100-500) 0%,
+    var(--purple-272-100-600) 100%
+  );
+  --color-background-superDone-gradient: linear-gradient(
+    135deg,
+    var(--green-150-100-400) 0%,
+    var(--green-150-100-600) 35%,
+    var(--purple-272-100-500) 70%,
+    var(--purple-272-100-700) 100%
+  );
+
+  --color-scrollbar: var(--gray-500);
+
+  --color-border: var(--gray-150);
+  --color-line: var(--gray-200);
+  --color-line-hover: var(--gray-500);
+  --color-line-dark: var(--gray-700);
+  --color-line-accent: var(--green-150-100-700);
+
+  --color-text: var(--gray-800);
+  --color-text-soft: var(--gray-600);
+  --color-text-token: var(--gray-700);
+
+  --color-background-accent: var(--green-150-100-600);
+  --color-background-accent-mid: var(--green-150-100-500);
+  --color-background-accent-light: var(--green-150-100-400);
+  --color-background-accent-strong: var(--green-150-100-700);
+
+  --color-accent: var(--green-150-100-700);
+  --color-accent-secondary: var(--purple-272-100-700);
+
+  --color-danger: var(--red-351-60-500);
+  --color-warning: var(--yellow-39-80-500);
+  --color-success: var(--green-150-100-700);
+
+  --color-priority-low-background: var(--green-150-60-100);
+  --color-priority-low-text: var(--green-150-100-700);
+  --color-priority-medium-background: var(--yellow-39-100-100);
+  --color-priority-medium-text: var(--yellow-39-100-700);
+  --color-priority-high-background: var(--red-351-100-100);
+  --color-priority-high-text: var(--red-351-100-700);
+}
