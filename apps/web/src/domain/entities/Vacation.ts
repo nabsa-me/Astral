@@ -11,12 +11,36 @@ export interface IDayMapCoords {
 
 export type IDayMap = IDayMapCity | IDayMapCoords;
 
+/** A single planned stop within a day (the planner/itinerary layer). */
+export type StopCategory = 'sight' | 'food' | 'transport' | 'stay' | 'nature';
+
+export interface IPlannerStop {
+  id: string;
+  name: string;
+  /** Local time, e.g. "09:30". */
+  time?: string;
+  note?: string;
+  category?: StopCategory;
+  /** Links to a point of interest in the city bundle (map + guide). */
+  poiId?: string;
+  /** Map location for the stop's numbered pin. */
+  coords?: LatLngTuple;
+  /** Opens a guide (and optional section) when the pin is clicked. */
+  guideId?: string;
+  sectionId?: string;
+  /** Conveys planning progress: a route can be half-done. */
+  status?: 'done' | 'planned';
+  durationMin?: number;
+}
+
 export interface IVacationDay {
   id: string;
   number: number;
   title: string;
   summary?: string;
   paragraphs?: string[];
+  /** Ordered itinerary for the day (planner view). */
+  stops?: IPlannerStop[];
   map: IDayMap | null;
 }
 

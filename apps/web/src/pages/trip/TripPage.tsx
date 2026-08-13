@@ -4,13 +4,20 @@ import { useServices } from '../../app/servicesContext';
 
 const TripPage = () => {
   const { tripId } = useParams();
-  const { getVacation, getCityBundle, getSharedRouteById, getUserById, getCurrentUser } =
-    useServices();
+  const {
+    getVacation,
+    getCityBundle,
+    getSharedRouteById,
+    getUserById,
+    getCurrentUser,
+    getDiariesByRoute,
+  } = useServices();
 
   const vacation = getVacation(tripId);
   const cordoba = getCityBundle('cordoba');
   const sharedRoute = tripId ? getSharedRouteById(tripId) : null;
   const owner = sharedRoute ? getUserById(sharedRoute.ownerId) : getCurrentUser();
+  const diaries = sharedRoute ? getDiariesByRoute(sharedRoute.id) : [];
 
   return (
     <div className="trip-page">
@@ -19,6 +26,7 @@ const TripPage = () => {
         cordoba={cordoba}
         sharedRoute={sharedRoute}
         owner={owner}
+        diaries={diaries}
       />
     </div>
   );

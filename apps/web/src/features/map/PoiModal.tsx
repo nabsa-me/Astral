@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
 import GuideView from '../guide/GuideView';
-import type { IPointOfInterest } from '../../domain/entities/PointOfInterest';
-import type { IRoute } from '../../domain/entities/Route';
 import type { IGuide } from '../../domain/entities/Guide';
 
 interface PoiModalProps {
-  point: IPointOfInterest | IRoute;
+  /** Only the name is rendered in the fallback; any named entity works. */
+  point: { name: string };
   guide: IGuide | null;
   initialSectionId: string | null;
   onClose: () => void;

@@ -7,6 +7,8 @@ import { GetUserById } from '../application/useCases/GetUserById';
 import { GetFeed } from '../application/useCases/GetFeed';
 import { GetRoutesByUser } from '../application/useCases/GetRoutesByUser';
 import { GetDiariesByUser } from '../application/useCases/GetDiariesByUser';
+import { GetDiaryById } from '../application/useCases/GetDiaryById';
+import { GetDiariesByRoute } from '../application/useCases/GetDiariesByRoute';
 import { GetSharedRouteById } from '../application/useCases/GetSharedRouteById';
 import { JsonPointRepository } from '../infrastructure/repositories/JsonPointRepository';
 import { JsonGuideRepository } from '../infrastructure/repositories/JsonGuideRepository';
@@ -44,6 +46,8 @@ export interface AppServices {
   getSharedRoutesByOwner: (ownerId: string) => ISharedRoute[];
   getSharedRouteById: (id: string) => ISharedRoute | null;
   getDiariesByOwner: (ownerId: string) => ITravelDiary[];
+  getDiaryById: (id: string) => ITravelDiary | null;
+  getDiariesByRoute: (sharedRouteId: string) => ITravelDiary[];
 }
 
 /**
@@ -68,6 +72,8 @@ export const createServices = (): AppServices => {
   const getFeed = new GetFeed(sharedRouteRepository);
   const getRoutesByUser = new GetRoutesByUser(sharedRouteRepository);
   const getDiariesByUser = new GetDiariesByUser(travelDiaryRepository);
+  const getDiaryById = new GetDiaryById(travelDiaryRepository);
+  const getDiariesByRoute = new GetDiariesByRoute(travelDiaryRepository);
   const getSharedRouteById = new GetSharedRouteById(sharedRouteRepository);
 
   return {
@@ -85,5 +91,7 @@ export const createServices = (): AppServices => {
     getSharedRoutesByOwner: (ownerId) => getRoutesByUser.execute(ownerId),
     getSharedRouteById: (id) => getSharedRouteById.execute(id),
     getDiariesByOwner: (ownerId) => getDiariesByUser.execute(ownerId),
+    getDiaryById: (id) => getDiaryById.execute(id),
+    getDiariesByRoute: (sharedRouteId) => getDiariesByRoute.execute(sharedRouteId),
   };
 };

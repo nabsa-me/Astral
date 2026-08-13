@@ -6,16 +6,28 @@ import type { IVacation } from '../../domain/entities/Vacation';
 import type { CityBundle } from '../../app/services';
 import type { ISharedRoute } from '../../domain/entities/social/SharedRoute';
 import type { IUser } from '../../domain/entities/social/User';
+import type { ITravelDiary } from '../../domain/entities/social/TravelDiary';
 
 interface VacationViewProps {
   vacation: IVacation;
   cordoba: CityBundle;
   sharedRoute?: ISharedRoute | null;
   owner?: IUser | null;
+  diaries?: ITravelDiary[];
 }
 
-export default function VacationView({ vacation, cordoba, sharedRoute, owner }: VacationViewProps) {
+export default function VacationView({
+  vacation,
+  cordoba,
+  sharedRoute,
+  owner,
+  diaries = [],
+}: VacationViewProps) {
   const [activeDayId, setActiveDayId] = useState<string | null>(vacation.days[0]?.id ?? null);
+
+  const allStops = vacation.days.flatMap((day) => day.stops ?? []);
+  const stopsTotal = allStops.length;
+  const stopsDone = allStops.filter((stop) => stop.status === 'done').length;
 
   const selectDay = useCallback((dayId: string) => {
     setActiveDayId(dayId);
@@ -46,7 +58,14 @@ export default function VacationView({ vacation, cordoba, sharedRoute, owner }: 
 
   return (
     <div className="trip-view">
-      <TripHero vacation={vacation} sharedRoute={sharedRoute} owner={owner} />
+      <TripHero
+        vacation={vacation}
+        sharedRoute={sharedRoute}
+        owner={owner}
+        stopsTotal={stopsTotal}
+        stopsDone={stopsDone}
+        diaries={diaries}
+      />
       <DayNav days={vacation.days} activeDayId={activeDayId} onSelect={selectDay} />
       <div className="trip-feed">
         {vacation.days.map((day) => (

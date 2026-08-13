@@ -19,16 +19,41 @@ export default function GuideView({ guide, initialSectionId }: GuideViewProps) {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, []);
 
-  // Deep-link: when opened from a route stop that references a section, jump to it.
+  // Deep-link: when opened from a route stop that references a section, jump to it
+  // and keep it pinned while lazy images above expand the layout — otherwise the
+  // target gets pushed down and we land on an earlier section. Release on user scroll.
   useEffect(() => {
     if (!initialSectionId) return;
     setActiveSectionId(initialSectionId);
-    const raf = requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        document.getElementById(initialSectionId)?.scrollIntoView({ behavior: 'auto', block: 'start' });
-      });
+    const root = scrollRef.current;
+    let released = false;
+    const align = () => {
+      if (released) return;
+      document
+        .getElementById(initialSectionId)
+        ?.scrollIntoView({ behavior: 'instant', block: 'start' });
+    };
+    const raf = requestAnimationFrame(() => requestAnimationFrame(align));
+    const timers = [80, 200, 400, 800, 1300].map((ms) => window.setTimeout(align, ms));
+    const imgs = root ? Array.from(root.querySelectorAll('img')) : [];
+    imgs.forEach((img) => {
+      if (!img.complete) img.addEventListener('load', align);
     });
-    return () => cancelAnimationFrame(raf);
+    const release = () => {
+      released = true;
+    };
+    root?.addEventListener('wheel', release, { passive: true });
+    root?.addEventListener('touchmove', release, { passive: true });
+    window.addEventListener('keydown', release);
+    return () => {
+      released = true;
+      cancelAnimationFrame(raf);
+      timers.forEach((t) => clearTimeout(t));
+      imgs.forEach((img) => img.removeEventListener('load', align));
+      root?.removeEventListener('wheel', release);
+      root?.removeEventListener('touchmove', release);
+      window.removeEventListener('keydown', release);
+    };
   }, [initialSectionId]);
 
   // Scroll-spy: keep the index's "current section" label in sync while reading.

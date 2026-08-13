@@ -12,6 +12,7 @@
 @import '../features/map/mapStyles.css';
 @import '../features/guide/guideStyles.css';
 @import '../features/vacation/vacationStyles.css';
+@import '../features/diary/diaryStyles.css';
 
 :root {
   --border-radius: 8px;

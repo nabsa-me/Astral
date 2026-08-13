@@ -16,3 +16,6 @@ export const BRAND_PURPLE_700 = '#5a18ae';
 
 /** Default map pin colour (vivid purple reads well over map tiles). */
 export const MARKER_DEFAULT_COLOR = BRAND_PURPLE_600;
+
+/** Planner pin/badge colour for stops still pending (neutral grey). */
+export const MARKER_PLANNED_COLOR = '#9aa0a6';

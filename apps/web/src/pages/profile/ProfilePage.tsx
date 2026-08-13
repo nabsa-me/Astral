@@ -6,8 +6,7 @@ import { RouteCard } from '../../shared/components/card/RouteCard';
 import { DiaryCard } from '../../shared/components/card/DiaryCard';
 import { TabsNavigation } from '../../shared/components/navigationCards/TabsNavigation';
 import { useServices } from '../../app/servicesContext';
-import { tripPath } from '../../app/appRoutes';
-import type { ITravelDiary } from '../../domain/entities/social/TravelDiary';
+import { tripPath, diaryPath } from '../../app/appRoutes';
 
 const TABS = ['Rutas', 'Diarios'];
 
@@ -22,12 +21,6 @@ const ProfilePage = () => {
   const diaries = user ? getDiariesByOwner(user.id) : [];
   const initial = user?.displayName?.trim().charAt(0).toUpperCase() ?? 'N';
   const stats = user?.stats;
-
-  const openDiary = (diary: ITravelDiary) => {
-    if (!diary.sharedRouteId) return;
-    const shared = getSharedRouteById(diary.sharedRouteId);
-    if (shared?.vacationId) navigate(tripPath(shared.vacationId));
-  };
 
   return (
     <PageShell title="Perfil">
@@ -82,7 +75,10 @@ const ProfilePage = () => {
           <DiaryCard
             key={diary.id}
             diary={diary}
-            onOpen={diary.sharedRouteId ? () => openDiary(diary) : undefined}
+            routeTitle={
+              diary.sharedRouteId ? getSharedRouteById(diary.sharedRouteId)?.title : undefined
+            }
+            onOpen={() => navigate(diaryPath(diary.id))}
           />
         ))
       ) : (

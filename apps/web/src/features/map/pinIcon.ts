@@ -2,15 +2,27 @@ import L from 'leaflet';
 
 const cache = new Map<string, L.DivIcon>();
 
-export function pinIcon(color: string): L.DivIcon {
-  const cached = cache.get(color);
+/**
+ * Teardrop map pin. Pass `label` (e.g. an itinerary number) to render it inside
+ * the pin instead of the plain white dot, so the marker matches a numbered
+ * stop in the planner list.
+ */
+export function pinIcon(color: string, label?: string): L.DivIcon {
+  const key = `${color}|${label ?? ''}`;
+  const cached = cache.get(key);
   if (cached) return cached;
+
+  const inner = label
+    ? `<text x="12" y="12.5" text-anchor="middle" dominant-baseline="central"
+             fill="#ffffff" font-size="12" font-weight="700"
+             font-family="'Segoe UI', Roboto, sans-serif">${label}</text>`
+    : `<circle cx="12" cy="12" r="4.5" fill="#ffffff"/>`;
 
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 34" width="24" height="34">
       <path d="M12 0C5.4 0 0 5.4 0 12c0 8.8 12 22 12 22s12-13.2 12-22C24 5.4 18.6 0 12 0z"
             fill="${color}" stroke="#ffffff" stroke-width="2"/>
-      <circle cx="12" cy="12" r="4.5" fill="#ffffff"/>
+      ${inner}
     </svg>
   `;
   const icon = L.divIcon({
@@ -20,6 +32,6 @@ export function pinIcon(color: string): L.DivIcon {
     iconAnchor: [12, 34],
     popupAnchor: [0, -30],
   });
-  cache.set(color, icon);
+  cache.set(key, icon);
   return icon;
 }

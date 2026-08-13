@@ -4,19 +4,65 @@
     "ownerId": "u-noelia",
     "sharedRouteId": "verano-2026",
     "title": "Diario · Verano 2026",
-    "summary": "Notas del viaje por Córdoba y Extremadura, día a día.",
+    "summary": "Mi historia del viaje por Córdoba y alrededores: lo que vi, comí y sentí, día a día.",
+    "coverImageUrl": "https://picsum.photos/seed/cordoba-cover/1200/600",
     "entries": [
       {
         "id": "e-1",
         "dayId": "dia-1",
-        "heading": "Día 1 · Viaje a Fuente Palmera",
-        "body": "Jornada de carretera y llegada por la tarde a Fuente Palmera, base de operaciones para los siguientes días."
+        "stopId": "s-1-2",
+        "heading": "Llegada a Fuente Palmera",
+        "body": "Día entero de carretera, pero mereció la pena. Llegamos con la luz de la tarde y Fuente Palmera nos recibió tranquilísima. Dejamos las cosas y salimos a estirar las piernas por el pueblo antes de cenar.",
+        "date": "2026-08-01",
+        "mood": "🚗 en ruta",
+        "photos": [
+          "https://picsum.photos/seed/fuente-palmera-1/800/600",
+          "https://picsum.photos/seed/fuente-palmera-2/800/600"
+        ]
+      },
+      {
+        "id": "e-2",
+        "dayId": "dia-2",
+        "heading": "Descubriendo el pueblo",
+        "body": "Día de desconexión. Fuente Palmera es una de las Nuevas Poblaciones de Carlos III y se nota en el trazado, tan ordenado y raro para un pueblo del sur. Comimos de maravilla y sin prisa.",
+        "date": "2026-08-02",
+        "placeName": "Restaurante del centro",
+        "rating": 4,
+        "review": "Comida casera, raciones generosas y trato cercano. Repetiríamos.",
+        "photos": ["https://picsum.photos/seed/fuente-palmera-comida/800/600"]
       },
       {
         "id": "e-3",
         "dayId": "dia-3",
-        "heading": "Día 3 · Córdoba",
-        "body": "Mezquita-Catedral por la mañana siguiendo la cronología del edificio y Judería al atardecer. El Puente Romano al caer el sol es imbatible."
+        "stopId": "s-3-1",
+        "heading": "La Mezquita-Catedral",
+        "body": "El momento que más esperaba del viaje. Entrar en el bosque de columnas y arcos rojiblancos impresiona de verdad; fuimos siguiendo la cronología del edificio y se entiende muchísimo mejor. Nos quedamos sin palabras en la maqsura.",
+        "date": "2026-08-03",
+        "placeName": "Mezquita-Catedral de Córdoba",
+        "rating": 5,
+        "review": "Imprescindible. Ir a primera hora para esquivar los grupos y poder mirar con calma.",
+        "mood": "🤩 alucinada",
+        "photos": [
+          "https://picsum.photos/seed/mezquita-1/800/600",
+          "https://picsum.photos/seed/mezquita-2/800/600",
+          "https://picsum.photos/seed/mezquita-3/800/600"
+        ]
+      },
+      {
+        "id": "e-4",
+        "dayId": "dia-3",
+        "stopId": "s-3-8",
+        "heading": "Atardecer en el Puente Romano",
+        "body": "Después del paseo por la Judería volvimos al Puente Romano justo al caer el sol. La estampa con la Mezquita al fondo y el río en calma fue el broche perfecto. Cena tardía en la Plaza de la Corredera.",
+        "date": "2026-08-03",
+        "placeName": "Puente Romano",
+        "rating": 5,
+        "review": "El mejor sitio de Córdoba al atardecer. Gratis y con estas vistas, imbatible.",
+        "mood": "🌅 mágico",
+        "photos": [
+          "https://picsum.photos/seed/puente-romano-1/800/600",
+          "https://picsum.photos/seed/puente-romano-2/800/600"
+        ]
       }
     ],
     "stats": { "likes": 0, "comments": 0 },

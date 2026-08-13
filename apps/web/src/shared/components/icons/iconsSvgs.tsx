@@ -91,6 +91,21 @@ const ChatBubbleDefault = () => (
   <SvgRoot24 d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z" />
 );
 
+const StarBorderDefault = () => (
+  <SvgRoot24 d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z" />
+);
+const StarFilled = () => (
+  <SvgRoot24 d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+);
+
+const PhotoDefault = () => (
+  <SvgRoot24 d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" />
+);
+
+const ScheduleDefault = () => (
+  <SvgRoot24 d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+);
+
 const RouteDefault = () => (
   <SvgRoot24 d="M9 6h6a3 3 0 010 6H9a3 3 0 000 6h6v2H9a5 5 0 010-10h6a1 1 0 000-2H9zM5 3a3 3 0 100 6 3 3 0 000-6zm0 2a1 1 0 110 2 1 1 0 010-2zm14 11a3 3 0 100 6 3 3 0 000-6zm0 2a1 1 0 110 2 1 1 0 010-2z" />
 );
@@ -114,4 +129,7 @@ export const iconComponentMap: IIconComponentMap = {
   menu_book: { default: MenuBookDefault },
   favorite: { default: FavoriteBorderDefault, filled: FavoriteFilled },
   chat_bubble: { default: ChatBubbleDefault },
+  star: { default: StarBorderDefault, filled: StarFilled },
+  photo: { default: PhotoDefault },
+  schedule: { default: ScheduleDefault },
 };

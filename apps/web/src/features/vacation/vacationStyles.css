@@ -20,6 +20,25 @@
   gap: 14px;
 }
 
+.trip-hero-kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.trip-hero-kind .icon {
+  font-size: 16px;
+}
+
 .trip-hero-owner {
   display: flex;
   align-items: center;
@@ -87,8 +106,24 @@
   border: 1px solid rgba(255, 255, 255, 0.28);
 }
 
+/* Planner progress bar ("ruta a medias") */
+.trip-progress {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.25);
+  overflow: hidden;
+}
+
+.trip-progress-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--white);
+}
+
 .trip-hero-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: 2px;
 }
@@ -114,6 +149,252 @@
 
 .trip-hero-action .icon {
   font-size: 18px;
+}
+
+/* Derived diaries strip (route → diary bridge) */
+.trip-diaries {
+  margin-top: 8px;
+  padding: 14px 16px;
+  border-radius: var(--border-radius);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trip-diaries-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.trip-diaries-label .icon {
+  font-size: 18px;
+}
+
+.trip-diaries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.trip-diaries-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-accent-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.trip-diaries-link:hover {
+  background: var(--white);
+}
+
+.trip-diaries-link .icon {
+  font-size: 16px;
+}
+
+.trip-diaries-empty {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.trip-diaries-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px dashed rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: var(--white);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: default;
+}
+
+.trip-diaries-cta .icon {
+  font-size: 16px;
+}
+
+/* ─── Planner stop list (itinerary) ──────────────────────────────────── */
+.stop-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 18px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stop {
+  position: relative;
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+/* Connector line between stops */
+.stop:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  bottom: -2px;
+  width: 2px;
+  background: var(--color-line);
+}
+
+/* Numbered badge — mirrors the numbered map pin (colours = themeColors:
+   MARKER_DEFAULT_COLOR #6f1fd6 done · MARKER_PLANNED_COLOR #9aa0a6 pending). */
+.stop-num {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  margin-top: 2px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stop.is-done .stop-num {
+  background: #6f1fd6;
+  color: var(--white);
+}
+
+.stop.is-planned .stop-num {
+  background: var(--color-background);
+  border: 2px solid #9aa0a6;
+  color: #9aa0a6;
+}
+
+/* Non-place stop (logistics/transport): a neutral dot, no number, no map pin. */
+.stop-dot {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  margin-top: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stop-dot::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-line-hover);
+}
+
+.stop-body {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.stop-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.stop-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.stop-time .icon {
+  font-size: 15px;
+}
+
+.stop-name {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.stop.is-planned .stop-name {
+  color: var(--color-text-soft);
+}
+
+.stop-cat {
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  background: var(--color-background-enphasis);
+  color: var(--color-text-soft);
+  border: 1px solid var(--color-border);
+}
+
+.stop-note {
+  margin: 3px 0 0;
+  font-size: 12.5px;
+  color: var(--color-text-soft);
+}
+
+.stop-guide {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-accent-secondary);
+}
+
+.stop-guide .icon {
+  font-size: 14px;
+}
+
+/* Prose demoted to secondary "notes" under the itinerary */
+.day-card-notes {
+  padding: 4px 18px 16px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--color-text-soft);
+}
+
+.day-card-notes-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+  margin-bottom: 4px;
+}
+
+.day-card-notes p {
+  margin: 0 0 0.7em;
+}
+
+.day-card-notes p:last-child {
+  margin-bottom: 0;
 }
 
 /* ─── Sticky day nav ─────────────────────────────────────────────────── */

@@ -5,6 +5,7 @@ import FeedPage from '../pages/feed/FeedPage';
 import ExplorePage from '../pages/explore/ExplorePage';
 import MyRoutesPage from '../pages/myRoutes/MyRoutesPage';
 import DiariesPage from '../pages/diaries/DiariesPage';
+import DiaryPage from '../pages/diary/DiaryPage';
 import ProfilePage from '../pages/profile/ProfilePage';
 import TripPage from '../pages/trip/TripPage';
 import { APP_ROUTES } from './appRoutes';
@@ -20,6 +21,7 @@ const AppInner = () => {
         <Route path={APP_ROUTES.explore} element={<ExplorePage />} />
         <Route path={APP_ROUTES.myRoutes} element={<MyRoutesPage />} />
         <Route path={APP_ROUTES.diaries} element={<DiariesPage />} />
+        <Route path={APP_ROUTES.diary} element={<DiaryPage />} />
         <Route path={APP_ROUTES.profile} element={<ProfilePage />} />
         <Route path={APP_ROUTES.trip} element={<TripPage />} />
       </Route>

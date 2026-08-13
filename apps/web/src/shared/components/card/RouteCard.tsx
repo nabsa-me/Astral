@@ -24,6 +24,10 @@ export const RouteCard = ({ route, owner, onOpen }: RouteCardProps) => (
     }}
   >
     <div className="route-card-cover" aria-hidden="true">
+      <span className="route-card-kind">
+        <Icon icon="route" />
+        Plan{route.durationDays ? ` · ${route.durationDays} días` : ''}
+      </span>
       <span className="route-card-cover-city">{route.cityName ?? route.cityId}</span>
     </div>
     <div className="route-card-body">

@@ -9,6 +9,10 @@ export class JsonTravelDiaryRepository implements TravelDiaryRepository {
     return diaries.filter((diary) => diary.ownerId === ownerId);
   }
 
+  findByRoute(sharedRouteId: string): ITravelDiary[] {
+    return diaries.filter((diary) => diary.sharedRouteId === sharedRouteId);
+  }
+
   getById(id: string): ITravelDiary | null {
     return diaries.find((diary) => diary.id === id) ?? null;
   }

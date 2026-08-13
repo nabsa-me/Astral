@@ -1,5 +1,11 @@
 export type AppRoutePath =
-  '/' | '/explore' | '/my-routes' | '/diaries' | '/profile' | '/trips/:tripId';
+  | '/'
+  | '/explore'
+  | '/my-routes'
+  | '/diaries'
+  | '/profile'
+  | '/trips/:tripId'
+  | '/diaries/:diaryId';
 
 export interface IAppRoutesMap {
   home: AppRoutePath;
@@ -8,6 +14,7 @@ export interface IAppRoutesMap {
   diaries: AppRoutePath;
   profile: AppRoutePath;
   trip: AppRoutePath;
+  diary: AppRoutePath;
 }
 
 export interface INavItem {
