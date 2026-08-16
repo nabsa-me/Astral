@@ -34,10 +34,10 @@
     {
       "id": "dia-2",
       "number": 2,
-      "title": "Día 2 · Fuente Palmera",
-      "summary": "Día completo en Fuente Palmera.",
+      "title": "Día 2 · Fuente Palmera y Ochavillo del Río",
+      "summary": "Fuente Palmera por la mañana y Ochavillo del Río por la tarde.",
       "paragraphs": [
-        "Día de descanso y descubrimiento del pueblo. Fuente Palmera es una de las Nuevas Poblaciones fundadas por Carlos III en el siglo XVIII, con trazado urbano ilustrado y colonos centroeuropeos."
+        "Día de descubrimiento de la Colonia. Fuente Palmera es una de las Nuevas Poblaciones fundadas por Carlos III en el siglo XVIII, con trazado urbano ilustrado y colonos centroeuropeos. Ochavillo del Río, unos kilómetros al oeste, es una Entidad Local Autónoma dentro del mismo municipio: la antigua Aldea del Río, con la Plaza Real, la iglesia del Carmen y el rastro vivo de los apellidos colonos —Dugo, Rossi, Mestre, Hilinger— en todo el vecindario."
       ],
       "stops": [
         {
@@ -55,9 +55,64 @@
           "category": "food",
           "status": "done",
           "coords": [37.71545, -5.09985]
+        },
+        {
+          "id": "s-2-3",
+          "name": "Llegada a Ochavillo del Río",
+          "time": "17:00",
+          "category": "sight",
+          "guideId": "ochavillo-del-rio",
+          "sectionId": "1-por-que-merece-una-guia-un-pueblo-tan-pequeno",
+          "coords": [37.7396, -5.1739],
+          "status": "done",
+          "note": "Aldea del Río, ELA dentro del municipio de Fuente Palmera."
+        },
+        {
+          "id": "s-2-4",
+          "name": "Plaza Real",
+          "time": "17:15",
+          "category": "sight",
+          "guideId": "ochavillo-del-rio",
+          "sectionId": "5-el-pueblo-dibujado-con-regla-urbanismo-carolino",
+          "coords": [37.7396, -5.1738],
+          "status": "done",
+          "note": "Corazón fundacional del trazado carolino de 1768."
+        },
+        {
+          "id": "s-2-5",
+          "name": "Iglesia de Nuestra Señora del Carmen",
+          "time": "17:30",
+          "category": "sight",
+          "guideId": "ochavillo-del-rio",
+          "sectionId": "5-el-pueblo-dibujado-con-regla-urbanismo-carolino",
+          "coords": [37.7395, -5.1737],
+          "status": "done",
+          "note": "Templo de 1880 con la patrona donada por los marqueses de Viana."
+        },
+        {
+          "id": "s-2-6",
+          "name": "Plaza de La Fuente",
+          "time": "17:50",
+          "category": "sight",
+          "guideId": "ochavillo-del-rio",
+          "sectionId": "5-el-pueblo-dibujado-con-regla-urbanismo-carolino",
+          "coords": [37.7398, -5.1741],
+          "status": "done",
+          "note": "Antiguo abrevadero restaurado."
+        },
+        {
+          "id": "s-2-7",
+          "name": "Bar del pueblo",
+          "time": "19:00",
+          "category": "food",
+          "guideId": "ochavillo-del-rio",
+          "sectionId": "9-la-mesa-pan-huerta-y-cocina-de-la-vega",
+          "coords": [37.7397, -5.174],
+          "status": "done",
+          "note": "Cocina de vega y campiña, dulces de sartén."
         }
       ],
-      "map": { "center": [37.71678, -5.10169], "zoom": 14 }
+      "map": { "center": [37.72, -5.13], "zoom": 12 }
     },
     {
       "id": "dia-3",
@@ -162,9 +217,9 @@
       "id": "dia-4",
       "number": 4,
       "title": "Día 4 · Almodóvar del Río",
-      "summary": "Castillo de Almodóvar del Río y pueblo.",
+      "summary": "Castillo, pueblo y atardecer sobre el embalse de La Breña.",
       "paragraphs": [
-        "Excursión de un día a Almodóvar del Río. La visita gira en torno a su castillo de origen andalusí sobre el Guadalquivir, restaurado en el siglo XX y célebre por sus escenas en producciones televisivas recientes."
+        "Excursión de un día a Almodóvar del Río. La visita gira en torno a su castillo de origen andalusí sobre el Guadalquivir —al-Mudawwar, \"el redondo\"— restaurado entre 1901 y 1936 por el conde de Torralva y célebre hoy como Altojardín y Roca Casterly en Juego de Tronos. Antes fue Cárbula, puerto ibero y romano del aceite. Se remata en el pueblo, con la croqueta de Almodóvar, y el atardecer sobre el embalse de La Breña II."
       ],
       "stops": [
         {
@@ -172,19 +227,80 @@
           "name": "Castillo de Almodóvar del Río",
           "time": "10:30",
           "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "3-el-castillo-seccion-especial",
           "status": "planned",
-          "note": "Comprar entradas online.",
-          "coords": [37.81066, -5.02216]
+          "note": "Comprar entradas online. Calcular 1h30-2h de visita.",
+          "coords": [37.81066, -5.02216],
+          "durationMin": 120
         },
         {
           "id": "s-4-2",
-          "name": "Comida en el pueblo",
-          "category": "food",
+          "name": "Torre del Homenaje",
+          "time": "11:15",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "3-3-la-arquitectura-como-leer-la-fortaleza",
           "status": "planned",
+          "note": "Panorámica de 360° sobre la vega; balcón de Olenna Tyrell.",
+          "coords": [37.81066, -5.02216]
+        },
+        {
+          "id": "s-4-3",
+          "name": "Mazmorras (Roca Casterly)",
+          "time": "12:00",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "3-5-juego-de-tronos-bienvenido-a-altojardin",
+          "status": "planned",
+          "note": "Túneles donde Gusano Gris toma la roca.",
+          "coords": [37.81066, -5.02216]
+        },
+        {
+          "id": "s-4-4",
+          "name": "Monumento a la Encantá",
+          "time": "13:00",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "3-4-la-leyenda-zaida-la-encanta",
+          "status": "planned",
+          "note": "Calle Ramón y Cajal.",
+          "coords": [37.80948, -5.01911]
+        },
+        {
+          "id": "s-4-5",
+          "name": "Iglesia de la Inmaculada Concepción",
+          "time": "13:30",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-el-pueblo-y-su-gente",
+          "status": "planned",
+          "coords": [37.80906, -5.01712]
+        },
+        {
+          "id": "s-4-6",
+          "name": "Comida en La Taberna de Cuatro Caminos",
+          "time": "14:30",
+          "category": "food",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "5-la-mesa-donde-y-que-comer",
+          "status": "planned",
+          "note": "Pedir la croqueta de Almodóvar.",
           "coords": [37.8095, -5.01756]
+        },
+        {
+          "id": "s-4-7",
+          "name": "Embalse de La Breña II",
+          "time": "19:30",
+          "category": "nature",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-el-pueblo-y-su-gente",
+          "status": "planned",
+          "note": "Atardecer sobre el pantano con la sierra de Hornachuelos al fondo.",
+          "coords": [37.792, -5.055]
         }
       ],
-      "map": { "center": [37.81066, -5.02216], "zoom": 14 }
+      "map": { "center": [37.805, -5.035], "zoom": 13 }
     },
     {
       "id": "dia-5",
