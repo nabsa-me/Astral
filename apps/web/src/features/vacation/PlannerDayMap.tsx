@@ -1,31 +1,56 @@
-import { useState } from 'react';
-import { MapContainer, TileLayer, Marker, Tooltip, Polyline } from 'react-leaflet';
+import { useEffect } from 'react';
+import { MapContainer, TileLayer, Marker, Tooltip, Polyline, useMap } from 'react-leaflet';
 import type { LatLngTuple } from 'leaflet';
-import PoiModal from '../map/PoiModal';
 import { pinIcon } from '../map/pinIcon';
-import { numberStops } from './stopNumbering';
-import { MARKER_DEFAULT_COLOR, MARKER_PLANNED_COLOR } from '../../styles/themeColors';
+import { CATEGORY_GLYPH } from './stopCategory';
+import {
+  MARKER_DEFAULT_COLOR,
+  MARKER_PLANNED_COLOR,
+  MARKER_SELECTED_COLOR,
+} from '../../styles/themeColors';
 import type { IVacationDay, IPlannerStop } from '../../domain/entities/Vacation';
 import type { CityBundle } from '../../app/services';
 
 interface PlannerDayMapProps {
   day: IVacationDay;
   cordoba: CityBundle;
+  /** True when a stop has a guide the caller can open. */
+  hasGuide: (stop: IPlannerStop) => boolean;
+  onOpenStop: (stop: IPlannerStop) => void;
+  /** Stop the user selected in the timeline; the map pans to it and highlights the pin. */
+  selectedStopId: string | null;
+}
+
+/** Pans the map to the selected stop whenever the selection changes. */
+function MapCenterOnSelection({ coords }: { coords: LatLngTuple | null }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!coords) return;
+    map.flyTo(coords, Math.max(map.getZoom(), 15), { duration: 0.6 });
+  }, [coords, map]);
+  return null;
 }
 
 /**
- * The day's map, driven by its planner stops: each located stop is a numbered
- * pin that matches its badge in the list, so a stop and its mark share identity.
+ * The day's map, driven by its planner stops: each located stop is a pin whose
+ * icon matches its category badge in the list, so a stop and its mark share
+ * identity by category rather than by number.
  */
-export default function PlannerDayMap({ day, cordoba }: PlannerDayMapProps) {
-  const [openStop, setOpenStop] = useState<IPlannerStop | null>(null);
-
+export default function PlannerDayMap({
+  day,
+  cordoba,
+  hasGuide,
+  onOpenStop,
+  selectedStopId,
+}: PlannerDayMapProps) {
   const map = day.map;
   const cityMap = map && 'cityId' in map ? map : null;
   const coordsMap = map && 'center' in map ? map : null;
   const isCordoba = cityMap?.cityId === 'cordoba' && Boolean(cordoba.city);
 
-  const { pins } = numberStops(day.stops ?? []);
+  const stopsWithCoords = (day.stops ?? []).filter(
+    (s): s is IPlannerStop & { coords: LatLngTuple } => Boolean(s.coords),
+  );
 
   let center: LatLngTuple | null = null;
   let zoom = 13;
@@ -35,24 +60,23 @@ export default function PlannerDayMap({ day, cordoba }: PlannerDayMapProps) {
   } else if (coordsMap) {
     center = coordsMap.center;
     zoom = coordsMap.zoom || 13;
-  } else if (pins.length > 0) {
-    center = pins[0].coords;
+  } else if (stopsWithCoords.length > 0) {
+    center = stopsWithCoords[0].coords;
   }
   if (!center) return null;
 
-  const guideIdFor = (stop: IPlannerStop) =>
-    stop.poiId ? cordoba.points.find((p) => p.id === stop.poiId)?.guideId : stop.guideId;
+  const colorFor = (stop: IPlannerStop) => {
+    if (stop.id === selectedStopId) return MARKER_SELECTED_COLOR;
+    return stop.status === 'planned' ? MARKER_PLANNED_COLOR : MARKER_DEFAULT_COLOR;
+  };
 
-  const openGuide = openStop
-    ? cordoba.getGuideForPoint({ guideId: guideIdFor(openStop) })
-    : null;
-
-  const colorFor = (stop: IPlannerStop) =>
-    stop.status === 'planned' ? MARKER_PLANNED_COLOR : MARKER_DEFAULT_COLOR;
+  const selectedCoords =
+    stopsWithCoords.find((s) => s.id === selectedStopId)?.coords ?? null;
 
   return (
     <div className="map-view">
       <MapContainer center={center} zoom={zoom} className="map-container">
+        <MapCenterOnSelection coords={selectedCoords} />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -72,32 +96,23 @@ export default function PlannerDayMap({ day, cordoba }: PlannerDayMapProps) {
               />
             ))
           : null}
-        {pins.map(({ number, coords, stop }) => {
-          const hasGuide = Boolean(guideIdFor(stop));
+        {stopsWithCoords.map((stop) => {
+          const glyph = stop.category ? CATEGORY_GLYPH[stop.category] : undefined;
+          const clickable = hasGuide(stop);
           return (
             <Marker
-              key={number}
-              position={coords}
-              icon={pinIcon(colorFor(stop), String(number))}
-              eventHandlers={hasGuide ? { click: () => setOpenStop(stop) } : undefined}
+              key={stop.id}
+              position={stop.coords}
+              icon={pinIcon(colorFor(stop), glyph)}
+              eventHandlers={clickable ? { click: () => onOpenStop(stop) } : undefined}
             >
               <Tooltip direction="top" offset={[0, -28]} opacity={0.95}>
-                <span className="stop-label">
-                  {number} · {stop.name}
-                </span>
+                <span className="stop-label">{stop.name}</span>
               </Tooltip>
             </Marker>
           );
         })}
       </MapContainer>
-      {openStop && (
-        <PoiModal
-          point={{ name: openStop.name }}
-          guide={openGuide}
-          initialSectionId={openStop.sectionId ?? null}
-          onClose={() => setOpenStop(null)}
-        />
-      )}
     </div>
   );
 }

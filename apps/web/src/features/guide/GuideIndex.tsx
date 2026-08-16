@@ -8,13 +8,6 @@ interface GuideIndexProps {
   onSelect: (id: string) => void;
 }
 
-const stripLeadNumber = (title: string) => title.replace(/^\d+(?:\.\d+)*\.?\s+/, '').trim() || title;
-
-const leadNumber = (title: string, fallback: number) => {
-  const match = title.match(/^(\d+)/);
-  return match ? match[1] : String(fallback);
-};
-
 export default function GuideIndex({ sections, activeSectionId, onSelect }: GuideIndexProps) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -30,14 +23,13 @@ export default function GuideIndex({ sections, activeSectionId, onSelect }: Guid
     return () => document.removeEventListener('mousedown', onPointerDown);
   }, [open]);
 
-  const activeIndex = sections.findIndex(
-    (section) =>
-      section.id === activeSectionId ||
-      section.subsections?.some((sub) => sub.id === activeSectionId),
-  );
-  const activeSection = activeIndex >= 0 ? sections[activeIndex] : null;
-  const currentNum = activeSection ? leadNumber(activeSection.title, activeIndex + 1) : '';
-  const currentLabel = activeSection ? stripLeadNumber(activeSection.title) : 'Índice de la guía';
+  const activeSection =
+    sections.find(
+      (section) =>
+        section.id === activeSectionId ||
+        section.subsections?.some((sub) => sub.id === activeSectionId),
+    ) ?? null;
+  const currentLabel = activeSection ? activeSection.title : 'Índice de la guía';
 
   const pick = (id: string) => {
     onSelect(id);
@@ -54,10 +46,7 @@ export default function GuideIndex({ sections, activeSectionId, onSelect }: Guid
         onClick={() => setOpen((v) => !v)}
       >
         <Icon icon="menu" type="thin" />
-        <span className="guide-index-current">
-          {currentNum ? <span className="guide-index-current-num">{currentNum}</span> : null}
-          <span className="guide-index-current-label">{currentLabel}</span>
-        </span>
+        <span className="guide-index-current-label">{currentLabel}</span>
         <Icon
           icon="chevron_right"
           type="bold"
@@ -69,7 +58,7 @@ export default function GuideIndex({ sections, activeSectionId, onSelect }: Guid
         <div className="guide-index-panel" role="menu">
           <p className="guide-index-panel-title">Índice</p>
           <ol className="guide-index-list">
-            {sections.map((section, i) => (
+            {sections.map((section) => (
               <li key={section.id}>
                 <button
                   type="button"
@@ -77,8 +66,7 @@ export default function GuideIndex({ sections, activeSectionId, onSelect }: Guid
                   className={`guide-index-item${activeSectionId === section.id ? ' is-active' : ''}`}
                   onClick={() => pick(section.id)}
                 >
-                  <span className="guide-index-item-num">{leadNumber(section.title, i + 1)}</span>
-                  <span className="guide-index-item-label">{stripLeadNumber(section.title)}</span>
+                  {section.title}
                 </button>
                 {section.subsections && section.subsections.length > 0 ? (
                   <ul className="guide-index-sublist">
@@ -90,7 +78,7 @@ export default function GuideIndex({ sections, activeSectionId, onSelect }: Guid
                           className={`guide-index-subitem${activeSectionId === sub.id ? ' is-active' : ''}`}
                           onClick={() => pick(sub.id)}
                         >
-                          {stripLeadNumber(sub.title)}
+                          {sub.title}
                         </button>
                       </li>
                     ))}

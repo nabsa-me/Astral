@@ -105,8 +105,8 @@ export default function GuideView({ guide, initialSectionId }: GuideViewProps) {
         ) : null}
 
         <div className="guide-reader">
-          {guide.sections.map((section, i) => (
-            <GuideSection key={section.id} section={section} index={i + 1} />
+          {guide.sections.map((section) => (
+            <GuideSection key={section.id} section={section} />
           ))}
         </div>
       </div>

@@ -23,7 +23,12 @@
       "Bash(curl -s -o /dev/null -w \"\\\\ncordoba.json: %{http_code}\\\\n\" http://localhost:5174/src/infrastructure/data/cordoba.json)",
       "Bash(curl -s -o /dev/null -w \"tarde: %{http_code}\\\\n\" http://localhost:5174/src/infrastructure/data/guides/tarde-cordoba.json)",
       "Bash(curl -s -o /dev/null -w \"current: %{http_code}\\\\n\" \"https://upload.wikimedia.org/wikipedia/commons/0/0b/Seneca_at_the_Puerta_de_Almodo%CC%81var_-_C%C3%B3rdoba%2C_Spain_-_DSC07075.JPG\")",
-      "Bash(curl -s -o /dev/null -w \"nfc: %{http_code}\\\\n\" \"https://upload.wikimedia.org/wikipedia/commons/0/0b/Seneca_at_the_Puerta_de_Almod%C3%B3var_-_C%C3%B3rdoba%2C_Spain_-_DSC07075.JPG\")"
+      "Bash(curl -s -o /dev/null -w \"nfc: %{http_code}\\\\n\" \"https://upload.wikimedia.org/wikipedia/commons/0/0b/Seneca_at_the_Puerta_de_Almod%C3%B3var_-_C%C3%B3rdoba%2C_Spain_-_DSC07075.JPG\")",
+      "Bash(grep -E \"\\\\.\\(tsx?|jsx?\\)$\")",
+      "Bash(grep -E \"json$\")",
+      "Bash(npx tsc *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(npx vite *)"
     ]
   }
 }

@@ -45,7 +45,7 @@
   background-color: var(--color-background-selected);
   color: var(--color-text);
   & .icon {
-    color: var(--color-accent);
+    color: var(--green-150-60-500);
   }
 }
 

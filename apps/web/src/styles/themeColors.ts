@@ -19,3 +19,7 @@ export const MARKER_DEFAULT_COLOR = BRAND_PURPLE_600;
 
 /** Planner pin/badge colour for stops still pending (neutral grey). */
 export const MARKER_PLANNED_COLOR = '#9aa0a6';
+
+/** Highlight for the stop the user has selected in the timeline — sage/teal
+ *  green from the low-sat brand ramp (--green-150-60-500). */
+export const MARKER_SELECTED_COLOR = '#37b074';

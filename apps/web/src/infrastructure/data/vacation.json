@@ -26,7 +26,10 @@
           "category": "stay",
           "status": "done",
           "note": "Base para los próximos días.",
-          "coords": [37.71678, -5.10169]
+          "coords": [
+            37.71678,
+            -5.10169
+          ]
         }
       ],
       "map": null
@@ -46,7 +49,10 @@
           "time": "11:00",
           "category": "sight",
           "status": "done",
-          "coords": [37.71678, -5.10169]
+          "coords": [
+            37.71678,
+            -5.10169
+          ]
         },
         {
           "id": "s-2-2",
@@ -54,7 +60,10 @@
           "time": "14:30",
           "category": "food",
           "status": "done",
-          "coords": [37.71545, -5.09985]
+          "coords": [
+            37.71545,
+            -5.09985
+          ]
         },
         {
           "id": "s-2-3",
@@ -63,7 +72,10 @@
           "category": "sight",
           "guideId": "ochavillo-del-rio",
           "sectionId": "1-por-que-merece-una-guia-un-pueblo-tan-pequeno",
-          "coords": [37.7396, -5.1739],
+          "coords": [
+            37.7396,
+            -5.1739
+          ],
           "status": "done",
           "note": "Aldea del Río, ELA dentro del municipio de Fuente Palmera."
         },
@@ -73,8 +85,11 @@
           "time": "17:15",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
-          "sectionId": "5-el-pueblo-dibujado-con-regla-urbanismo-carolino",
-          "coords": [37.7396, -5.1738],
+          "sectionId": "plaza-real-el-corazon-del-trazado",
+          "coords": [
+            37.7396,
+            -5.1738
+          ],
           "status": "done",
           "note": "Corazón fundacional del trazado carolino de 1768."
         },
@@ -84,8 +99,11 @@
           "time": "17:30",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
-          "sectionId": "5-el-pueblo-dibujado-con-regla-urbanismo-carolino",
-          "coords": [37.7395, -5.1737],
+          "sectionId": "iglesia-nuestra-senora-del-carmen",
+          "coords": [
+            37.7395,
+            -5.1737
+          ],
           "status": "done",
           "note": "Templo de 1880 con la patrona donada por los marqueses de Viana."
         },
@@ -95,8 +113,11 @@
           "time": "17:50",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
-          "sectionId": "5-el-pueblo-dibujado-con-regla-urbanismo-carolino",
-          "coords": [37.7398, -5.1741],
+          "sectionId": "fuente-de-las-pilas-y-plaza-de-la-fuente",
+          "coords": [
+            37.7398,
+            -5.1741
+          ],
           "status": "done",
           "note": "Antiguo abrevadero restaurado."
         },
@@ -107,12 +128,21 @@
           "category": "food",
           "guideId": "ochavillo-del-rio",
           "sectionId": "9-la-mesa-pan-huerta-y-cocina-de-la-vega",
-          "coords": [37.7397, -5.174],
+          "coords": [
+            37.7397,
+            -5.174
+          ],
           "status": "done",
           "note": "Cocina de vega y campiña, dulces de sartén."
         }
       ],
-      "map": { "center": [37.72, -5.13], "zoom": 12 }
+      "map": {
+        "center": [
+          37.72,
+          -5.13
+        ],
+        "zoom": 12
+      }
     },
     {
       "id": "dia-3",
@@ -129,7 +159,10 @@
           "time": "09:30",
           "category": "sight",
           "poiId": "mezquita-cordoba",
-          "coords": [37.879, -4.7794],
+          "coords": [
+            37.879,
+            -4.7794
+          ],
           "status": "done",
           "durationMin": 120
         },
@@ -139,7 +172,10 @@
           "time": "12:00",
           "category": "sight",
           "poiId": "puente-romano",
-          "coords": [37.876891, -4.778074],
+          "coords": [
+            37.876891,
+            -4.778074
+          ],
           "status": "done"
         },
         {
@@ -147,8 +183,27 @@
           "name": "Torre de la Calahorra",
           "time": "12:30",
           "category": "sight",
-          "coords": [37.87538, -4.77841],
-          "status": "done"
+          "coords": [
+            37.87538,
+            -4.77841
+          ],
+          "status": "done",
+          "guideId": "puente-romano",
+          "sectionId": "4-los-guardianes-de-piedra-calahorra-y-puerta-del-puente"
+        },
+        {
+          "id": "s-3-3b",
+          "name": "Puente de San Rafael",
+          "time": "13:00",
+          "category": "sight",
+          "guideId": "puente-san-rafael",
+          "sectionId": "8-que-ver-desde-el-puente-y-en-su-entorno",
+          "coords": [
+            37.87709,
+            -4.77179
+          ],
+          "status": "done",
+          "note": "Vuelta a la orilla norte cerrando el circuito de los puentes."
         },
         {
           "id": "s-3-4",
@@ -157,7 +212,10 @@
           "category": "sight",
           "guideId": "tarde-cordoba",
           "sectionId": "2-la-juderia-mil-anos-de-historia-en-un-laberinto",
-          "coords": [37.87903, -4.78299],
+          "coords": [
+            37.87903,
+            -4.78299
+          ],
           "status": "done"
         },
         {
@@ -167,7 +225,10 @@
           "category": "sight",
           "guideId": "tarde-cordoba",
           "sectionId": "3-primera-parada-el-zoco-y-el-secreto-del-patio-cordobes",
-          "coords": [37.87984, -4.78244],
+          "coords": [
+            37.87984,
+            -4.78244
+          ],
           "status": "done"
         },
         {
@@ -177,7 +238,10 @@
           "category": "sight",
           "guideId": "tarde-cordoba",
           "sectionId": "4-segunda-parada-la-muralla-la-puerta-de-almodovar-y-dos-filosofos",
-          "coords": [37.88135, -4.78469],
+          "coords": [
+            37.88135,
+            -4.78469
+          ],
           "status": "done"
         },
         {
@@ -187,7 +251,10 @@
           "category": "sight",
           "guideId": "tarde-cordoba",
           "sectionId": "5-tercera-etapa-las-callejas-mas-pintorescas",
-          "coords": [37.87988, -4.77958],
+          "coords": [
+            37.87988,
+            -4.77958
+          ],
           "status": "done"
         },
         {
@@ -195,10 +262,14 @@
           "name": "Atardecer en el Puente Romano",
           "time": "21:00",
           "category": "nature",
-          "poiId": "puente-romano",
-          "coords": [37.876891, -4.778074],
+          "coords": [
+            37.876891,
+            -4.778074
+          ],
           "status": "done",
-          "note": "El mejor momento del día."
+          "note": "El mejor momento del día.",
+          "guideId": "tarde-cordoba",
+          "sectionId": "6-el-atardecer-de-nuevo-el-puente-romano"
         },
         {
           "id": "s-3-9",
@@ -207,11 +278,16 @@
           "category": "food",
           "guideId": "tarde-cordoba",
           "sectionId": "8-el-remate-la-plaza-de-la-corredera",
-          "coords": [37.88413, -4.77597],
+          "coords": [
+            37.88413,
+            -4.77597
+          ],
           "status": "done"
         }
       ],
-      "map": { "cityId": "cordoba" }
+      "map": {
+        "cityId": "cordoba"
+      }
     },
     {
       "id": "dia-4",
@@ -231,7 +307,10 @@
           "sectionId": "3-el-castillo-seccion-especial",
           "status": "planned",
           "note": "Comprar entradas online. Calcular 1h30-2h de visita.",
-          "coords": [37.81066, -5.02216],
+          "coords": [
+            37.81066,
+            -5.02216
+          ],
           "durationMin": 120
         },
         {
@@ -243,7 +322,10 @@
           "sectionId": "3-3-la-arquitectura-como-leer-la-fortaleza",
           "status": "planned",
           "note": "Panorámica de 360° sobre la vega; balcón de Olenna Tyrell.",
-          "coords": [37.81066, -5.02216]
+          "coords": [
+            37.81066,
+            -5.02216
+          ]
         },
         {
           "id": "s-4-3",
@@ -254,7 +336,10 @@
           "sectionId": "3-5-juego-de-tronos-bienvenido-a-altojardin",
           "status": "planned",
           "note": "Túneles donde Gusano Gris toma la roca.",
-          "coords": [37.81066, -5.02216]
+          "coords": [
+            37.81066,
+            -5.02216
+          ]
         },
         {
           "id": "s-4-4",
@@ -265,7 +350,10 @@
           "sectionId": "3-4-la-leyenda-zaida-la-encanta",
           "status": "planned",
           "note": "Calle Ramón y Cajal.",
-          "coords": [37.80948, -5.01911]
+          "coords": [
+            37.80948,
+            -5.01911
+          ]
         },
         {
           "id": "s-4-5",
@@ -273,9 +361,12 @@
           "time": "13:30",
           "category": "sight",
           "guideId": "almodovar-del-rio",
-          "sectionId": "4-el-pueblo-y-su-gente",
+          "sectionId": "iglesia-de-la-inmaculada-concepcion",
           "status": "planned",
-          "coords": [37.80906, -5.01712]
+          "coords": [
+            37.80906,
+            -5.01712
+          ]
         },
         {
           "id": "s-4-6",
@@ -286,7 +377,10 @@
           "sectionId": "5-la-mesa-donde-y-que-comer",
           "status": "planned",
           "note": "Pedir la croqueta de Almodóvar.",
-          "coords": [37.8095, -5.01756]
+          "coords": [
+            37.8095,
+            -5.01756
+          ]
         },
         {
           "id": "s-4-7",
@@ -294,13 +388,22 @@
           "time": "19:30",
           "category": "nature",
           "guideId": "almodovar-del-rio",
-          "sectionId": "4-el-pueblo-y-su-gente",
+          "sectionId": "el-embalse-de-la-brena-ii-y-el-guadiato",
           "status": "planned",
           "note": "Atardecer sobre el pantano con la sierra de Hornachuelos al fondo.",
-          "coords": [37.792, -5.055]
+          "coords": [
+            37.792,
+            -5.055
+          ]
         }
       ],
-      "map": { "center": [37.805, -5.035], "zoom": 13 }
+      "map": {
+        "center": [
+          37.805,
+          -5.035
+        ],
+        "zoom": 13
+      }
     },
     {
       "id": "dia-5",
@@ -324,17 +427,29 @@
           "category": "sight",
           "status": "planned",
           "note": "Buscar dónde comer.",
-          "coords": [37.26138, -6.94472]
+          "coords": [
+            37.26138,
+            -6.94472
+          ]
         },
         {
           "id": "s-5-3",
           "name": "Llegada a Extremadura",
           "category": "stay",
           "status": "planned",
-          "coords": [38.87897, -6.9707]
+          "coords": [
+            38.87897,
+            -6.9707
+          ]
         }
       ],
-      "map": { "center": [37.7, -6.5], "zoom": 8 }
+      "map": {
+        "center": [
+          37.7,
+          -6.5
+        ],
+        "zoom": 8
+      }
     }
   ]
 }

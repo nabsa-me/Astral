@@ -1,8 +1,17 @@
 import { useLocation, useNavigate } from 'react-router';
+import { APP_ROUTES } from '../../app/appRoutes';
 import { NAV_ITEMS } from '../../app/navItems';
 import { MenuCard } from '../../shared/components/navigationCards/MenuCard';
 import { Divider } from '../../shared/components/misc/misc';
 import type { IDesktopSideBarProps } from './desktopTypes';
+
+// A trip detail belongs under "Mis rutas"; a diary detail under "Diarios".
+const isSectionActive = (navPath: string, pathname: string): boolean => {
+  if (navPath === APP_ROUTES.home) return pathname === '/';
+  if (navPath === APP_ROUTES.myRoutes) return pathname.startsWith('/my-routes') || pathname.startsWith('/trips/');
+  if (navPath === APP_ROUTES.diaries) return pathname.startsWith('/diaries');
+  return pathname === navPath || pathname.startsWith(navPath + '/');
+};
 
 const DesktopSideBar = ({ sideBarHidden }: IDesktopSideBarProps) => {
   const { pathname } = useLocation();
@@ -19,7 +28,7 @@ const DesktopSideBar = ({ sideBarHidden }: IDesktopSideBarProps) => {
                   key={navItem.path}
                   label={navItem.label}
                   icon={navItem.icon}
-                  active={pathname === navItem.path}
+                  active={isSectionActive(navItem.path, pathname)}
                   onClick={() => navigate(navItem.path)}
                 />
               ))}
