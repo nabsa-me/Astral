@@ -8,9 +8,11 @@ interface StopListProps {
   /** Resolves the guide that a stop opens (POI-linked or direct guideId). */
   resolveGuide: (stop: IPlannerStop) => IGuide | null;
   onOpenStop: (stop: IPlannerStop) => void;
-  /** Currently selected stop (shared with the map for cross-highlight). */
+  /** Currently selected stop (single, global — shared with the map). */
   selectedStopId: string | null;
-  onSelectStop: (id: string) => void;
+  onSelectStop: (stop: IPlannerStop) => void;
+  /** True if the stop has resolvable coords (explicit or via poiId). */
+  canLocate: (stop: IPlannerStop) => boolean;
 }
 
 const findSectionTitle = (guide: IGuide | null, sectionId?: string) => {
@@ -30,6 +32,7 @@ export default function StopList({
   onOpenStop,
   selectedStopId,
   onSelectStop,
+  canLocate,
 }: StopListProps) {
   return (
     <ol className="stop-list">
@@ -38,7 +41,7 @@ export default function StopList({
         const guide = resolveGuide(stop);
         const chipLabel = findSectionTitle(guide, stop.sectionId) ?? guide?.title ?? null;
         const isSelected = selectedStopId === stop.id;
-        const canLocate = Boolean(stop.coords);
+        const locatable = canLocate(stop);
         return (
           <li
             key={stop.id}
@@ -47,10 +50,10 @@ export default function StopList({
             <button
               type="button"
               className="stop-badge"
-              disabled={!canLocate}
+              disabled={!locatable}
               aria-pressed={isSelected}
-              aria-label={canLocate ? `Localizar ${stop.name} en el mapa` : stop.name}
-              onClick={() => onSelectStop(stop.id)}
+              aria-label={locatable ? `Localizar ${stop.name} en el mapa` : stop.name}
+              onClick={() => onSelectStop(stop)}
             >
               {stop.category ? <Icon icon={CATEGORY_ICON[stop.category]} /> : null}
             </button>

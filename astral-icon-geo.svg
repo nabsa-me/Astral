@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Astral">
+  <defs>
+    <linearGradient id="astralGeoGradient" gradientUnits="userSpaceOnUse" x1="12" y1="54" x2="52" y2="10">
+      <stop offset="0" stop-color="#00e676"/>
+      <stop offset="0.45" stop-color="#0fc9c4"/>
+      <stop offset="1" stop-color="#8b2fff"/>
+    </linearGradient>
+    <path id="astralGeoPolaris" d="M0 -1 Q0.10 -0.34 0.245 -0.245 Q0.34 -0.10 1 0 Q0.34 0.10 0.245 0.245 Q0.10 0.34 0 1 Q-0.10 0.34 -0.245 0.245 Q-0.34 0.10 -1 0 Q-0.34 -0.10 -0.245 -0.245 Q-0.10 -0.34 0 -1 Z M0 -0.52 L0.135 -0.135 L0.52 0 L0.135 0.135 L0 0.52 L-0.135 0.135 L-0.52 0 L-0.135 -0.135 Z"/>
+    <mask id="astralGeoMask">
+      <g fill="white">
+        <rect x="10.75" y="26.31" width="4.79" height="11.38" rx="2.39"/>
+        <rect x="17.04" y="15.87" width="4.79" height="32.26" rx="2.39"/>
+        <rect x="23.32" y="11.78" width="4.79" height="40.44" rx="2.39"/>
+        <rect x="29.61" y="10.13" width="4.79" height="43.74" rx="2.39"/>
+        <rect x="35.89" y="11.78" width="4.79" height="40.44" rx="2.39"/>
+        <rect x="42.18" y="15.87" width="4.79" height="32.26" rx="2.39"/>
+        <rect x="48.46" y="26.31" width="4.79" height="11.38" rx="2.39"/>
+      </g>
+      <use href="#astralGeoPolaris" fill="black" transform="translate(32,32) scale(18.5)"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" fill="url(#astralGeoGradient)" mask="url(#astralGeoMask)"/>
+</svg>

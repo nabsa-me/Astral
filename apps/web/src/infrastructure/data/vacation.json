@@ -73,8 +73,8 @@
           "guideId": "ochavillo-del-rio",
           "sectionId": "1-por-que-merece-una-guia-un-pueblo-tan-pequeno",
           "coords": [
-            37.7396,
-            -5.1739
+            37.7559,
+            -5.1314
           ],
           "status": "done",
           "note": "Aldea del Río, ELA dentro del municipio de Fuente Palmera."
@@ -87,8 +87,8 @@
           "guideId": "ochavillo-del-rio",
           "sectionId": "plaza-real-el-corazon-del-trazado",
           "coords": [
-            37.7396,
-            -5.1738
+            37.7559,
+            -5.1314
           ],
           "status": "done",
           "note": "Corazón fundacional del trazado carolino de 1768."
@@ -101,8 +101,8 @@
           "guideId": "ochavillo-del-rio",
           "sectionId": "iglesia-nuestra-senora-del-carmen",
           "coords": [
-            37.7395,
-            -5.1737
+            37.7561,
+            -5.1311
           ],
           "status": "done",
           "note": "Templo de 1880 con la patrona donada por los marqueses de Viana."
@@ -115,8 +115,8 @@
           "guideId": "ochavillo-del-rio",
           "sectionId": "fuente-de-las-pilas-y-plaza-de-la-fuente",
           "coords": [
-            37.7398,
-            -5.1741
+            37.7557,
+            -5.1318
           ],
           "status": "done",
           "note": "Antiguo abrevadero restaurado."
@@ -129,8 +129,8 @@
           "guideId": "ochavillo-del-rio",
           "sectionId": "9-la-mesa-pan-huerta-y-cocina-de-la-vega",
           "coords": [
-            37.7397,
-            -5.174
+            37.7560,
+            -5.1315
           ],
           "status": "done",
           "note": "Cocina de vega y campiña, dulces de sartén."
@@ -199,8 +199,8 @@
           "guideId": "puente-san-rafael",
           "sectionId": "8-que-ver-desde-el-puente-y-en-su-entorno",
           "coords": [
-            37.87709,
-            -4.77179
+            37.87207,
+            -4.78263
           ],
           "status": "done",
           "note": "Vuelta a la orilla norte cerrando el circuito de los puentes."
@@ -213,8 +213,8 @@
           "guideId": "tarde-cordoba",
           "sectionId": "2-la-juderia-mil-anos-de-historia-en-un-laberinto",
           "coords": [
-            37.87903,
-            -4.78299
+            37.87981,
+            -4.78338
           ],
           "status": "done"
         },
@@ -226,8 +226,8 @@
           "guideId": "tarde-cordoba",
           "sectionId": "3-primera-parada-el-zoco-y-el-secreto-del-patio-cordobes",
           "coords": [
-            37.87984,
-            -4.78244
+            37.87961,
+            -4.78308
           ],
           "status": "done"
         },
@@ -239,8 +239,8 @@
           "guideId": "tarde-cordoba",
           "sectionId": "4-segunda-parada-la-muralla-la-puerta-de-almodovar-y-dos-filosofos",
           "coords": [
-            37.88135,
-            -4.78469
+            37.88061,
+            -4.78418
           ],
           "status": "done"
         },
@@ -252,8 +252,8 @@
           "guideId": "tarde-cordoba",
           "sectionId": "5-tercera-etapa-las-callejas-mas-pintorescas",
           "coords": [
-            37.87988,
-            -4.77958
+            37.88035,
+            -4.77962
           ],
           "status": "done"
         },
@@ -279,8 +279,8 @@
           "guideId": "tarde-cordoba",
           "sectionId": "8-el-remate-la-plaza-de-la-corredera",
           "coords": [
-            37.88413,
-            -4.77597
+            37.88357,
+            -4.77449
           ],
           "status": "done"
         }

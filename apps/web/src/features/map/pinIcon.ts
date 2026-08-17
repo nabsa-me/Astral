@@ -8,12 +8,15 @@ export type PinFill = string | { from: string; to: string };
 
 /**
  * Teardrop map pin. Pass `glyph` (24x24 SVG path `d`) to render an icon inside
- * the head so a pin can carry its stop's category. Without a glyph, a plain
- * white dot is drawn. `fill` can be a solid hex or a { from, to } gradient.
+ * the head so a pin can carry its stop's category. Pass `label` (short text,
+ * e.g. a day number) to render text instead — `label` takes precedence over
+ * `glyph`. Without either, a plain white dot is drawn. `fill` can be a solid
+ * hex or a { from, to } gradient.
  */
-export function pinIcon(fill: PinFill, glyph?: string): L.DivIcon {
+export function pinIcon(fill: PinFill, glyph?: string, label?: string): L.DivIcon {
   const isGradient = typeof fill !== 'string';
-  const key = isGradient ? `grad:${fill.from}>${fill.to}|${glyph ?? ''}` : `${fill}|${glyph ?? ''}`;
+  const suffix = `${glyph ?? ''}|${label ?? ''}`;
+  const key = isGradient ? `grad:${fill.from}>${fill.to}|${suffix}` : `${fill}|${suffix}`;
   const cached = cache.get(key);
   if (cached) return cached;
 
@@ -32,11 +35,15 @@ export function pinIcon(fill: PinFill, glyph?: string): L.DivIcon {
       : '';
   const bodyFill = isGradient && gradId ? `url(#${gradId})` : (fill as string);
 
-  const inner = glyph
-    ? `<g transform="translate(6 6) scale(0.5)" fill="#ffffff">
-         <path d="${glyph}"/>
-       </g>`
-    : `<circle cx="12" cy="12" r="4.5" fill="#ffffff"/>`;
+  const inner = label
+    ? `<text x="12" y="12" text-anchor="middle" dominant-baseline="central"
+             font-family="system-ui, -apple-system, sans-serif" font-size="11"
+             font-weight="700" fill="#ffffff">${label}</text>`
+    : glyph
+      ? `<g transform="translate(6 6) scale(0.5)" fill="#ffffff">
+           <path d="${glyph}"/>
+         </g>`
+      : `<circle cx="12" cy="12" r="4.5" fill="#ffffff"/>`;
 
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 34" width="24" height="34">

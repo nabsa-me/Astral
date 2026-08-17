@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Nova">
+  <defs>
+    <path id="novaBoltApp" d="M0.194 -1 L-0.611 0.222 L-0.111 0.222 L-0.194 1 L0.611 -0.222 L0.111 -0.222 Z"/>
+    <mask id="novaMaskApp">
+      <rect width="64" height="64" fill="black"/>
+      <circle cx="32" cy="32" r="18" fill="white"/>
+      <use href="#novaBoltApp" fill="black" transform="translate(32,32) scale(14.7)"/>
+    </mask>
+
+    <radialGradient id="novaCoreApp" gradientUnits="userSpaceOnUse" cx="32" cy="32" r="18.8">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.09" stop-color="#ddfffb"/>
+      <stop offset="0.20" stop-color="#5ff2ea"/>
+      <stop offset="0.36" stop-color="#15b2ad"/>
+      <stop offset="0.56" stop-color="#1b75e4"/>
+      <stop offset="0.78" stop-color="#173a86"/>
+      <stop offset="1" stop-color="#0b2050"/>
+    </radialGradient>
+    <radialGradient id="novaSpikeHApp" gradientUnits="userSpaceOnUse" cx="32" cy="32" r="18.8"
+      gradientTransform="translate(32,32) scale(1,0.11) translate(-32,-32)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#c9fffa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c9fffa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="novaSpikeVApp" gradientUnits="userSpaceOnUse" cx="32" cy="32" r="18.8"
+      gradientTransform="translate(32,32) scale(0.11,1) translate(-32,-32)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#c9fffa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c9fffa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="#0e1020"/>
+  <g mask="url(#novaMaskApp)">
+    <rect width="64" height="64" fill="url(#novaCoreApp)"/>
+    <rect width="64" height="64" fill="url(#novaSpikeHApp)"/>
+    <rect width="64" height="64" fill="url(#novaSpikeVApp)"/>
+  </g>
+</svg>

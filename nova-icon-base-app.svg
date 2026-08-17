@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Nova">
+  <defs>
+    <linearGradient id="novaBaseAppGradient" gradientUnits="userSpaceOnUse" x1="14" y1="54" x2="50" y2="10">
+      <stop offset="0" stop-color="#1be4de"/>
+      <stop offset="0.45" stop-color="#15b2ad"/>
+      <stop offset="1" stop-color="#1b75e4"/>
+    </linearGradient>
+    <path id="novaBaseAppBolt" d="M0.194 -1 L-0.611 0.222 L-0.111 0.222 L-0.194 1 L0.611 -0.222 L0.111 -0.222 Z"/>
+    <mask id="novaBaseAppMask">
+      <rect width="64" height="64" fill="black"/>
+      <circle cx="32" cy="32" r="18" fill="white"/>
+      <use href="#novaBaseAppBolt" fill="black" transform="translate(32,32) scale(14.7)"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0e1020"/>
+  <rect width="64" height="64" fill="url(#novaBaseAppGradient)" mask="url(#novaBaseAppMask)"/>
+</svg>

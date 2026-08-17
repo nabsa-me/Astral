@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Astral">
+  <defs>
+    <linearGradient id="astralBaseAppGradient" gradientUnits="userSpaceOnUse" x1="14" y1="54" x2="50" y2="10">
+      <stop offset="0" stop-color="#00e676"/>
+      <stop offset="0.45" stop-color="#0fc9c4"/>
+      <stop offset="1" stop-color="#8b2fff"/>
+    </linearGradient>
+    <path id="astralBaseAppPolaris" d="M0 -1 Q0.10 -0.34 0.245 -0.245 Q0.34 -0.10 1 0 Q0.34 0.10 0.245 0.245 Q0.10 0.34 0 1 Q-0.10 0.34 -0.245 0.245 Q-0.34 0.10 -1 0 Q-0.34 -0.10 -0.245 -0.245 Q-0.10 -0.34 0 -1 Z M0 -0.52 L0.135 -0.135 L0.52 0 L0.135 0.135 L0 0.52 L-0.135 0.135 L-0.52 0 L-0.135 -0.135 Z"/>
+    <mask id="astralBaseAppMask">
+      <rect width="64" height="64" fill="black"/>
+      <circle cx="32" cy="32" r="18" fill="white"/>
+      <use href="#astralBaseAppPolaris" fill="black" transform="translate(32,32) scale(15.1)"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0e1020"/>
+  <rect width="64" height="64" fill="url(#astralBaseAppGradient)" mask="url(#astralBaseAppMask)"/>
+</svg>

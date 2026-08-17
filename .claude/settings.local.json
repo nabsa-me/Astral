@@ -28,7 +28,24 @@
       "Bash(grep -E \"json$\")",
       "Bash(npx tsc *)",
       "Bash(echo \"exit=$?\")",
-      "Bash(npx vite *)"
+      "Bash(npx vite *)",
+      "Bash(xargs grep *)",
+      "Bash(netstat -ano)",
+      "WebFetch(domain:help.wanderlog.com)",
+      "WebFetch(domain:support.polarsteps.com)",
+      "WebFetch(domain:support.roadtrippers.com)",
+      "WebFetch(domain:help.furkot.com)",
+      "WebFetch(domain:help.tripit.com)",
+      "WebFetch(domain:mattsnextsteps.com)",
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "WebFetch(domain:overpass-api.de)",
+      "WebFetch(domain:overpass.kumi.systems)",
+      "Bash(curl -s --max-time 30 \"https://overpass-api.de/api/interpreter?data=[out:json][timeout:20];way[%22name%22=%22Calle%20Jud%C3%ADos%22]\\(around:800,37.8798,-4.7834\\);out%20geom;\")",
+      "Bash(curl -sv --max-time 30 \"https://overpass-api.de/api/interpreter?data=[out:json];way[%22name%22=%22Calle%20Jud%C3%ADos%22]\\(around:800,37.8798,-4.7834\\);out%20geom;\")",
+      "Bash(curl *)",
+      "Bash(curl -m 90 -sG \"https://overpass-api.de/api/interpreter\" --data-urlencode 'data=[out:json][timeout:60];way[\"name\"=\"Puente Romano\"]\\(37.874,-4.782,37.879,-4.775\\);out geom;')",
+      "Bash(python -c ' *)",
+      "WebFetch(domain:www.wikidata.org)"
     ]
   }
 }

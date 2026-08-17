@@ -1,39 +1,28 @@
-import { useState } from 'react';
-import PlannerDayMap from './PlannerDayMap';
 import StopList from './StopList';
-import PoiModal from '../map/PoiModal';
 import type { IPlannerStop, IVacationDay } from '../../domain/entities/Vacation';
-import type { CityBundle } from '../../app/services';
+import type { IGuide } from '../../domain/entities/Guide';
 
 interface DayCardProps {
   day: IVacationDay;
-  cordoba: CityBundle;
+  resolveGuide: (stop: IPlannerStop) => IGuide | null;
+  onOpenStop: (stop: IPlannerStop) => void;
+  onSelectStop: (stop: IPlannerStop) => void;
+  selectedStopId: string | null;
+  canLocate: (stop: IPlannerStop) => boolean;
 }
 
 // The badge already shows the day number, so drop a leading "Día N ·" from the title.
 const stripDayPrefix = (title: string) =>
   title.replace(/^d[ií]a\s*\d+\s*[·\-–—]\s*/i, '').trim() || title;
 
-export default function DayCard({ day, cordoba }: DayCardProps) {
-  const [openStop, setOpenStop] = useState<IPlannerStop | null>(null);
-  const [selectedStopId, setSelectedStopId] = useState<string | null>(null);
-
-  const toggleSelectedStop = (id: string) =>
-    setSelectedStopId((prev) => (prev === id ? null : id));
-
-  const hasLocatedStops = (day.stops ?? []).some((stop) => stop.coords);
-  const showMap = Boolean(day.map) || hasLocatedStops;
-
-  const guideIdFor = (stop: IPlannerStop) =>
-    stop.poiId ? cordoba.points.find((p) => p.id === stop.poiId)?.guideId : stop.guideId;
-
-  const resolveGuide = (stop: IPlannerStop) =>
-    cordoba.getGuideForPoint({ guideId: guideIdFor(stop) });
-
-  const hasGuide = (stop: IPlannerStop) => Boolean(guideIdFor(stop));
-
-  const openGuide = openStop ? resolveGuide(openStop) : null;
-
+export default function DayCard({
+  day,
+  resolveGuide,
+  onOpenStop,
+  onSelectStop,
+  selectedStopId,
+  canLocate,
+}: DayCardProps) {
   return (
     <article className="day-card" id={day.id}>
       <div className="day-card-head">
@@ -48,22 +37,11 @@ export default function DayCard({ day, cordoba }: DayCardProps) {
         <StopList
           stops={day.stops}
           resolveGuide={resolveGuide}
-          onOpenStop={setOpenStop}
+          onOpenStop={onOpenStop}
           selectedStopId={selectedStopId}
-          onSelectStop={toggleSelectedStop}
+          onSelectStop={onSelectStop}
+          canLocate={canLocate}
         />
-      ) : null}
-
-      {showMap ? (
-        <div className="day-card-map">
-          <PlannerDayMap
-            day={day}
-            cordoba={cordoba}
-            hasGuide={hasGuide}
-            onOpenStop={setOpenStop}
-            selectedStopId={selectedStopId}
-          />
-        </div>
       ) : null}
 
       {day.paragraphs && day.paragraphs.length > 0 ? (
@@ -73,15 +51,6 @@ export default function DayCard({ day, cordoba }: DayCardProps) {
             <p key={i}>{paragraph}</p>
           ))}
         </div>
-      ) : null}
-
-      {openStop ? (
-        <PoiModal
-          point={{ name: openStop.name }}
-          guide={openGuide}
-          initialSectionId={openStop.sectionId ?? null}
-          onClose={() => setOpenStop(null)}
-        />
       ) : null}
     </article>
   );

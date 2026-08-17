@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Nova">
+  <defs>
+    <radialGradient id="novaGeoGradient" gradientUnits="userSpaceOnUse" cx="32" cy="32" r="22">
+      <stop offset="0" stop-color="#ecfffe"/>
+      <stop offset="0.30" stop-color="#5ff2ea"/>
+      <stop offset="0.55" stop-color="#15b2ad"/>
+      <stop offset="0.80" stop-color="#1b75e4"/>
+      <stop offset="1" stop-color="#164f9e"/>
+    </radialGradient>
+    <path id="novaGeoBolt" d="M0.194 -1 L-0.611 0.222 L-0.111 0.222 L-0.194 1 L0.611 -0.222 L0.111 -0.222 Z"/>
+    <mask id="novaGeoMask">
+      <circle cx="32" cy="32" r="10.8" fill="white"/>
+      <path d="M22.50 42.92 A14.475 14.475 0 1 1 27.29 45.69" fill="none" stroke="white" stroke-width="3.85" stroke-linecap="round"/>
+      <path d="M44.63 16.40 A20.075 20.075 0 1 1 39.19 13.26" fill="none" stroke="white" stroke-width="3.85" stroke-linecap="round"/>
+      <use href="#novaGeoBolt" fill="black" transform="translate(32,32) scale(18)"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" fill="url(#novaGeoGradient)" mask="url(#novaGeoMask)"/>
+</svg>

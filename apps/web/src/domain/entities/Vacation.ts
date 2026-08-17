@@ -42,6 +42,14 @@ export interface IVacationDay {
   /** Ordered itinerary for the day (planner view). */
   stops?: IPlannerStop[];
   map: IDayMap | null;
+  /**
+   * Ordered waypoints (stops + key intermediate street points from the guide)
+   * fed to the routing engine as constraints. The engine must pass through
+   * each waypoint in order, so denser waypoints keep the walking route pinned
+   * to the streets described in the guide. When absent or empty, only the
+   * day's stop coords are used as waypoints.
+   */
+  routeCoords?: LatLngTuple[];
 }
 
 export interface IVacation {
