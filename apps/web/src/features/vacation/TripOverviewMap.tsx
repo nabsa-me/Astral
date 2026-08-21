@@ -145,6 +145,24 @@ function SelectionController({
   return null;
 }
 
+function ResizeInvalidator() {
+  const map = useMap();
+  useEffect(() => {
+    const invalidate = () => map.invalidateSize();
+    window.addEventListener('resize', invalidate);
+    window.addEventListener('orientationchange', invalidate);
+    const container = map.getContainer();
+    const observer = new ResizeObserver(invalidate);
+    observer.observe(container);
+    return () => {
+      window.removeEventListener('resize', invalidate);
+      window.removeEventListener('orientationchange', invalidate);
+      observer.disconnect();
+    };
+  }, [map]);
+  return null;
+}
+
 /** Tracks user-driven zoom: switches to overview or to nearest day. */
 function ZoomController({
   located,
@@ -284,6 +302,7 @@ export default function TripOverviewMap({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <ResizeInvalidator />
         <BoundsController
           located={located}
           overview={overviewLeads}

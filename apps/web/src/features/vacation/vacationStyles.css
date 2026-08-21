@@ -44,7 +44,7 @@
   }
   .trip-map {
     flex: 0 0 auto;
-    height: 55vh;
+    height: 55dvh;
     min-height: 300px;
   }
   .trip-itinerary {
