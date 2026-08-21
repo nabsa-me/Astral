@@ -11,7 +11,16 @@
         "El Puente de San Rafael no aparece en las postales ni en las listas de \"imprescindibles\" —ese papel lo acapara el Puente Romano, doscientos metros aguas arriba—, y precisamente por eso conviene visitarlo con las claves adecuadas, porque cuenta una historia que el Romano no puede contar: la de cómo Córdoba entró en la modernidad. Durante casi dos mil años, la ciudad tuvo un único puente de fábrica sobre el Guadalquivir. El de San Rafael, inaugurado en 1953, fue el segundo, y su construcción no fue solo una obra de ingeniería: fue la operación urbana que cosió a la ciudad una orilla entera que había vivido de espaldas a ella durante siglos. Entender este puente es entender el Guadalquivir como frontera social, la expansión de Córdoba hacia el sur y el momento en que medio vecindario que malvivía en chabolas junto al río pasó a formar parte de la ciudad. Además, desde su tablero se obtiene una de las mejores vistas del conjunto monumental —el Romano, la Mezquita, el Alcázar y el molino de la Albolafia recortados sobre el agua—, de modo que es también, sin pretenderlo, un mirador privilegiado.",
         "Un apunte para llegar sin equívocos, porque los nombres se prestan a confusión. En Córdoba se le llamó popularmente \"Puente Nuevo\" durante décadas, hasta que dejó de ser nuevo. No debe confundirse con el Puente de Miraflores (2003), que es el que conecta con la calle San Fernando, ni con el Puente de Abbás Ibn Firnás (2011), el de los grandes arcos blancos junto al aeropuerto. El de San Rafael es el que une el casco histórico —a la altura del Alcázar— con la Plaza de Andalucía, en la orilla sur."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "El Puente de San Rafael sobre el Guadalquivir, inaugurado en 1953, aguas abajo del Puente Romano.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Puente_de_San_Rafael_%28C%C3%B3rdoba%29.jpg",
+          "alt": "Vista general del Puente de San Rafael de Córdoba",
+          "credit": "Justojosemm · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "2-ficha-tecnica-y-lectura-de-la-obra-de-ingenieria",
@@ -136,7 +145,16 @@
         "El puente forma parte, además, del corredor verde del río. Sus dos orillas están integradas en los paseos de la Ribera y en el entorno del Monumento Natural de los Sotos de la Albolafia, el singular ecosistema fluvial —isletas, vegetación y avifauna protegida— que se extiende entre el Romano y aguas abajo, y que convierte el paseo ribereño en un recorrido tan urbano como natural. Un itinerario a pie muy recomendable es el circular que enlaza los puentes: cruzar por el Romano hacia la Calahorra, bajar por la orilla sur disfrutando de la vista del frente monumental, y regresar por el San Rafael, cerrando el bucle con la mejor panorámica reservada para el final.",
         "En la orilla sur, si te apetece rascar bajo la superficie, el Campo de la Verdad conserva su iglesia —hoy de San José y Espíritu Santo, heredera de la antigua ermita del barrio— y ese aire de antiguo pueblo ribereño que la historia de los apartados justifica. No es zona monumental, pero es la Córdoba real, la que el puente incorporó a la ciudad hace setenta años."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Panorámica aérea del Puente de San Rafael y el frente monumental de Córdoba sobre el Guadalquivir.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Puente_de_San_Rafael%2C_C%C3%B3rdoba_%28Espa%C3%B1a%29.jpg",
+          "alt": "Vista elevada del Puente de San Rafael con el conjunto urbano de Córdoba",
+          "credit": "Toni Castillo Quero · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "9-como-encajarlo-en-tu-dia",

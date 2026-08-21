@@ -6,9 +6,18 @@ import type { IGuide } from '../../domain/entities/Guide';
 interface GuideViewProps {
   guide: IGuide;
   initialSectionId?: string | null;
+  /** Section ids that have a corresponding pin on the trip map. */
+  locatableSectionIds?: Set<string>;
+  /** Invoked when the user asks to jump from a section to its pin. */
+  onLocateSection?: (sectionId: string) => void;
 }
 
-export default function GuideView({ guide, initialSectionId }: GuideViewProps) {
+export default function GuideView({
+  guide,
+  initialSectionId,
+  locatableSectionIds,
+  onLocateSection,
+}: GuideViewProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeSectionId, setActiveSectionId] = useState<string | null>(
     initialSectionId ?? guide.sections[0]?.id ?? null,
@@ -106,7 +115,12 @@ export default function GuideView({ guide, initialSectionId }: GuideViewProps) {
 
         <div className="guide-reader">
           {guide.sections.map((section) => (
-            <GuideSection key={section.id} section={section} />
+            <GuideSection
+              key={section.id}
+              section={section}
+              locatableSectionIds={locatableSectionIds}
+              onLocateSection={onLocateSection}
+            />
           ))}
         </div>
       </div>

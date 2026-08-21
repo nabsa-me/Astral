@@ -1,74 +1,171 @@
 {
   "id": "verano-2026",
   "title": "Vacaciones de verano 2026",
-  "subtitle": "Fuente Palmera · Córdoba · Almodóvar del Río · Extremadura",
+  "subtitle": "Córdoba · Almodóvar del Río · Extremadura",
   "days": [
     {
       "id": "dia-1",
       "number": 1,
       "title": "Día 1 · Viaje a Fuente Palmera",
-      "summary": "Día de viaje. Llegada por la tarde a Fuente Palmera.",
+      "summary": "Salida al alba, jornada de carretera y llegada al mediodía a la casa rural ecuestre; tarde tranquila con posible paseo al casco.",
       "paragraphs": [
-        "Salida desde casa por la mañana, jornada de carretera y llegada por la tarde a Fuente Palmera, base de operaciones para los siguientes días."
+        "Día de viaje con salida a primera hora para esquivar el calor y el tráfico, y llegada sobre las tres de la tarde a la Casa Rural Ecuestre Carmen Martínez, en el kilómetro 7 de la A-440 —junto a la aldea de La Ventilla, dentro del término de Fuente Palmera—. La casa se alquila entera: sin recepción, sin horarios, sin vecinos.",
+        "La tarde queda deliberadamente libre. Instalarse, comer con calma y dejar que baje el sol; si al caer la tarde apetece un paseo, el casco de Fuente Palmera está a apenas siete kilómetros y merece una vuelta rápida por la Plaza Real, la Iglesia de la Purísima y el Pósito antes de la cena."
       ],
       "stops": [
         {
           "id": "s-1-1",
           "name": "Salida desde casa",
+          "time": "06:00",
+          "category": "transport",
+          "status": "planned"
+        },
+        {
+          "id": "s-1-2",
+          "name": "Llegada a la Casa Rural Ecuestre Carmen Martínez",
+          "time": "15:00",
+          "category": "stay",
+          "status": "planned",
+          "note": "A-440, km 7 · junto a la aldea de La Ventilla. Casa completa dentro de la yeguada de Pura Raza Española.",
+          "guideId": "fuente-palmera",
+          "sectionId": "2-la-casa-rural-ecuestre-carmen-martinez",
+          "coords": [
+            37.71546,
+            -5.07007
+          ]
+        },
+        {
+          "id": "s-1-3",
+          "name": "Tarde en la casa",
+          "category": "stay",
+          "status": "planned",
+          "note": "Descanso, patio, cigarras y caballos. Sin plan.",
+          "coords": [
+            37.71546,
+            -5.07007
+          ]
+        },
+        {
+          "id": "s-1-4",
+          "name": "Plaza Real",
+          "time": "18:00",
+          "category": "sight",
+          "status": "planned",
+          "note": "Corazón fundacional del trazado carolino de 1768.",
+          "guideId": "fuente-palmera",
+          "sectionId": "4-1-plaza-real",
+          "coords": [
+            37.70326,
+            -5.10391
+          ]
+        },
+        {
+          "id": "s-1-5",
+          "name": "Iglesia de la Purísima Concepción",
+          "time": "18:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Parroquia mayor de la Colonia. Bien de Interés Cultural.",
+          "guideId": "fuente-palmera",
+          "sectionId": "4-2-iglesia-purisima-concepcion",
+          "coords": [
+            37.70321,
+            -5.10429
+          ]
+        },
+        {
+          "id": "s-1-6",
+          "name": "Pósito Real",
+          "time": "19:10",
+          "category": "sight",
+          "status": "planned",
+          "note": "Real Pósito de Labradores y Diezmos (s. XVIII). Granero comunal ilustrado.",
+          "guideId": "fuente-palmera",
+          "sectionId": "4-3-posito-real",
+          "coords": [
+            37.70309,
+            -5.10413
+          ]
+        },
+        {
+          "id": "s-1-7",
+          "name": "Ayuntamiento",
+          "time": "19:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Sede administrativa de la Colonia, cerrando el conjunto de la Plaza Real.",
+          "guideId": "fuente-palmera",
+          "sectionId": "4-4-ayuntamiento",
+          "coords": [
+            37.70337,
+            -5.10434
+          ]
+        },
+        {
+          "id": "s-1-8",
+          "name": "Calle Portales",
+          "time": "19:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "Arteria histórica del casco, llamada así por los soportales originales.",
+          "guideId": "fuente-palmera",
+          "sectionId": "4-5-calle-portales",
+          "coords": [
+            37.70336,
+            -5.10257
+          ]
+        },
+        {
+          "id": "s-1-9",
+          "name": "Cena o tapeo",
+          "time": "21:30",
+          "category": "food",
+          "status": "planned",
+          "coords": [
+            37.7077,
+            -5.0988
+          ]
+        }
+      ],
+      "map": {
+        "center": [
+          37.708,
+          -5.099
+        ],
+        "zoom": 15
+      }
+    },
+    {
+      "id": "dia-2",
+      "number": 2,
+      "title": "Día 2 · Ochavillo del Río",
+      "summary": "Mañana en Ochavillo del Río y comida en el pueblo.",
+      "paragraphs": [
+        "Desayuno tranquilo en la casa y salida a media mañana hacia Ochavillo del Río, la antigua Aldea del Río: una Entidad Local Autónoma con Plaza Real, iglesia del Carmen y el rastro vivo de los apellidos colonos —Dugo, Rossi, Mestre, Hilinger— en todo el vecindario. Recorrido a pie por el trazado carolino durante la mañana y comida en el pueblo al mediodía."
+      ],
+      "stops": [
+        {
+          "id": "s-2-1",
+          "name": "Desayuno en la casa",
+          "time": "08:00",
+          "category": "stay",
+          "status": "done",
+          "coords": [
+            37.71546,
+            -5.07007
+          ]
+        },
+        {
+          "id": "s-2-2",
+          "name": "Salida hacia Ochavillo del Río",
           "time": "09:00",
           "category": "transport",
           "status": "done"
         },
         {
-          "id": "s-1-2",
-          "name": "Llegada a Fuente Palmera",
-          "time": "17:30",
-          "category": "stay",
-          "status": "done",
-          "note": "Base para los próximos días.",
-          "coords": [
-            37.71678,
-            -5.10169
-          ]
-        }
-      ],
-      "map": null
-    },
-    {
-      "id": "dia-2",
-      "number": 2,
-      "title": "Día 2 · Fuente Palmera y Ochavillo del Río",
-      "summary": "Fuente Palmera por la mañana y Ochavillo del Río por la tarde.",
-      "paragraphs": [
-        "Día de descubrimiento de la Colonia. Fuente Palmera es una de las Nuevas Poblaciones fundadas por Carlos III en el siglo XVIII, con trazado urbano ilustrado y colonos centroeuropeos. Ochavillo del Río, unos kilómetros al oeste, es una Entidad Local Autónoma dentro del mismo municipio: la antigua Aldea del Río, con la Plaza Real, la iglesia del Carmen y el rastro vivo de los apellidos colonos —Dugo, Rossi, Mestre, Hilinger— en todo el vecindario."
-      ],
-      "stops": [
-        {
-          "id": "s-2-1",
-          "name": "Paseo por el casco de las Nuevas Poblaciones",
-          "time": "11:00",
-          "category": "sight",
-          "status": "done",
-          "coords": [
-            37.71678,
-            -5.10169
-          ]
-        },
-        {
-          "id": "s-2-2",
-          "name": "Comida en el pueblo",
-          "time": "14:30",
-          "category": "food",
-          "status": "done",
-          "coords": [
-            37.71545,
-            -5.09985
-          ]
-        },
-        {
           "id": "s-2-3",
           "name": "Llegada a Ochavillo del Río",
-          "time": "17:00",
+          "time": "09:30",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
           "sectionId": "1-por-que-merece-una-guia-un-pueblo-tan-pequeno",
@@ -77,12 +174,12 @@
             -5.1314
           ],
           "status": "done",
-          "note": "Aldea del Río, ELA dentro del municipio de Fuente Palmera."
+          "note": "Aldea del Río, ELA con ayuntamiento propio."
         },
         {
           "id": "s-2-4",
           "name": "Plaza Real",
-          "time": "17:15",
+          "time": "09:45",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
           "sectionId": "plaza-real-el-corazon-del-trazado",
@@ -96,7 +193,7 @@
         {
           "id": "s-2-5",
           "name": "Iglesia de Nuestra Señora del Carmen",
-          "time": "17:30",
+          "time": "10:15",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
           "sectionId": "iglesia-nuestra-senora-del-carmen",
@@ -110,7 +207,7 @@
         {
           "id": "s-2-6",
           "name": "Plaza de La Fuente",
-          "time": "17:50",
+          "time": "11:00",
           "category": "sight",
           "guideId": "ochavillo-del-rio",
           "sectionId": "fuente-de-las-pilas-y-plaza-de-la-fuente",
@@ -123,17 +220,155 @@
         },
         {
           "id": "s-2-7",
-          "name": "Bar del pueblo",
-          "time": "19:00",
+          "name": "Comida en el pueblo",
+          "time": "13:00",
           "category": "food",
-          "guideId": "ochavillo-del-rio",
-          "sectionId": "9-la-mesa-pan-huerta-y-cocina-de-la-vega",
           "coords": [
-            37.7560,
+            37.756,
             -5.1315
           ],
-          "status": "done",
-          "note": "Cocina de vega y campiña, dulces de sartén."
+          "status": "done"
+        },
+        {
+          "id": "s-2-8",
+          "name": "Tarde en Córdoba",
+          "category": "sight",
+          "status": "planned",
+          "guideId": "domingo-tarde-cordoba"
+        }
+      ],
+      "mapPois": [
+        {
+          "id": "poi-2-dom-8",
+          "name": "Plaza de las Tendillas",
+          "coords": [
+            37.88606,
+            -4.77893
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "3-7-itinerario-y-horarios",
+          "note": "Punto de arranque cómodo del paseo por la Axerquía alta."
+        },
+        {
+          "id": "poi-2-dom-9",
+          "name": "Cuesta del Bailío y Casa del Bailío",
+          "coords": [
+            37.88866,
+            -4.77676
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "3-5-cristo-de-los-faroles",
+          "note": "Escalón topográfico entre la Villa y la Axerquía; palacio del s. XVI con fachada de Hernán Ruiz II."
+        },
+        {
+          "id": "poi-2-dom-10",
+          "name": "Cristo de los Faroles y Plaza de Capuchinos",
+          "coords": [
+            37.88852,
+            -4.77862
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "3-5-cristo-de-los-faroles",
+          "note": "Cristo de los Desagravios y Misericordia (1794), rodeado por ocho faroles. Empedrado original."
+        },
+        {
+          "id": "poi-2-dom-11",
+          "name": "Iglesia de Santa Marina de Aguas Santas",
+          "coords": [
+            37.89099,
+            -4.77596
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "3-4-santa-marina-de-aguas-santas",
+          "note": "Fernandina de aire de fortaleza, con rosetón y torre de Hernán Ruiz II el Joven. En la plaza, monumento a Manolete."
+        },
+        {
+          "id": "poi-2-dom-12",
+          "name": "Iglesia de San Lorenzo",
+          "coords": [
+            37.88894,
+            -4.77172
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "3-3-san-lorenzo",
+          "note": "Referente del arte fernandino: pórtico de tres arcos, rosetón, torre-campanario sobre alminar."
+        },
+        {
+          "id": "poi-2-dom-13",
+          "name": "Torre de la Malmuerta",
+          "coords": [
+            37.89173,
+            -4.77821
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "3-6-torre-de-la-malmuerta",
+          "note": "Torre albarrana octogonal (1406-1408, Enrique III), junto a los Jardines de Colón."
+        },
+        {
+          "id": "poi-2-dom-14",
+          "name": "Torre de la Calahorra y Museo Vivo de al-Ándalus",
+          "coords": [
+            37.87692,
+            -4.77644
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "4-2-la-torre",
+          "note": "Fortificación islámica cabeza del Puente Romano; hoy museo con maquetas y azotea con panorámica del frente monumental."
+        },
+        {
+          "id": "poi-2-dom-15",
+          "name": "Sotos de la Albolafia",
+          "coords": [
+            37.87754,
+            -4.77861
+          ],
+          "category": "nature",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "4-4-sotos-albolafia-molino-martos",
+          "note": "Monumento Natural en el tramo fluvial urbano: garzas, martinetes, cigüeñas y ánades."
+        },
+        {
+          "id": "poi-2-dom-16",
+          "name": "Molino de la Albolafia",
+          "coords": [
+            37.87801,
+            -4.77938
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "4-4-sotos-albolafia-molino-martos",
+          "note": "Molino harinero medieval con gran noria, aguas arriba del Puente Romano."
+        },
+        {
+          "id": "poi-2-dom-17",
+          "name": "Molino de Martos",
+          "coords": [
+            37.87745,
+            -4.77397
+          ],
+          "category": "sight",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "4-4-sotos-albolafia-molino-martos",
+          "note": "Molino harinero medieval en la margen derecha del Guadalquivir, hoy recuperado."
+        },
+        {
+          "id": "poi-2-dom-18",
+          "name": "Plaza de la Corredera",
+          "coords": [
+            37.88355,
+            -4.77504
+          ],
+          "category": "food",
+          "guideId": "domingo-tarde-cordoba",
+          "sectionId": "5-3-donde-la-cordoba-de-tabernas",
+          "note": "Ambiente local del domingo: terrazas, familias, mercado de abastos, tabernas de barrio."
         }
       ],
       "map": {
@@ -148,15 +383,56 @@
       "id": "dia-3",
       "number": 3,
       "title": "Día 3 · Córdoba",
-      "summary": "Mezquita, Puente Romano y paseo de tarde por la Judería.",
+      "summary": "Desayuno en la casa, viaje a Córdoba y paseo por los alrededores hasta la entrada a la Mezquita a las 11:00; tarde por la Judería.",
       "paragraphs": [
-        "Día completo en Córdoba. Por la mañana, visita a la Mezquita-Catedral siguiendo la cronología del edificio. Cruce del Puente Romano hasta la Torre de la Calahorra. Por la tarde, paseo por la Judería, el Zoco, la Puerta de Almodóvar y las callejas más pintorescas, con el atardecer en el Puente Romano y remate en la Plaza de la Corredera."
+        "Desayuno tranquilo en la casa rural sobre las ocho y salida hacia Córdoba a las nueve; llegada en torno a las diez menos cuarto. Hasta la entrada reservada a la Mezquita-Catedral a las once, paseo por los alrededores —Puerta del Puente, Triunfo de San Rafael y orilla del Guadalquivir—. Después, visita a la Mezquita siguiendo la cronología del edificio y cruce del Puente Romano hasta la Torre de la Calahorra. Por la tarde, paseo por la Judería, el Zoco, la Puerta de Almodóvar y las callejas más pintorescas, con el atardecer en el Puente Romano y remate en la Plaza de la Corredera."
       ],
       "stops": [
         {
+          "id": "s-3-0a",
+          "name": "Desayuno en la casa",
+          "time": "08:00",
+          "category": "stay",
+          "status": "done",
+          "coords": [
+            37.71546,
+            -5.07007
+          ]
+        },
+        {
+          "id": "s-3-0b",
+          "name": "Salida hacia Córdoba",
+          "time": "09:00",
+          "category": "transport",
+          "status": "done"
+        },
+        {
+          "id": "s-3-0c",
+          "name": "Llegada a Córdoba",
+          "time": "09:45",
+          "category": "transport",
+          "status": "done",
+          "coords": [
+            37.879,
+            -4.7794
+          ]
+        },
+        {
+          "id": "s-3-0d",
+          "name": "Paseo por los alrededores de la Mezquita",
+          "time": "10:00",
+          "category": "sight",
+          "status": "done",
+          "note": "Perímetro exterior por el lado del pueblo —Calle Torrijos, Puerta del Perdón y Calle Cardenal Herrero— mientras se hace la hora de la entrada.",
+          "coords": [
+            37.8801,
+            -4.7799
+          ]
+        },
+        {
           "id": "s-3-1",
           "name": "Mezquita-Catedral de Córdoba",
-          "time": "09:30",
+          "time": "11:00",
           "category": "sight",
           "poiId": "mezquita-cordoba",
           "coords": [
@@ -169,7 +445,7 @@
         {
           "id": "s-3-2",
           "name": "Puente Romano",
-          "time": "12:00",
+          "time": "13:00",
           "category": "sight",
           "poiId": "puente-romano",
           "coords": [
@@ -181,11 +457,11 @@
         {
           "id": "s-3-3",
           "name": "Torre de la Calahorra",
-          "time": "12:30",
+          "time": "13:30",
           "category": "sight",
           "coords": [
-            37.87538,
-            -4.77841
+            37.87563,
+            -4.77659
           ],
           "status": "done",
           "guideId": "puente-romano",
@@ -194,7 +470,7 @@
         {
           "id": "s-3-3b",
           "name": "Puente de San Rafael",
-          "time": "13:00",
+          "time": "14:00",
           "category": "sight",
           "guideId": "puente-san-rafael",
           "sectionId": "8-que-ver-desde-el-puente-y-en-su-entorno",
@@ -293,162 +569,633 @@
       "id": "dia-4",
       "number": 4,
       "title": "Día 4 · Almodóvar del Río",
-      "summary": "Castillo, pueblo y atardecer sobre el embalse de La Breña.",
+      "summary": "Castillo por la mañana, pueblo y ribera del Guadalquivir por la tarde.",
       "paragraphs": [
-        "Excursión de un día a Almodóvar del Río. La visita gira en torno a su castillo de origen andalusí sobre el Guadalquivir —al-Mudawwar, \"el redondo\"— restaurado entre 1901 y 1936 por el conde de Torralva y célebre hoy como Altojardín y Roca Casterly en Juego de Tronos. Antes fue Cárbula, puerto ibero y romano del aceite. Se remata en el pueblo, con la croqueta de Almodóvar, y el atardecer sobre el embalse de La Breña II."
+        "Excursión de un día a Almodóvar del Río. La visita gira en torno a su castillo de origen andalusí sobre el Guadalquivir —al-Mudawwar, \"el redondo\"— restaurado entre 1901 y 1936 por el conde de Torralva y célebre hoy como Altojardín y Roca Casterly en Juego de Tronos. Antes fue Cárbula, puerto ibero y romano del aceite. Se remata en el pueblo, con la croqueta de Almodóvar y la ribera del Guadalquivir al atardecer."
       ],
       "stops": [
         {
           "id": "s-4-1",
-          "name": "Castillo de Almodóvar del Río",
+          "name": "Salida hacia Almodóvar del Río",
           "time": "10:30",
+          "category": "transport",
+          "status": "planned"
+        },
+        {
+          "id": "s-4-2",
+          "name": "Castillo de Almodóvar del Río",
+          "time": "11:00",
           "category": "sight",
           "guideId": "almodovar-del-rio",
           "sectionId": "3-el-castillo-seccion-especial",
           "status": "planned",
-          "note": "Comprar entradas online. Calcular 1h30-2h de visita.",
+          "note": "Entrada al castillo a las 11:00. Comprar entradas online en castillodealmodovar.com. Calcular 2h-2h30 de visita.",
           "coords": [
-            37.81066,
-            -5.02216
+            37.80742,
+            -5.02383
           ],
-          "durationMin": 120
+          "durationMin": 150
         },
         {
-          "id": "s-4-2",
+          "id": "s-4-3",
           "name": "Torre del Homenaje",
-          "time": "11:15",
+          "time": "11:45",
           "category": "sight",
           "guideId": "almodovar-del-rio",
           "sectionId": "3-3-la-arquitectura-como-leer-la-fortaleza",
           "status": "planned",
-          "note": "Panorámica de 360° sobre la vega; balcón de Olenna Tyrell.",
+          "note": "Panorámica de 360° sobre la vega; balcón de Olenna Tyrell en Juego de Tronos.",
           "coords": [
-            37.81066,
-            -5.02216
-          ]
-        },
-        {
-          "id": "s-4-3",
-          "name": "Mazmorras (Roca Casterly)",
-          "time": "12:00",
-          "category": "sight",
-          "guideId": "almodovar-del-rio",
-          "sectionId": "3-5-juego-de-tronos-bienvenido-a-altojardin",
-          "status": "planned",
-          "note": "Túneles donde Gusano Gris toma la roca.",
-          "coords": [
-            37.81066,
-            -5.02216
+            37.80742,
+            -5.02383
           ]
         },
         {
           "id": "s-4-4",
-          "name": "Monumento a la Encantá",
-          "time": "13:00",
+          "name": "Mazmorras (Roca Casterly)",
+          "time": "12:30",
           "category": "sight",
           "guideId": "almodovar-del-rio",
-          "sectionId": "3-4-la-leyenda-zaida-la-encanta",
+          "sectionId": "3-5-juego-de-tronos-bienvenido-a-altojardin",
           "status": "planned",
-          "note": "Calle Ramón y Cajal.",
+          "note": "Túneles donde Gusano Gris toma la roca en Juego de Tronos.",
           "coords": [
-            37.80948,
-            -5.01911
+            37.80742,
+            -5.02383
           ]
         },
         {
           "id": "s-4-5",
-          "name": "Iglesia de la Inmaculada Concepción",
+          "name": "Miradores del Ribazo y las Pairejas",
           "time": "13:30",
           "category": "sight",
           "guideId": "almodovar-del-rio",
-          "sectionId": "iglesia-de-la-inmaculada-concepcion",
+          "sectionId": "4-6-los-miradores",
           "status": "planned",
+          "note": "Al bajar del castillo: vistas sobre el pueblo y la campiña.",
           "coords": [
-            37.80906,
-            -5.01712
+            37.80858,
+            -5.02180
           ]
         },
         {
           "id": "s-4-6",
           "name": "Comida en La Taberna de Cuatro Caminos",
-          "time": "14:30",
+          "time": "14:00",
           "category": "food",
           "guideId": "almodovar-del-rio",
-          "sectionId": "5-la-mesa-donde-y-que-comer",
+          "sectionId": "6-la-mesa-donde-y-que-comer",
           "status": "planned",
-          "note": "Pedir la croqueta de Almodóvar.",
+          "note": "Pedir la croqueta de Almodóvar. Sobremesa larga: en agosto, las tres en la calle no es plan.",
           "coords": [
-            37.8095,
-            -5.01756
+            37.81031,
+            -5.01778
           ]
         },
         {
           "id": "s-4-7",
-          "name": "Embalse de La Breña II",
-          "time": "19:30",
+          "name": "Museos del Ayuntamiento (Cárbula)",
+          "time": "16:00",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-3-museos-del-ayuntamiento",
+          "status": "planned",
+          "note": "Museo Histórico y Exposición Arqueológica: los materiales ibéricos y romanos de Cárbula. Comprueba horario.",
+          "coords": [
+            37.80972,
+            -5.02089
+          ]
+        },
+        {
+          "id": "s-4-8",
+          "name": "Iglesia de la Inmaculada Concepción",
+          "time": "18:15",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-1-iglesia-de-la-inmaculada-concepcion",
+          "status": "planned",
+          "note": "Torre cuadrangular, portadas barrocas y bóveda de cañón con lunetos.",
+          "coords": [
+            37.80943,
+            -5.02094
+          ]
+        },
+        {
+          "id": "s-4-9",
+          "name": "Ermita del Rosario y San Sebastián",
+          "time": "18:45",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-2-ermita-del-rosario-y-san-sebastian",
+          "status": "planned",
+          "note": "Calle Santo, 18. Ermita barroca dedicada a la patrona del municipio.",
+          "coords": [
+            37.81005,
+            -5.02135
+          ]
+        },
+        {
+          "id": "s-4-10",
+          "name": "Plaza de la Constitución y Puerta de la Villa",
+          "time": "19:15",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-7-plazas-y-callejeo",
+          "status": "planned",
+          "note": "Centro de la vida del pueblo: sombra, naranjos y la Puerta de la Villa como resto del viejo recinto.",
+          "coords": [
+            37.80985,
+            -5.02110
+          ]
+        },
+        {
+          "id": "s-4-11",
+          "name": "Monumento a Zaida «la Encantá»",
+          "time": "19:45",
+          "category": "sight",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "4-5-monumentos-con-historia",
+          "status": "planned",
+          "note": "Calle Ramón y Cajal: homenaje del pueblo al fantasma del castillo.",
+          "coords": [
+            37.80964,
+            -5.02053
+          ]
+        },
+        {
+          "id": "s-4-12",
+          "name": "Atardecer en los miradores",
+          "time": "20:15",
           "category": "nature",
           "guideId": "almodovar-del-rio",
-          "sectionId": "el-embalse-de-la-brena-ii-y-el-guadiato",
+          "sectionId": "4-6-los-miradores",
           "status": "planned",
-          "note": "Atardecer sobre el pantano con la sierra de Hornachuelos al fondo.",
+          "note": "Mirador de las Pairejas o del Ribazo: la mejor luz del día con el castillo dorado sobre las casas blancas.",
           "coords": [
-            37.792,
-            -5.055
+            37.80858,
+            -5.02180
+          ]
+        },
+        {
+          "id": "s-4-13",
+          "name": "Cena o tapeo en el pueblo",
+          "time": "21:30",
+          "category": "food",
+          "guideId": "almodovar-del-rio",
+          "sectionId": "6-la-mesa-donde-y-que-comer",
+          "status": "planned",
+          "coords": [
+            37.80985,
+            -5.02110
           ]
         }
       ],
       "map": {
         "center": [
-          37.805,
-          -5.035
+          37.808,
+          -5.021
         ],
-        "zoom": 13
+        "zoom": 15
       }
     },
     {
       "id": "dia-5",
       "number": 5,
-      "title": "Día 5 · Viaje a Extremadura pasando por Huelva",
-      "summary": "Trayecto largo con parada en Huelva.",
+      "title": "Día 5 · Aracena y Ahillones",
+      "summary": "De la vega a la sierra: Gruta de las Maravillas, castillo y jamón en Aracena; tarde-noche en Ahillones (Campiña Sur de Badajoz).",
       "paragraphs": [
-        "Día de carretera. Salida temprana desde Fuente Palmera hacia Huelva para una parada intermedia y continuación hacia Extremadura, destino final de la etapa."
+        "Día de gran transición: se abandona la vega del Guadalquivir, se cruza Sierra Morena hacia la Sierra de Aracena para bajar a la Gruta de las Maravillas —hora fija a las 12:00—, subir al castillo templario y comer serrano. Por la tarde, viaje a Ahillones, en la Campiña Sur pacense, con parada opcional en Llerena. Cielo estrellado extremeño como remate."
       ],
       "stops": [
         {
           "id": "s-5-1",
-          "name": "Salida temprana desde Fuente Palmera",
-          "time": "08:00",
-          "category": "transport",
-          "status": "planned"
-        },
-        {
-          "id": "s-5-2",
-          "name": "Parada en Huelva",
+          "name": "Aracena",
+          "time": "11:30",
           "category": "sight",
           "status": "planned",
-          "note": "Buscar dónde comer.",
+          "note": "Gruta de las Maravillas (entrada 12:00), castillo templario, iglesia prioral del Mayor Dolor, Museo del Jamón y comida serrana. Detalle en la guía.",
+          "guideId": "aracena-ahillones",
+          "sectionId": "3-la-gruta-de-las-maravillas",
           "coords": [
-            37.26138,
-            -6.94472
+            37.89106,
+            -6.56586
           ]
         },
         {
-          "id": "s-5-3",
-          "name": "Llegada a Extremadura",
+          "id": "s-5-2",
+          "name": "Ahillones",
+          "time": "19:30",
           "category": "stay",
           "status": "planned",
+          "note": "Segunda base del viaje, en la Campiña Sur pacense. Iglesia mudéjar de los Remedios, ermita del Cristo y cielo estrellado.",
+          "guideId": "aracena-ahillones",
+          "sectionId": "7-ahillones-la-segunda-base",
           "coords": [
-            38.87897,
-            -6.9707
+            38.26003,
+            -5.86447
           ]
         }
       ],
       "map": {
         "center": [
-          37.7,
-          -6.5
+          38.07,
+          -6.21
         ],
-        "zoom": 8
+        "zoom": 9
+      }
+    },
+    {
+      "id": "dia-6",
+      "number": 6,
+      "title": "Día 6 · Ahillones y Llerena",
+      "summary": "Mañana en Ahillones —el pueblo de los pastores de Ayllón— y tarde en Llerena, «la pequeña Atenas de Extremadura»: Plaza de España e iglesia de la Granada, convento de Santa Clara y Palacio de la Inquisición.",
+      "paragraphs": [
+        "Día pausado para leer el pueblo. Por la mañana, paseo por Ahillones con la guía en la mano: Plaza de España, iglesia mudéjar de los Remedios, ermita del Cristo de la Sangre, calle del Cristo como costura entre los dos núcleos medievales, y salida a las afueras a buscar los pilares y abrevaderos que delatan el origen ganadero del pueblo. Comida en un bar del pueblo —caldereta si la hay— y sobremesa larga.",
+        "Por la tarde, escapada de un cuarto de hora a Llerena, «la pequeña Atenas de Extremadura»: capital durante cuatro siglos del priorato santiaguista de San Marcos de León, sede del Tribunal de la Inquisición y ciudad donde vivió, se casó y trabajó Francisco de Zurbarán. La Plaza de España con las galerías porticadas de la iglesia de la Granada y su torre mudéjar; la Corredera hasta el convento de Santa Clara —claustro, mirador de celosía y dulces del torno—; el Palacio de los Zapata al final, en la plaza de la Inquisición; y vuelta a la plaza para cenar viendo caer el sol sobre la fachada blanca."
+      ],
+      "stops": [
+        {
+          "id": "s-6-1",
+          "name": "Desayuno en Ahillones",
+          "time": "09:00",
+          "category": "stay",
+          "status": "planned",
+          "coords": [
+            38.26003,
+            -5.86447
+          ]
+        },
+        {
+          "id": "s-6-2",
+          "name": "Plaza de España",
+          "time": "10:00",
+          "category": "sight",
+          "status": "planned",
+          "note": "Centro cívico y Ayuntamiento; cada año se lee aquí el privilegio de villazgo de 1646.",
+          "guideId": "ahillones",
+          "sectionId": "5-4-casa-popular-y-plaza-de-espana",
+          "coords": [
+            38.26062,
+            -5.86481
+          ]
+        },
+        {
+          "id": "s-6-3",
+          "name": "Iglesia de Nuestra Señora de los Remedios",
+          "time": "10:15",
+          "category": "sight",
+          "status": "planned",
+          "note": "Fachada mudéjar de ladrillo (s. XVI), edificio-ancla que unió los dos núcleos medievales.",
+          "guideId": "ahillones",
+          "sectionId": "5-1-iglesia-nuestra-senora-de-los-remedios",
+          "coords": [
+            38.26084,
+            -5.8648
+          ]
+        },
+        {
+          "id": "s-6-4",
+          "name": "Ermita del Santo Cristo de la Sangre",
+          "time": "10:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "Portada barroca (s. XVIII); el edificio que dio forma urbana al pueblo.",
+          "guideId": "ahillones",
+          "sectionId": "5-2-ermita-del-santo-cristo-de-la-sangre",
+          "coords": [
+            38.26194,
+            -5.8657
+          ]
+        },
+        {
+          "id": "s-6-5",
+          "name": "Calle del Cristo y los dos núcleos",
+          "time": "11:15",
+          "category": "sight",
+          "status": "planned",
+          "note": "La costura urbana del s. XVI que soldó los dos pueblos medievales. Busca la vaguada y las calles viejas: San Juan, de la Fuente, Valverdejo, Toledillo, Hornachuelos, Sierra Morena.",
+          "guideId": "ahillones",
+          "sectionId": "4-urbanismo-leer-el-plano-del-pueblo",
+          "coords": [
+            38.26194,
+            -5.8657
+          ]
+        },
+        {
+          "id": "s-6-6",
+          "name": "Pilares y fuentes del ganado",
+          "time": "11:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "Pilar y fuente del Horno, pilar y fuente del Lugar. Ubicación aproximada en las salidas del pueblo; pregunta al llegar.",
+          "guideId": "ahillones",
+          "sectionId": "5-3-pilares-y-fuentes-la-huella-del-ganado",
+          "coords": [
+            38.2594,
+            -5.86419
+          ]
+        },
+        {
+          "id": "s-6-7",
+          "name": "Comida en el pueblo",
+          "time": "14:00",
+          "category": "food",
+          "status": "planned",
+          "note": "Caldereta de cordero o cabrito, migas, gazpacho extremeño. Bares del pueblo.",
+          "guideId": "ahillones",
+          "sectionId": "7-la-mesa-campinesa",
+          "coords": [
+            38.26003,
+            -5.86447
+          ]
+        },
+        {
+          "id": "s-6-8",
+          "name": "Salida hacia Llerena",
+          "time": "19:00",
+          "category": "transport",
+          "status": "planned"
+        },
+        {
+          "id": "s-6-9",
+          "name": "Plaza de España e iglesia de la Granada",
+          "time": "19:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Fachada única con dos plantas de galerías porticadas, torre gótico-mudéjar y portada barroca. Soportales, portal de Morales y de la Casineta, y la fuente diseñada por Zurbarán en 1617.",
+          "guideId": "ahillones",
+          "sectionId": "9-3-plaza-de-espana-iglesia-de-la-granada",
+          "coords": [
+            38.23785,
+            -6.02057
+          ]
+        },
+        {
+          "id": "s-6-10",
+          "name": "Convento de Santa Clara",
+          "time": "20:15",
+          "category": "sight",
+          "status": "planned",
+          "note": "Único convento habitado de los ocho que tuvo Llerena. Claustro porticado, mirador con celosía de piedra y dulces de las monjas en el torno (horario limitado).",
+          "guideId": "ahillones",
+          "sectionId": "9-4-convento-de-santa-clara",
+          "coords": [
+            38.23720,
+            -6.01977
+          ]
+        },
+        {
+          "id": "s-6-11",
+          "name": "Palacio de los Zapata (plaza de la Inquisición)",
+          "time": "20:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "Tercera y última sede del Santo Oficio en Llerena (1570-1834). Atrio de columnas exterior y patio mudéjar de ladrillo. Hoy sede judicial. De camino, iglesia de Santiago y Museo Histórico.",
+          "guideId": "ahillones",
+          "sectionId": "9-5-palacio-de-los-zapata-e-inquisicion",
+          "coords": [
+            38.23609,
+            -6.01860
+          ]
+        },
+        {
+          "id": "s-6-12",
+          "name": "Cena en la Plaza de España de Llerena",
+          "time": "21:30",
+          "category": "food",
+          "status": "planned",
+          "note": "Atardecer sobre la fachada blanca de la iglesia y cocina de la Campiña Sur: caldereta, migas, ibéricos. Vuelta a Ahillones sobre las 23:00.",
+          "guideId": "ahillones",
+          "sectionId": "9-8-la-mesa-y-la-tarde-paso-a-paso",
+          "coords": [
+            38.23785,
+            -6.02057
+          ]
+        }
+      ],
+      "map": {
+        "center": [
+          38.249,
+          -5.943
+        ],
+        "zoom": 11
+      }
+    },
+    {
+      "id": "dia-7",
+      "number": 7,
+      "title": "Día 7 · Zafra",
+      "summary": "Excursión desde Ahillones a Zafra, \"Sevilla la Chica\": Colegiata con el Zurbarán, plazas porticadas, alcázar-palacio de los duques de Feria y muralla del siglo XV.",
+      "paragraphs": [
+        "Excursión de un día desde la base de Ahillones a Zafra —unos 50 kilómetros, tres cuartos de hora por la N-432—. La ciudad es la capital histórica del sur de Extremadura, mejor ejemplo conservado en España de capital de señorío nobiliario del otoño medieval: la eligieron en 1394 los Suárez de Figueroa como cabeza de sus dominios y la fabricaron a su medida —muralla, alcázar, colegiata, conventos, ferias del rey— con el dinero del gran mercado del suroeste peninsular. Todo el casco es compacto y se recorre a pie.",
+        "El orden del día lo marca la luz y los horarios de los templos: la Colegiata de la Candelaria por la mañana, cuando la luz de los ventanales enciende el retablo con los nueve lienzos de Zurbarán; comida en las plazas porticadas —Grande y Chica— y sobremesa larga; y por la tarde, palacio (patio de mármol clasicista, café dentro sin necesidad de alojarse), judería, hospitales y las puertas de la muralla del cuatrocientos. Vuelta a Ahillones al atardecer; opcional, parada de cinco kilómetros en Los Santos de Maimona para ver desde la carretera el Capricho de Cotrina."
+      ],
+      "stops": [
+        {
+          "id": "s-7-3",
+          "name": "Colegiata de Nuestra Señora de la Candelaria",
+          "time": "10:00",
+          "category": "sight",
+          "status": "planned",
+          "note": "Iglesia mayor (s. XVI): retablo de los Remedios con nueve lienzos de Zurbarán (1644), retablo mayor de Blas de Escobar, Valvanera de los cameranos y pila bautismal de 1309. Mejor con la luz de la mañana.",
+          "guideId": "zafra",
+          "sectionId": "4-2-colegiata-nuestra-senora-de-la-candelaria",
+          "coords": [
+            38.42604,
+            -6.41929
+          ],
+          "durationMin": 60
+        },
+        {
+          "id": "s-7-4",
+          "name": "Convento de Santa Clara",
+          "time": "11:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Monasterio de Santa María del Valle (1428), panteón de los Feria: alabastros del s. XV, sepulcros y museo de vida monástica. Si el torno está abierto, dulces de las clarisas.",
+          "guideId": "zafra",
+          "sectionId": "4-3-conventos-y-hospitales",
+          "coords": [
+            38.42373,
+            -6.41886
+          ]
+        },
+        {
+          "id": "s-7-5",
+          "name": "Plaza Grande",
+          "time": "12:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Porticada a mediados del s. XV sobre el solar de la primera iglesia y su cementerio. Casa de Pedro de Valencia, escudos y balconadas.",
+          "guideId": "zafra",
+          "sectionId": "4-4-las-plazas",
+          "coords": [
+            38.42532,
+            -6.41951
+          ]
+        },
+        {
+          "id": "s-7-6",
+          "name": "Arquillo del Pan",
+          "time": "12:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "El arco entre las dos plazas (donde se ponían los panaderos); mira arriba la hornacina de la Virgen de la Esperancita (retablito de Blas de Escobar, s. XVII).",
+          "guideId": "zafra",
+          "sectionId": "4-4-las-plazas",
+          "coords": [
+            38.42538,
+            -6.42005
+          ]
+        },
+        {
+          "id": "s-7-7",
+          "name": "Plaza Chica",
+          "time": "13:00",
+          "category": "sight",
+          "status": "planned",
+          "note": "40×25 m, 27 soportales, dos columnas romanas reaprovechadas y la vara de medir grabada en un fuste: patrón oficial de medida del s. XV.",
+          "guideId": "zafra",
+          "sectionId": "4-4-las-plazas",
+          "coords": [
+            38.4254,
+            -6.42029
+          ]
+        },
+        {
+          "id": "s-7-8",
+          "name": "Comida en las plazas",
+          "time": "14:00",
+          "category": "food",
+          "status": "planned",
+          "note": "Ibérico, queso extremeño y vino Ribera del Guadiana. Terrazas de la Plaza Grande y la Plaza Chica, o La Rebotica; huir de la primera terraza y buscar bar con clientela local.",
+          "guideId": "zafra",
+          "sectionId": "7-la-mesa",
+          "coords": [
+            38.4254,
+            -6.42029
+          ]
+        },
+        {
+          "id": "s-7-9",
+          "name": "Alcázar-Palacio de los Duques de Feria (Parador)",
+          "time": "16:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Alcázar gótico-mudéjar de 1437 con patio clasicista de mármol blanco (h. 1600). No hace falta alojarse: café en el patio escuchando la fuente.",
+          "guideId": "zafra",
+          "sectionId": "4-1-alcazar-palacio-duques-de-feria",
+          "coords": [
+            38.42413,
+            -6.41689
+          ],
+          "durationMin": 60
+        },
+        {
+          "id": "s-7-10",
+          "name": "Plaza del Corazón de María",
+          "time": "17:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Frente al alcázar: palacio neomudéjar de los marqueses de Solanda e iglesia de Santa Marina.",
+          "guideId": "zafra",
+          "sectionId": "3-urbanismo-leer-la-ciudad",
+          "coords": [
+            38.4241,
+            -6.4176
+          ]
+        },
+        {
+          "id": "s-7-11",
+          "name": "Antigua sinagoga (capilla de San José)",
+          "time": "18:00",
+          "category": "sight",
+          "status": "planned",
+          "note": "Sinagoga de la segunda mitad del s. XV, poco anterior a la expulsión de 1492. En la calle San José, corazón de la vieja judería.",
+          "guideId": "zafra",
+          "sectionId": "2-3-la-ciudad-de-las-tres-comunidades",
+          "coords": [
+            38.42639,
+            -6.41939
+          ]
+        },
+        {
+          "id": "s-7-12",
+          "name": "Hospital de San Miguel",
+          "time": "18:15",
+          "category": "sight",
+          "status": "planned",
+          "note": "Mudéjar de finales del s. XV, en la vieja judería.",
+          "guideId": "zafra",
+          "sectionId": "2-3-la-ciudad-de-las-tres-comunidades",
+          "coords": [
+            38.42732,
+            -6.41887
+          ]
+        },
+        {
+          "id": "s-7-13",
+          "name": "Hospital de Santiago",
+          "time": "18:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "Portada del gótico final, a veces descrita como manuelina por la influencia del vecino Portugal.",
+          "guideId": "zafra",
+          "sectionId": "4-3-conventos-y-hospitales",
+          "coords": [
+            38.42495,
+            -6.42047
+          ]
+        },
+        {
+          "id": "s-7-14",
+          "name": "Arco de Jerez",
+          "time": "19:15",
+          "category": "sight",
+          "status": "planned",
+          "note": "Única puerta que se conserva de la cerca de 1426-1449, hoy con la capilla del Cristo de la Humildad y Paciencia.",
+          "guideId": "zafra",
+          "sectionId": "3-urbanismo-leer-la-ciudad",
+          "coords": [
+            38.42513,
+            -6.42127
+          ]
+        },
+        {
+          "id": "s-7-15",
+          "name": "Arco del Cubo",
+          "time": "19:30",
+          "category": "sight",
+          "status": "planned",
+          "note": "Baluarte del Cubo (Puerta de Badajoz): sobre la vieja puerta, hornacina con el relieve de Santiago Matamoros.",
+          "guideId": "zafra",
+          "sectionId": "3-urbanismo-leer-la-ciudad",
+          "coords": [
+            38.4279,
+            -6.42145
+          ]
+        },
+        {
+          "id": "s-7-16",
+          "name": "Convento de Santa Catalina",
+          "time": "19:45",
+          "category": "sight",
+          "status": "planned",
+          "note": "Artesonados mudéjares.",
+          "guideId": "zafra",
+          "sectionId": "4-3-conventos-y-hospitales",
+          "coords": [
+            38.42443,
+            -6.42049
+          ]
+        }
+      ],
+      "map": {
+        "center": [
+          38.4254,
+          -6.4197
+        ],
+        "zoom": 16
       }
     }
   ]

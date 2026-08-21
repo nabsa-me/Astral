@@ -45,6 +45,7 @@ export default function StopList({
         return (
           <li
             key={stop.id}
+            id={`stop-${stop.id}`}
             className={`stop${done ? ' is-done' : ' is-planned'}${isSelected ? ' is-selected' : ''}`}
           >
             <button
@@ -78,7 +79,7 @@ export default function StopList({
                   onClick={() => onOpenStop(stop)}
                 >
                   <Icon icon="menu_book" />
-                  <span className="stop-guide-chip-label">Guía · {chipLabel}</span>
+                  <span className="stop-guide-chip-label">{chipLabel}</span>
                 </button>
               ) : null}
             </div>

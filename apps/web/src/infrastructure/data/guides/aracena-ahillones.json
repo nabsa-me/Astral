@@ -1,0 +1,278 @@
+{
+  "id": "aracena-ahillones",
+  "title": "De la vega a la sierra, y de la sierra a Extremadura",
+  "subtitle": "Aracena, la Gruta de las Maravillas, el camino y la noche en Ahillones",
+  "sections": [
+    {
+      "id": "1-el-dia-de-un-vistazo",
+      "level": 2,
+      "title": "El día de un vistazo",
+      "paragraphs": [
+        "El quinto día es el de la gran transición del viaje: se abandona la vega del Guadalquivir, se cruza Sierra Morena hacia la Sierra de Aracena —uno de los paisajes más hermosos y desconocidos de Andalucía— y, tras una jornada bajo tierra y entre jamones, se remonta hacia el norte para entrar en Extremadura, donde Ahillones, un pueblo de la Campiña Sur de Badajoz, será la segunda base de la ruta. Es un día de contrastes extraordinarios: del calor de la campiña al frescor de una cueva a 16 grados constantes; de la dehesa de encinas y cerdos ibéricos a las llanuras cerealistas extremeñas; de la fortaleza templaria de Aracena a un pueblo fundado por pastores segovianos que llegaron con la Mesta. Y es un día con un hito cronológico fijo —la entrada a la Gruta de las Maravillas a las 12:00—, que ordena todo lo demás. Esta guía te cuenta cada pieza en profundidad y te ayuda a encadenarlas sin prisas."
+      ],
+      "figures": []
+    },
+    {
+      "id": "2-la-manana-camino-a-aracena",
+      "level": 2,
+      "title": "La mañana: de Fuente Palmera a Aracena",
+      "paragraphs": [
+        "Desde Fuente Palmera hasta Aracena hay algo menos de 200 kilómetros, unas dos horas y cuarto de coche. La ruta más natural baja a la A-4 (o cruza por la campiña hacia Écija) y luego toma hacia el oeste, para entrar en la Sierra de Aracena por la N-433, la carretera que sube desde Sevilla —bellísima en su tramo final, serpenteando entre encinares, alcornoques y castaños— y que atraviesa en su recorrido el cambio de paisaje más importante del día: de la campiña abierta al Parque Natural de la Sierra de Aracena y Picos de Aroche, el gran bosque del suroeste peninsular. Con la entrada a las 12:00, conviene salir sobre las 9:00-9:15 para llegar con margen, aparcar y respirar: Aracena tiene aparcamientos en la zona de la Gruta (calle Pozo de la Nieve) y junto a la Plaza Alta, y las entradas con hora no esperan.",
+        "Un consejo práctico antes de entrar: la gruta está a 16-19 grados con un 98% de humedad y el suelo es resbaladizo, así que lleva una prenda de abrigo ligera —se agradece después del horno exterior— y calzado con suela que agarre. No se permite hacer fotografías ni vídeo en el interior: es una de las reglas de la gruta para preservar las formaciones y la experiencia, así que ve dispuesto a mirar y no a fotografiar. Y un dato que conviene saber: la entrada que tienes es la **tarjeta turística combinada** de Aracena, que da acceso a la Gruta, al Castillo y al Museo del Jamón; la gruta tiene hora fija, pero los otros dos se visitan con libertad dentro de su horario. La fórmula es la del propio Ayuntamiento, que gestiona los tres espacios."
+      ],
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Paisaje del Parque Natural de la Sierra de Aracena y Picos de Aroche: dehesa de encinas y bosque mediterráneo.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Aracena23te.jpg",
+          "alt": "Paisaje de la Sierra de Aracena con dehesa de encinas",
+          "credit": "Wikimedia Commons · Dominio público"
+        }
+      ]
+    },
+    {
+      "id": "3-la-gruta-de-las-maravillas",
+      "level": 2,
+      "title": "La Gruta de las Maravillas",
+      "paragraphs": [],
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Interior de la Gruta de las Maravillas: estalactitas, estalagmitas y coladas iluminadas.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/14.10.02_Gruta_de_las_Maravillas.jpg",
+          "alt": "Interior iluminado de la Gruta de las Maravillas con formaciones kársticas",
+          "credit": "Wikimedia Commons · CC BY-SA 2.0"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Uno de los seis lagos subterráneos: el techo se refleja en el agua inmóvil hasta desdibujar el límite entre roca y espejo.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Gruta_de_las_maravillas%2C_Aracena%2C_Huelva%2C_2017_01.jpg",
+          "alt": "Lago subterráneo con reflejos del techo en la Gruta de las Maravillas",
+          "credit": "Wikimedia Commons · CC BY-SA 4.0"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Columnas y coladas de la cavidad: la caliza precipitada gota a gota dibuja cascadas petrificadas.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Gruta_de_las_maravillas%2C_Aracena%2C_Huelva%2C_2017_08.jpg",
+          "alt": "Columnas y coladas de la Gruta de las Maravillas",
+          "credit": "Wikimedia Commons · CC BY-SA 4.0"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Detalle de las formaciones y de la iluminación cuidada que las realza sin deslumbrar.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gruta_de_las_maravillas_01.jpg",
+          "alt": "Detalle de formaciones kársticas iluminadas en la Gruta de las Maravillas",
+          "credit": "Wikimedia Commons · CC BY-SA 4.0"
+        }
+      ],
+      "subsections": [
+        {
+          "id": "3-1-que-es-y-por-que-es-unica",
+          "level": 3,
+          "title": "Qué es y por qué es única",
+          "paragraphs": [
+            "La Gruta de las Maravillas es una cavidad kárstica excavada por el agua en el cerro del Castillo de Aracena, en pleno casco urbano del pueblo —esta es su primera rareza: se entra a la cueva desde una calle—. Se desarrolla en tres niveles superpuestos con un total de unos 2.130 metros de galerías, de los cuales unos 1.200 están habilitados para la visita. Pero lo que la hace extraordinaria no es su tamaño sino su combinación de tres cosas difíciles de reunir: la extensión de sus **lagos subterráneos** —es una de las mayores reservas de agua de la comarca, y la visita bordea seis lagos de aguas tan transparentes que parecen no existir—, la **abundancia y variedad de formaciones** (estalactitas, estalagmitas, columnas, coladas, gours o terrazas de agua, banderas y excéntricas que crecen desafiando la gravedad, y las raras formaciones de aragonito), y la **calidad de la iluminación**, cuidada para realzar sin deslumbrar. Es, con razón, una de las cuevas más bellas de España y la más visitada de Andalucía."
+          ],
+          "figures": []
+        },
+        {
+          "id": "3-2-como-se-formo",
+          "level": 3,
+          "title": "Cómo se formó: medio millar de millones de años de agua y piedra",
+          "paragraphs": [
+            "La roca que alberga la gruta es mármol y caliza de edad cámbrica —más de 500 millones de años—, que en la sierra de Aracena aflora en bandas entre rocas más antiguas. La cueva en sí es mucho más joven, pero su génesis es la de todas las cavidades kársticas: el agua de lluvia, ligeramente ácida por el dióxido de carbono que toma del aire y del suelo, disuelve lentamente la caliza al filtrarse por sus grietas, y a lo largo de cientos de miles de años va abriendo galerías. Los tres niveles de la gruta corresponden a tres estadios sucesivos del nivel freático, que fue descendiendo y dejando \"colgados\" los pisos superiores mientras excavaba los inferiores —por eso el nivel más bajo sigue inundado y forma los lagos—. En una segunda fase, cuando las galerías ya están abiertas al aire, el proceso se invierte: el agua que gotea del techo, cargada de carbonato cálcico disuelto, lo deposita al perder el gas, y esa precipitación lentísima —milímetros por siglo— construye las estalactitas que cuelgan, las estalagmitas que crecen desde el suelo, las columnas cuando ambas se encuentran, las coladas que tapizan las paredes como cascadas petrificadas y los gours, esas presas naturales en forma de terrazas escalonadas que retienen el agua. Lo que verás en cincuenta minutos es el trabajo de un millón de años de paciencia mineral, y sigue en marcha: cada gota que cae en la gruta está, literalmente, construyéndola."
+          ],
+          "figures": []
+        },
+        {
+          "id": "3-3-la-historia",
+          "level": 3,
+          "title": "La historia: de una vaca perdida a la primera cueva turística de España",
+          "paragraphs": [
+            "La historia humana de la gruta tiene su dosis de leyenda. Las primeras referencias a \"una cueva en Aracena\" son de mediados del siglo XIX, y en 1886 el ingeniero de minas Gonzalo y Tarín dejó constancia documental de su existencia —por entonces el cerro se explotaba en busca de minerales, y una de las teorías sostiene que fueron los mineros quienes dieron con ella—. La tradición popular prefiere otra versión, más bonita: el descubridor habría sido un pastor conocido como el Tío Blas, que buscando una vaca perdida se topó con la boca de la cueva y entró tras ella. Sea minero o pastor el héroe, la belleza del hallazgo corrió de boca en boca, y a comienzos del siglo XX dos personajes locales —el marqués de Aracena, Francisco Javier Sánchez-Dalp, figura clave de la Aracena moderna, y el alcalde Juan del Cid— emprendieron en 1911 las obras de acondicionamiento, dirigidas por el ingeniero Juan Pérez de Oyuela con un criterio notablemente respetuoso con las formaciones.",
+            "Y en septiembre de **1914** la Gruta de las Maravillas abrió al público como la **primera cueva turística de España**, un hito del turismo subterráneo europeo: hasta entonces, en España las cuevas eran cosa de espeleólogos, no de visitantes. El éxito fue inmediato, y el propio **Alfonso XIII** la visitó dos veces, en 1915 y 1929. En 1926 se descubrieron nuevas galerías del segundo nivel, que configuraron el recorrido que hoy se hace, y en 1933 la propiedad pasó al Ayuntamiento de Aracena, que la gestiona desde entonces. Se la llamó al principio \"Gruta de las Hadas\", y ha inspirado a todo el mundo: hay quien asegura —la tradición lo repite, aunque conviene tomarlo con cautela— que la ambientación de alguna película de aventuras se filmó o se inspiró en sus salas. Más allá de leyendas, su historia real ya es suficientemente buena: más de un siglo de visitantes asomándose a sus lagos."
+          ],
+          "figures": []
+        },
+        {
+          "id": "3-4-el-recorrido-sala-por-sala",
+          "level": 3,
+          "title": "El recorrido, sala por sala",
+          "paragraphs": [
+            "La visita es guiada, en grupos, dura unos 50 minutos y recorre los niveles con subidas y bajadas moderadas por pasarelas y escaleras. El itinerario, aunque el guía lo adapta, sigue un orden que conviene conocer para saborearlo. Se entra por la **Gran Sala**, presentación de lo que vendrá, y se pasa a la **Sala de las Conchas**, con formaciones en láminas que recuerdan a conchas marinas, y la **Sala de los Brillantes**, donde los cristales de calcita centellean bajo la luz. Llega después uno de los momentos culminantes: el **Gran Lago**, el mayor de los seis lagos de la gruta, una lámina de agua tan inmóvil y transparente que el techo se refleja en ella con una perfección desconcertante; muchos visitantes tardan en entender que están viendo agua. Subiendo al segundo nivel por una larga escalera se accede a **La Catedral**, la zona más alta de la gruta, sostenida por inmensas columnas que unen suelo y techo, con la acústica y el recogimiento de una nave gótica; sigue el **Lago de la Sultana** y la **Sala de las Esmeraldas**, con coladas de colores variados y las formaciones más espectaculares. Para bajar de nuevo al primer piso hay que asomarse antes a la **Cristalería de Dios**, un conjunto de excéntricas y cristales de una delicadeza que justifica el nombre, y atravesar la curiosa **Sala de los Garbanzos**, con sus rocas en forma de árbol y cristales como dientes caninos. Y antes de la salida aguarda la sala más célebre y más fotografiada (de no estar prohibido): el **Salón de los Desnudos**, que despide al visitante con un conjunto de formaciones de formas inequívocamente fálicas, y que ha convertido a la gruta en protagonista de mil sonrisas y alguna que otra anécdota de guía turístico. La naturaleza tiene sentido del humor, y la Gruta de las Maravillas lo reserva para el final."
+          ],
+          "figures": []
+        }
+      ]
+    },
+    {
+      "id": "4-aracena-castillo-iglesia-museo",
+      "level": 2,
+      "title": "Aracena: el castillo, la iglesia y el Museo del Jamón",
+      "paragraphs": [
+        "La gruta es la estrella, pero con la tarjeta combinada tienes otras dos visitas que completan la mañana y que encajan a la perfección antes o después de comer."
+      ],
+      "figures": [],
+      "subsections": [
+        {
+          "id": "4-1-aracena-capital-de-la-sierra",
+          "level": 3,
+          "title": "Aracena, capital de la sierra",
+          "paragraphs": [
+            "Aracena es la cabecera de la comarca y del Parque Natural —unos 8.000 habitantes, a 700 metros de altitud—, y un pueblo bonito por sí mismo, con casas señoriales, plazas con solera (la Plaza Alta con el renacentista Cabildo Viejo del XVI y la iglesia de la Asunción; la plaza de San Pedro) y una peculiaridad muy agradable: sus calles están salpicadas de esculturas contemporáneas al aire libre, que forman un museo de arte contemporáneo andaluz al que se tropieza paseando. Su historia es la de la frontera: tierra de paso entre Andalucía, Extremadura y Portugal, repoblada tras la conquista cristiana del siglo XIII por las órdenes militares, que la convirtieron en plaza fuerte. Pero para el viajero moderno Aracena significa sobre todo dos cosas: la gruta y el **jamón**. Está dentro de la Denominación de Origen Protegida **Jabugo**, y aunque Jabugo pone el nombre, Aracena ejerce de capital gastronómica de la sierra, con el Museo del Jamón y una concentración de restaurantes serranos de primera."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Vista general de Aracena, con el castillo y la iglesia prioral coronando el cerro sobre el caserío blanco.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Aracena_in_Spain_01.jpg",
+              "alt": "Vista general de Aracena con el castillo y la iglesia sobre el cerro",
+              "credit": "Wikimedia Commons · CC BY 2.0"
+            }
+          ]
+        },
+        {
+          "id": "4-2-el-castillo-y-la-iglesia-prioral",
+          "level": 3,
+          "title": "El castillo y la iglesia prioral",
+          "paragraphs": [
+            "Corona el pueblo, sobre el mismo cerro bajo el que se abre la gruta, el **castillo de Aracena**, una fortaleza de origen musulmán reconstruida en el siglo XIII, tras la conquista cristiana. La historia de esa conquista es de órdenes militares: a mediados del siglo XIII los caballeros hospitalarios arrebataron la alcazaba a los musulmanes, y a finales de siglo la presión castellana la puso en manos de la **Orden de Santiago** —aunque la tradición local, obstinada, atribuye su posesión a los templarios, y de \"templaria\" se sigue llamando a la iglesia—. Del castillo quedan murallas, torres y el adarve o paseo de ronda, recorrible, desde donde se contempla el conjunto histórico de Aracena y el paisaje de la sierra; en el interior no queda gran cosa, pero la vista y el paseo justifican la subida. Se accede a pie por la calle Virgen del Mayor Dolor o por los senderos que suben desde la propia gruta por la ladera del cerro —la opción más bonita y lógica viniendo de la visita subterránea—.",
+            "Dentro del recinto se alza el templo más antiguo y emblemático de Aracena: la **iglesia prioral de Nuestra Señora del Mayor Dolor**, iniciada en el siglo XIII y terminada en el XV, de estilo gótico-mudéjar, cuyo aire de fortificación delata su origen de iglesia de orden militar. Merece la pena fijarse en sus bóvedas de crucería, en el camarín neoclásico y, sobre todo, en la **torre mudéjar decorada con paños de sebka**, el motivo de rombos entrelazados que es la firma del mudéjar andaluz, hermano de la Giralda. Alberga a la patrona del pueblo, y su atrio es uno de los mejores miradores sobre la sierra. La entrada es gratuita."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "El castillo de Aracena sobre el mismo cerro bajo el que se abre la Gruta de las Maravillas.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Castelo_de_Aracena%2C_Espanha.jpg",
+              "alt": "Castillo de Aracena sobre el cerro",
+              "credit": "Wikimedia Commons · Dominio público"
+            },
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Panorámica de Aracena desde el castillo: el pueblo se extiende a los pies del cerro fortificado.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Desde_Castillo_Aracena.jpg",
+              "alt": "Panorámica de Aracena vista desde el castillo",
+              "credit": "Wikimedia Commons · CC BY-SA 3.0"
+            },
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Interior gótico-mudéjar de la iglesia prioral de Nuestra Señora del Mayor Dolor.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Aracena5.jpg",
+              "alt": "Interior gótico-mudéjar de la iglesia prioral del Mayor Dolor de Aracena",
+              "credit": "Wikimedia Commons · CC BY 2.0"
+            },
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Puerta y espadaña de acceso al recinto del castillo.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Puerta_y_espada%C3%B1a_de_acceso_-_Castillo_de_Aracena.jpg",
+              "alt": "Puerta y espadaña de acceso al Castillo de Aracena",
+              "credit": "Wikimedia Commons · Dominio público"
+            }
+          ]
+        },
+        {
+          "id": "4-3-el-museo-del-jamon",
+          "level": 3,
+          "title": "El Museo del Jamón",
+          "paragraphs": [
+            "La tercera pata de la entrada combinada es el **Museo del Jamón**, un centro de interpretación que explica de forma amena el ciclo completo del cerdo ibérico: la dehesa y la montanera —los meses de otoño en que el cerdo engorda a base de bellotas, clave del sabor—, la matanza tradicional, el proceso de curación de años en secaderos y bodegas, las categorías y la denominación de origen Jabugo, y el corte del jamón. Es una visita breve, didáctica y muy recomendable antes de comer, porque después se saborea distinto; y tiene el acierto de contextualizar el jamón como lo que es, un producto de un ecosistema —la dehesa— y de una cultura ganadera ancestral, no solo una exquisitez."
+          ],
+          "figures": []
+        }
+      ]
+    },
+    {
+      "id": "5-la-mesa-serrana",
+      "level": 2,
+      "title": "La mesa serrana: dónde y qué comer en Aracena",
+      "paragraphs": [
+        "Aracena come extraordinariamente bien, y es el sitio del viaje donde hay que darse un homenaje con el cerdo ibérico. La materia prima es de una calidad incontestable: jamón y embutidos de la DOP Jabugo, y las carnes frescas del ibérico —**presa, pluma, secreto, solomillo, carrillada**— que en la sierra se hacen a la brasa con una maestría que difícilmente encontrarás en otro sitio. A ello se suman, según temporada, las **setas** del Parque Natural —la sierra es uno de los grandes territorios micológicos de España: tanas, tentullos, gurumelos, níscalos, que aparecen en revueltos, croquetas, arroces y guisos— y las **castañas** de los castañares que has atravesado al llegar. Los platos de cuchara serranos (carrilleras con patatas, sopa de peso, potajes) completan una cocina de montaña honesta y generosa. En agosto no hay setas frescas, pero sí conservas y el ibérico a pleno rendimiento.",
+        "Para elegir mesa, tres apuestas seguras, de distinto registro: **José Vicente** (avenida de Andalucía), la referencia histórica de la cocina serrana, una casa familiar donde, como dice su dueño, las verduras huelen a huerta y las setas al bosque, y cuyas costillas ibéricas y tortilla con setas y jamón son legendarias; conviene reservar o llegar pronto. **Montecruz** (plaza de San Pedro), recomendado por la guía Michelin como referencia de la zona, con carta serrana basada en ibéricos, arroces y caza, y una barra de tapas excelente si prefieres algo más informal. Y para un tapeo rápido junto a la gruta, los bares de la calle Pozo de la Nieve —como **Artesanos Juantxo**, ambientado en la propia cavidad— resuelven con dignidad. Pide siempre un plato de jamón de bellota para empezar: aquí, no pedirlo sería casi una descortesía."
+      ],
+      "figures": []
+    },
+    {
+      "id": "6-la-tarde-camino-a-extremadura",
+      "level": 2,
+      "title": "La tarde: el camino a Extremadura",
+      "paragraphs": [
+        "Después de comer y de la sobremesa toca el segundo gran tramo del día: de Aracena a Ahillones hay unos 170-180 kilómetros, en torno a dos horas y cuarto. La ruta más directa sube hacia el norte por la Sierra de Aracena para entrar en Extremadura y enlazar con la N-432 (la carretera Badajoz-Granada), que cruza la Campiña Sur pacense y pasa literalmente por Ahillones; la alternativa es rodear por Santa Olalla del Cala y la autovía de la Plata (A-66) hasta Zafra y tomar después hacia el este por Llerena. Cualquiera de las dos es un cambio de mundo: dejas atrás la dehesa serrana de encinas, alcornoques y cerdos ibéricos y entras en las llanuras onduladas de la Campiña Sur, tierra de cereal, olivar y viñedo bajo un cielo inmenso. Saliendo de Aracena hacia las 17:00-17:30 llegas a Ahillones con luz de sobra, hacia las 19:30-20:00, justo para la mejor hora del pueblo.",
+        "De camino, si el tiempo lo permite, hay una parada con mucho sentido: **Llerena**, a solo 14 kilómetros de Ahillones, ciudad declarada Conjunto Histórico-Artístico, capital histórica de la comarca y sede durante siglos del priorato de San Marcos de León de la Orden de Santiago y del tribunal de la Inquisición de Extremadura. Su Plaza Mayor porticada con la iglesia de la Granada es de las más bellas de Extremadura, y tiene una nómina de hijos ilustres asombrosa para su tamaño: el cronista de Indias Pedro Cieza de León, el humanista Arias Montano y, sobre todo, el pintor **Francisco de Zurbarán**, que vivió y trabajó aquí buena parte de su vida. Es, además, la ciudad de la que dependió Ahillones durante siglos, así que verla primero es entender el pueblo al que llegas. Si no hoy, es una excursión perfecta para otro día desde la base."
+      ],
+      "figures": []
+    },
+    {
+      "id": "7-ahillones-la-segunda-base",
+      "level": 2,
+      "title": "Ahillones: la segunda base",
+      "paragraphs": [],
+      "figures": [],
+      "subsections": [
+        {
+          "id": "7-1-el-pueblo-de-los-pastores-de-ayllon",
+          "level": 3,
+          "title": "El pueblo de los pastores de Ayllón",
+          "paragraphs": [
+            "Ahillones es un pueblo pequeño —en torno al millar de habitantes— de la **Campiña Sur** de Badajoz, a unos 580 metros de altitud, en el sureste de Extremadura, entre Llerena y Azuaga, junto a la N-432. Tiene una singularidad geográfica curiosa: su término municipal está **completamente rodeado** por el de Berlanga, como una isla dentro de otro pueblo. Y tiene, sobre todo, un origen que explica hasta su nombre, y que engancha con la historia profunda de España.",
+            "El nombre lo dice todo, aunque haya que saber leerlo: Ahillones viene de **\"los Ayllones\"**, es decir, \"los de Ayllón\". Según la tradición, recogida por el propio Ayuntamiento, el asentamiento nació en tiempos de la **Mesta** —la poderosa organización de ganaderos trashumantes de la Castilla medieval— de un grupo de pastores procedentes de las tierras segovianas de Sepúlveda, probablemente del pueblo de **Ayllón**, que bajaban cada año con sus rebaños a pasar el invierno en las dehesas extremeñas siguiendo las cañadas reales. Con el tiempo, algunos se quedaron, y el lugar pasó a llamarse \"el lugar de los Ayllones\". Es decir: estás en un pueblo fundado por la trashumancia, por el vaivén secular de ovejas entre la meseta y Extremadura que modeló medio país. Durante siglos se escribió \"Ayllones\" o \"Aillones\", y solo a mediados del XIX se fijó la grafía actual. En extremeño, por cierto, se llama Ahillonis.",
+            "Históricamente, la zona estuvo poblada desde época romana y musulmana en pequeños asentamientos dispersos, y tras la conquista cristiana —San Fernando la ganó a mediados del XIII a través del maestre santiaguista Pelay Pérez— pasó a la **Orden de Santiago**, que dominó toda esta comarca (la misma orden que viste en Aracena por la mañana: las órdenes militares son el hilo rojo del día). Ahillones fue encomienda santiaguista, dependiente primero de la jurisdicción de Reina —el pueblo vecino con su alcazaba y su teatro romano en Casas de Reina— y eclesiásticamente del priorato de San Marcos de León con sede en Llerena. Su gran fecha es el **18 de septiembre de 1646**, cuando Felipe IV le concedió por Real Privilegio el título de **Villa**, independizándola de Reina: el nacimiento de Ahillones como municipio propio. Siguió bajo el priorato santiaguista hasta 1873, cuando la bula \"Quo Gravius\" de Pío IX suprimió los prioratos de las órdenes y el pueblo pasó a la diócesis de Badajoz."
+          ],
+          "figures": []
+        },
+        {
+          "id": "7-2-que-ver-iglesia-mudejar-y-ermita-cristo",
+          "level": 3,
+          "title": "Qué ver: la iglesia mudéjar y la ermita del Cristo",
+          "paragraphs": [
+            "El patrimonio de Ahillones es modesto pero tiene carácter, y se ve en un paseo. El edificio principal es la **iglesia parroquial de Nuestra Señora de los Remedios**, de principios del **siglo XVI**, de mampostería y ladrillo, con la fachada de estilo **mudéjar** característico de toda la comarca —ese ladrillo visto y esos arcos que son la firma de las iglesias de la Campiña Sur y de la vecina Llerena— y una sola nave en tres tramos. Muy cerca está la **ermita del Santo Cristo de la Sangre**, con una hermosa portada barroca, fruto de la última remodelación de mediados del siglo XVIII; y esta ermita es importante por una razón urbanística curiosa: determinó la forma del pueblo, porque las casas fueron creciendo a su alrededor hacia el norte y el sur hasta formar la calle que lleva su nombre y unir los dos núcleos de calles preexistentes. Fíjate también en los nombres de las calles —Albardilla, Cantarranas, la Fuente, Cerrillo— y en los **pilares y abrevaderos** que rodean el pueblo (el pilar y fuente del Horno, el del Lugar): herencia directa de aquel origen ganadero, cuando el agua para los rebaños era lo primero."
+          ],
+          "figures": []
+        },
+        {
+          "id": "7-3-la-gente-las-fiestas-y-la-mesa",
+          "level": 3,
+          "title": "La gente, las fiestas y la mesa",
+          "paragraphs": [
+            "La vida de Ahillones gira en torno a su Cristo. Las fiestas grandes son las del **Cristo de la Sangre**, del 13 al 16 de septiembre, en honor al patrón: el 13 es el **Día del Ramo**, una tradición antiquísima en la que se recorren todas las calles del pueblo en tractores y remolques recogiendo los regalos y donativos que la gente entrega a la Hermandad para sufragar las fiestas; el 14, la procesión del Cristo. En mayo hay romería de San Isidro, y —detalle que conecta con lo que viste en Ochavillo— el segundo fin de semana de agosto se celebra la **Fiesta del Emigrante**, en honor de los hijos del pueblo que se fueron: la emigración de mediados del siglo XX vació estos pueblos del sur de Badajoz tanto como los de la campiña cordobesa, y el verano es cuando vuelven. Si tu llegada coincide con esa segunda semana de agosto, puede que encuentres el pueblo de fiesta.",
+            "En la mesa, Ahillones es Extremadura pura, y la cocina cambia respecto a Andalucía: aquí mandan las **migas extremeñas**, la **caldereta** (de cordero o de cabrito, el gran plato de pastores, coherente con el origen del pueblo), el **gazpacho** y la **sopa de tomate**, la **sopa de ajo**, el **guarrito** (cochinillo) al horno o frito, la caza de conejo y liebre, la pierna de cordero y las setas guisadas en temporada. Al ser un pueblo tan pequeño, la oferta de restauración se reduce a los bares del pueblo y a lo que ofrezca tu alojamiento; pregunta por la caldereta y por el queso de la zona, que es excelente —estás a un paso de Zafra, tierra de grandes quesos—. Y si necesitas más opciones para cenar, Llerena está a un cuarto de hora."
+          ],
+          "figures": []
+        },
+        {
+          "id": "7-4-la-tarde-noche-en-el-pueblo",
+          "level": 3,
+          "title": "La tarde-noche en el pueblo",
+          "paragraphs": [
+            "Llegar a un pueblo pequeño de la Campiña Sur a última hora de una tarde de agosto tiene su liturgia, y conviene adoptarla. Primero, instalarse y dejar que baje el sol; luego, el paseo: la iglesia de los Remedios, la ermita del Cristo, las calles de nombres viejos y los pilares del agua, y el cielo de la campiña abriéndose al atardecer, uno de los más limpios y anchos que verás en el viaje. Después, la plaza y la barra de un bar, que en un pueblo así son la auténtica oficina de turismo: la gente de Ahillones, como toda la de la Campiña Sur, es conversadora y hospitalaria, y en diez minutos sabrás más del pueblo que en cualquier guía. Y al caer la noche, el gran regalo de estos pueblos sin contaminación lumínica: el **cielo estrellado**. Extremadura tiene varios de los cielos más oscuros de Europa, y en una noche despejada de agosto —época de las Perseidas, si coincide con mediados de mes— basta con alejarse cien metros de las farolas para ver la Vía Láctea. No hay mejor forma de cerrar un día que empezó bajo tierra, entre lagos de cristal, que terminarlo mirando hacia arriba."
+          ],
+          "figures": []
+        }
+      ]
+    },
+    {
+      "id": "8-el-dia-paso-a-paso",
+      "level": 2,
+      "title": "El día, paso a paso",
+      "paragraphs": [
+        "**9:00-9:15** — Salida de Fuente Palmera hacia Aracena (unos 200 km, 2 h 15). Entrada a la sierra por la N-433 entre encinares y castaños.",
+        "**11:30** — Llegada a Aracena, aparcamiento junto a la gruta (calle Pozo de la Nieve). Chaqueta ligera y calzado con agarre a mano.",
+        "**12:00** — Gruta de las Maravillas (visita guiada, unos 50 minutos, sin fotos). Gran Lago, La Catedral, Cristalería de Dios y el Salón de los Desnudos como despedida.",
+        "**13:00** — Subida al castillo por los senderos desde la gruta, iglesia prioral del Mayor Dolor y vistas de la sierra desde el adarve. Museo del Jamón, como aperitivo cultural antes de comer.",
+        "**14:15** — Comida serrana: José Vicente o Montecruz; jamón de bellota, presa o secreto a la brasa, setas si las hay.",
+        "**17:00-17:30** — Salida hacia Extremadura (unos 175 km, 2 h 15). Opcional: parada en Llerena, a 14 km de destino.",
+        "**19:30-20:00** — Llegada a Ahillones. Instalación, paseo por el pueblo al atardecer, cena extremeña y cielo estrellado."
+      ],
+      "figures": []
+    }
+  ]
+}

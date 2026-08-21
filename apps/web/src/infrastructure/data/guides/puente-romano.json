@@ -10,7 +10,16 @@
       "paragraphs": [
         "El Puente Romano es la imagen más reproducida de Córdoba después de la Mezquita, y con razón: tendido sobre el Guadalquivir, con la torre de la Calahorra en un extremo y la Puerta del Puente y el perfil de la Catedral en el otro, es uno de los conjuntos monumentales más evocadores de España. Pero para disfrutarlo de verdad conviene desactivar el automatismo del nombre, porque encierra una paradoja fascinante: de romano, este puente conserva casi solo el nombre, el emplazamiento y la idea. La inmensa mayoría de lo que pisas y ves es obra medieval y moderna, resultado de veinte siglos de riadas, destrucciones y reconstrucciones sucesivas. Es, exactamente igual que la Mezquita-Catedral, un palimpsesto: un soporte sobre el que cada época volvió a escribir sin borrar del todo lo anterior. Y esa es la clave para entenderlo. No estás ante una reliquia arqueológica intacta de la Roma imperial, sino ante un organismo vivo que ha sido reparado, ampliado y rehecho generación tras generación para seguir cumpliendo, durante dos milenios, la misma función: cruzar el río. Mirado así, el puente resulta mucho más interesante que la postal tópica."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "El Puente Romano sobre el Guadalquivir con la Mezquita-Catedral al fondo: la imagen clásica de Córdoba.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cordoba_PuenteRomano_mezquita.jpg",
+          "alt": "Puente Romano de Córdoba con la Mezquita al fondo",
+          "credit": "Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "2-la-ingenieria-por-que-esta-donde-esta-y-como-se-sostiene",
@@ -78,7 +87,16 @@
           "paragraphs": [
             "La primera reconstrucción documentada no es romana ni cristiana, sino islámica, y es muy temprana: hacia el año 720, apenas siete años después de la conquista, el valí Al-Samh ibn Malik al-Khawlani rehízo el puente. No es casual: para el nuevo poder, controlar y mantener el único paso del río sobre la capital de al-Andalus era una prioridad militar y económica de primer orden. A lo largo de los siglos del emirato y el califato se sucedieron las intervenciones —se citan obras en tiempos de Hisham I y de al-Hakam II—, en buena parte forzadas por los daños que las crecidas infligían una y otra vez a la blanda caliza. El puente aparece en las crónicas árabes como escenario de la historia: el relato del Ajbar Machmúa narra cómo, en una noche de lluvia, los ejércitos venidos del norte de África entraron en la ciudad atravesándolo. Durante la época islámica el puente fue, en definitiva, un elemento tan estratégico como frágil, en permanente tensión entre su importancia y su vulnerabilidad."
           ],
-          "figures": []
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Vista cercana de los arcos y tajamares del Puente Romano sobre el Guadalquivir.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Puente_sobre_El_Guadalquivir_de_cerca.jpg",
+              "alt": "Detalle lateral de los arcos y tajamares del Puente Romano de Córdoba",
+              "credit": "Wikimedia Commons · CC BY-SA"
+            }
+          ]
         },
         {
           "id": "de-la-reconquista-a-hoy",
@@ -88,7 +106,16 @@
             "Tras la conquista castellana de 1236, el puente siguió siendo el gran acceso sur de la ciudad y continuó recibiendo reparaciones. En 1572, el gran arquitecto Hernán Ruiz II levantó en su extremo norte la Puerta del Puente (de la que hablaremos enseguida). Las restauraciones se sucedieron —se citan intervenciones destacadas a comienzos del siglo XX, hacia 1927—, casi siempre más de imagen que de estructura. La gran transformación contemporánea llegó con la restauración dirigida entre 2006 y 2008 por el arquitecto cordobés Juan Cuenca Montilla, la más ambiciosa y también la más polémica: se limpiaron los tajamares, se dejaron a la vista los sillares originales, se sustituyó el viejo adoquinado por un pavimento liso de granito, se renovó la iluminación y se rehabilitó la hornacina dedicada a los mártires patronos de la ciudad, San Acisclo y Santa Victoria. La intención era devolver al puente un aspecto más próximo al original, pero el resultado dividió a los cordobeses: a muchos, el suelo de granito rosado y la nueva luz les parecieron demasiado radicales, una modernización que restaba carácter a la piedra vieja. Es el mismo debate de fondo que rodea a toda restauración de un monumento histórico —¿restaurar el estado \"original\" o respetar la pátina del tiempo?— y que ya vimos en la Mezquita: no hay respuesta neutra, y el puente que hoy pisas es también el fruto de esa decisión discutida.",
             "Un hito reciente cerró el ciclo de su función práctica: el 1 de mayo de 2004, el puente se cerró definitivamente al tráfico rodado y quedó como paso exclusivamente peatonal, un relevo que fue posible porque los puentes modernos —el de San Rafael desde 1953, el de Miraflores desde 2003— habían asumido ya el trabajo del tráfico. Tras dos mil años cargando el peso de la ciudad, el Puente Romano se jubiló para convertirse en lo que hoy es: un paseo."
           ],
-          "figures": []
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "La Puerta del Puente (Hernán Ruiz II, 1572), acceso norte al Puente Romano.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Puerta_del_Puente%2C_C%C3%B3rdoba_%28Espa%C3%B1a%29.JPG",
+              "alt": "Frente monumental renacentista de la Puerta del Puente de Córdoba",
+              "credit": "Américo Toledano · Wikimedia Commons · CC BY"
+            }
+          ]
         }
       ]
     },
@@ -136,7 +163,16 @@
         "El entorno del puente es, además, un paraje de gran valor natural, algo insólito en pleno centro de una ciudad. Aguas arriba y abajo se extiende el Monumento Natural de los Sotos de la Albolafia, un ecosistema fluvial de isletas, carrizales y vegetación que alberga una notable avifauna protegida —garzas, martinetes, cigüeñas—, formado por la sedimentación del río frenado por las antiguas azudas. Presidiendo ese paisaje, junto al puente, está el Molino de la Albolafia con su gran noria: uno de los molinos hidráulicos medievales del Guadalquivir, cuya rueda, según la tradición, elevaba el agua del río hacia los jardines del Alcázar. El conjunto de puente, molinos, sotos y azudas es un manual vivo de cómo una ciudad histórica se relacionó con su río: para cruzarlo, para molturar su grano, para elevar su agua y para defenderse de sus crecidas.",
         "Una nota contemporánea que suele arrancar una sonrisa: la fuerza evocadora del conjunto ha llevado al puente al cine y la televisión; ha aparecido, entre otras producciones, como escenario de una gran ciudad de ficción en una conocida serie, lo que ha añadido una capa más —la del imaginario audiovisual— a sus veinte siglos de historia."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Vista de Córdoba desde el Puente Romano: el casco histórico y el frente monumental sobre el Guadalquivir.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/170922_Sobre_el_puente_romano_de_C%C3%B3rdoba.jpg",
+          "alt": "Panorámica del casco histórico de Córdoba tomada desde el Puente Romano",
+          "credit": "Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "6-que-mirar-durante-el-paseo-recorrido-comentado",
@@ -149,7 +185,16 @@
         "Sobre cuándo ir: el puente es peatonal y está siempre abierto, pero la diferencia entre visitarlo a mediodía o al amanecer y el atardecer es enorme. Con la luz rasante de primera y última hora la piedra se enciende, las aves de los sotos están más activas y, sobre todo, esquivas las horas de más calor y más gente, que en agosto no es un detalle menor. Si tu entrada a la Mezquita es a las once, plantéate cruzar el puente a primera hora, antes de entrar, o bien al caer la tarde, cuando el conjunto da su mejor cara.",
         "Guía preparada para una visita de un día — agosto de 2026."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "El Triunfo de San Rafael, columna monumental dedicada al arcángel custodio junto a la Puerta del Puente.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Triunfo_de_San_Rafael_de_la_Puerta_del_Puente.jpg",
+          "alt": "Triunfo de San Rafael junto a la Puerta del Puente de Córdoba",
+          "credit": "Ana Rey · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     }
   ]
 }

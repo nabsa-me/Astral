@@ -23,13 +23,13 @@
       {
         "id": "e-2",
         "dayId": "dia-2",
-        "heading": "Descubriendo el pueblo",
-        "body": "Día de desconexión. Fuente Palmera es una de las Nuevas Poblaciones de Carlos III y se nota en el trazado, tan ordenado y raro para un pueblo del sur. Comimos de maravilla y sin prisa.",
+        "heading": "Descubriendo Ochavillo",
+        "body": "Día de desconexión en Ochavillo del Río. El trazado ilustrado se nota en la rectitud de las calles, y los apellidos colonos —Dugo, Rossi, Hilinger— aparecen por todas partes. Comimos de maravilla y sin prisa.",
         "date": "2026-08-02",
-        "placeName": "Restaurante del centro",
+        "placeName": "Bar del pueblo",
         "rating": 4,
         "review": "Comida casera, raciones generosas y trato cercano. Repetiríamos.",
-        "photos": ["https://picsum.photos/seed/fuente-palmera-comida/800/600"]
+        "photos": ["https://picsum.photos/seed/ochavillo-comida/800/600"]
       },
       {
         "id": "e-3",

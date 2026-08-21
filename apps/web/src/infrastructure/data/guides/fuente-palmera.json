@@ -1,0 +1,231 @@
+{
+  "id": "fuente-palmera",
+  "title": "Fuente Palmera y la base ecuestre",
+  "subtitle": "El madrugón, la Colonia como base, la casa entre caballos y la Plaza Real al atardecer",
+  "sections": [
+    {
+      "id": "2-la-casa-rural-ecuestre-carmen-martinez",
+      "level": 2,
+      "title": "La casa",
+      "paragraphs": [
+        "La casa se alquila entera: son tres habitaciones amplias e independientes, salón común con chimenea y un porche de madera con sillones que da a la piscina, la barbacoa y el jardín. Un baño grande y un aseo separado; aire acondicionado y calefacción en toda la casa; wifi; frigorífico y congelador; y aparcamiento propio dentro de la finca. Como estamos toda la reserva a nuestro nombre, no hay recepción, ni horarios, ni vecinos: la casa es nuestra durante estos días.",
+        "El desayuno es tipo buffet, servido cada mañana, con producto ecológico y de producción propia de la finca —eso es lo único que no gestionamos nosotros—. El resto (comer, cenar, siesta, baño) va a nuestro ritmo. La piscina y la barbacoa están junto al porche, y desde ahí se ven los prados donde pastan los caballos, así que la vista de la tarde es esa: sombra, agua y campiña.",
+        "Datos prácticos: la casa está en el km 7 de la A-440 (La Carlota–Palma del Río), junto a la aldea de La Ventilla, a unos siete kilómetros del casco de Fuente Palmera. Teléfono de contacto 626 22 97 27. Se admiten mascotas avisando; el acceso está adaptado para movilidad reducida. Conviene avisar de la hora de llegada por si el buffet o alguien de la casa hace falta que nos reciba."
+      ],
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Exterior de la casa con el porche de madera, la piscina privada y los jardines que separan el alojamiento de las cuadras.",
+          "src": "https://webp.er2.co/es/cordoba/5c55c2e73519e/750/677bf41029f87.webp",
+          "alt": "Casa Rural Ecuestre Carmen Martínez: fachada, porche y piscina",
+          "credit": "Escapada Rural"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Salón común con chimenea, uno de los espacios interiores compartidos de la casa.",
+          "src": "https://webp.er2.co/es/cordoba/5c55c2e73519e/750/677bf4d4407d4.webp",
+          "alt": "Salón interior de la Casa Rural Ecuestre Carmen Martínez",
+          "credit": "Escapada Rural"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Una de las tres habitaciones espaciosas e independientes; vistas al jardín y a los prados de la yeguada.",
+          "src": "https://webp.er2.co/es/cordoba/5c55c2e73519e/750/677bf4d26df21.webp",
+          "alt": "Dormitorio de la Casa Rural Ecuestre Carmen Martínez",
+          "credit": "Escapada Rural"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Piscina privada dentro de la finca; el sitio natural donde se pasa la tarde de agosto.",
+          "src": "https://webp.er2.co/es/cordoba/5c55c2e73519e/750/677bf4d7b1e16.webp",
+          "alt": "Piscina privada de la casa rural",
+          "credit": "Escapada Rural"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Porche de madera con sillones y vistas al jardín y a la piscina — el rincón para el desayuno y el atardecer.",
+          "src": "https://webp.er2.co/es/cordoba/5c55c2e73519e/750/677c0faf5fc38.webp",
+          "alt": "Porche de madera con vistas al jardín",
+          "credit": "Escapada Rural"
+        },
+        {
+          "type": "svg",
+          "fignum": "Fig. 1",
+          "caption": "Croquis de ubicación: la casa está en el km 7 de la A-440 (La Carlota–Palma del Río), junto a la aldea de La Ventilla, a unos siete kilómetros al este del casco urbano de Fuente Palmera.",
+          "svg": "<svg viewBox=\"0 0 720 340\" font-family=\"Helvetica, Arial, sans-serif\" role=\"img\" aria-label=\"Croquis de ubicación de la casa\"><rect x=\"0\" y=\"0\" width=\"720\" height=\"340\" fill=\"#F5F1E6\"/><path d=\"M40 220 Q 230 200 400 210 T 700 200\" fill=\"none\" stroke=\"#B08A3E\" stroke-width=\"5\" opacity=\"0.9\"/><path d=\"M40 220 Q 230 200 400 210 T 700 200\" fill=\"none\" stroke=\"#F5F1E6\" stroke-width=\"1.5\" stroke-dasharray=\"6 8\"/><text x=\"560\" y=\"188\" font-size=\"11\" font-weight=\"normal\" fill=\"#8A6A22\" text-anchor=\"middle\" style=\"font-style:italic\">A-440 · La Carlota — Palma del Río</text><circle cx=\"120\" cy=\"212\" r=\"12\" fill=\"#8C2F23\" stroke=\"#FFF\" stroke-width=\"2.5\"/><text x=\"120\" y=\"216\" font-size=\"11\" font-weight=\"bold\" fill=\"#FFF\" text-anchor=\"middle\" style=\"\">FP</text><text x=\"120\" y=\"246\" font-size=\"12\" font-weight=\"bold\" fill=\"#111111\" text-anchor=\"middle\" style=\"\">Fuente Palmera</text><text x=\"120\" y=\"262\" font-size=\"10\" font-weight=\"normal\" fill=\"#555555\" text-anchor=\"middle\" style=\"\">(casco urbano)</text><circle cx=\"460\" cy=\"208\" r=\"14\" fill=\"#7C8A5A\" stroke=\"#FFF\" stroke-width=\"2.5\"/><text x=\"460\" y=\"212\" font-size=\"11\" font-weight=\"bold\" fill=\"#FFF\" text-anchor=\"middle\" style=\"\">★</text><text x=\"460\" y=\"242\" font-size=\"12\" font-weight=\"bold\" fill=\"#111111\" text-anchor=\"middle\" style=\"\">La Ventilla</text><text x=\"460\" y=\"258\" font-size=\"10\" font-weight=\"normal\" fill=\"#555555\" text-anchor=\"middle\" style=\"\">km 7 · La casa</text><text x=\"290\" y=\"180\" font-size=\"11\" font-weight=\"normal\" fill=\"#555555\" text-anchor=\"middle\" style=\"font-style:italic\">≈ 7 km</text><path d=\"M 140 200 L 440 195\" fill=\"none\" stroke=\"#555555\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><path d=\"M 145 200 L 138 196 L 138 204 Z\" fill=\"#555555\"/><path d=\"M 435 195 L 442 191 L 442 199 Z\" fill=\"#555555\"/><path d=\"M 80 90 q 6 -4 12 0 q 4 -4 8 0 l 0 12 l -20 0 z\" fill=\"#7C8A5A\" opacity=\"0.5\"/><path d=\"M 260 110 q 8 -6 14 0 q 5 -5 10 0 l 0 14 l -24 0 z\" fill=\"#7C8A5A\" opacity=\"0.5\"/><path d=\"M 620 130 q 7 -5 13 0 q 4 -4 9 0 l 0 12 l -22 0 z\" fill=\"#7C8A5A\" opacity=\"0.5\"/><text x=\"360\" y=\"48\" font-size=\"14\" font-weight=\"bold\" fill=\"#111111\" text-anchor=\"middle\" style=\"\">Campiña de Fuente Palmera</text><text x=\"360\" y=\"66\" font-size=\"11\" font-weight=\"normal\" fill=\"#555555\" text-anchor=\"middle\" style=\"font-style:italic\">olivar, cereal y lomas suaves hacia el Guadalquivir</text><text x=\"360\" y=\"310\" font-size=\"10.5\" font-weight=\"normal\" fill=\"#555555\" text-anchor=\"middle\" style=\"font-style:italic\">Esquema aproximado · no a escala</text></svg>",
+          "credit": "Diagrama esquemático de la guía"
+        }
+      ]
+    },
+    {
+      "id": "3-fuente-palmera-la-colonia-como-base",
+      "level": 2,
+      "title": "Fuente Palmera: la Colonia como base",
+      "paragraphs": [
+        "Fuente Palmera es la capital de la única Colonia carolina de Andalucía que ha llegado hasta hoy con nombre y entidad propios. Fundada por decreto de Carlos III en 1768 como parte del gran experimento de las Nuevas Poblaciones —el proyecto ilustrado de Pablo de Olavide para colonizar los despoblados del valle del Guadalquivir con familias católicas centroeuropeas—, la villa conserva el trazado geométrico dibujado sobre plano por los ingenieros del rey y los apellidos alemanes, franceses e italianos de los colonos originales. La palabra \"Colonia\" sigue figurando en el nombre oficial del municipio y es la primera pista de toda su historia.",
+        "El plan original de 1767, redactado por Pablo de Olavide, era un documento revolucionario para su época. Cada familia colona recibía una \"suerte\" de tierra en propiedad indivisible e inalienable —no se podía vender ni acumular, para impedir que renacieran los latifundios—, se prohibía la amortización eclesiástica, no se permitían conventos, y las poblaciones se diseñaban con trazado geométrico racional: era, en suma, un laboratorio social, la utopía agraria ilustrada hecha pueblo. Para poblarlo se hizo algo insólito: se contrató en Europa central el reclutamiento de miles de colonos católicos —alemanes, flamencos, franceses, suizos, italianos— a los que se prometía casa, tierra, aperos y ganado a cambio de establecerse en aquellos desiertos andaluces. La aventura fue durísima: muchos venían engañados por reclutadores que cobraban por cabeza, el clima golpeó a los centroeuropeos con fiebres y epidemias, las primeras cosechas fracasaron y una parte de los colonos murió o desertó. En octubre de 1769 cesó la llegada de extranjeros. Los que aguantaron echaron raíces, y el molde ya estaba fundido: el régimen especial del Fuero duró hasta el 15 de marzo de 1835, cuando las colonias se integraron en el régimen común, pero los pueblos colonos conservan hasta hoy un urbanismo, unos apellidos y una identidad distintos de los de cualquier pueblo andaluz \"de toda la vida\".",
+        "La Colonia no es solo el casco de Fuente Palmera: es un municipio disperso, organizado en una decena de núcleos o \"departamentos\" repartidos por el territorio. Fuente Palmera hace de cabecera y, a su alrededor, están La Herrería, Villalón, La Peñalosa, La Ventilla —el departamento donde está nuestra casa—, Los Silillos, El Villar, la Cañada del Rabadán, Fuente Carreteros (municipio independiente desde 2018) y la Aldea del Río, que es el Ochavillo actual, el pueblo que visitaremos al día siguiente. Es útil tenerlo en la cabeza: cuando hablamos de \"Fuente Palmera\" nos referimos casi siempre al conjunto de la Colonia, no solo al casco.",
+        "El documento vivo de todo esto son los apellidos. Dos siglos y medio después, el padrón de la Colonia sigue lleno de nombres que no existen en ningún otro rincón de Andalucía: Dugo, Rossi, Mestre, Castell, Hilinger, y en los pueblos hermanos Hens, Bolancé, Yamuza, Morello o Tristell —deformaciones castellanizadas de apellidos alemanes, italianos y franceses de los colonos de 1768—. Cruzarse con un vecino que se apellida Rossi o Hilinger y habla con acento cerrado de la campiña cordobesa es la mejor lección de historia que ofrece el pueblo.",
+        "Hay una segunda fundación de la Colonia que casi nadie de fuera conoce, y es de 1983. Aquel año se pusieron en marcha los riegos de la Colonia de Fuente Palmera, considerados entonces el sistema de riego más moderno de Europa, con una estación de bombeo (situada en término de Ochavillo del Río) que eleva el agua del Guadalquivir setenta y cuatro metros para repartirla por toda la zona regable. La transformación fue drástica: el secano de cereal y olivar de los colonos dio paso a una vega intensiva de regadío —cítricos, maíz, algodón, hortalizas— que cambió la economía y la vida de la comarca en una generación. Es una simetría histórica preciosa: el pueblo que nació en el siglo XVIII de un plan estatal para transformar un territorio volvió a transformarse en el siglo XX gracias a otra gran obra hidráulica.",
+        "Como base logística para estos días la localización es óptima: a cincuenta kilómetros de Córdoba capital por autovía, a veinte de Almodóvar del Río y a un cuarto de hora de Ochavillo. Y el casco urbano, con su Plaza Real, la Iglesia de la Purísima Concepción, el Pósito del siglo XVIII y el Ayuntamiento, se recorre en un paseo corto cuando apriete menos el calor. Un apunte curioso que aparece pronto al caminar por él: Fuente Palmera es conocida en toda España como \"el pueblo de las novias\" por su insólita concentración de tiendas de trajes de novia, que atrae compradores de todo el país. Es de esos detalles que no salen en las guías al uso y que dicen mucho del pulso económico de un pueblo de campiña. Y toda la comarca colona celebra su origen con jornadas y recreaciones dieciochescas, en las que los descendientes de aquellos alemanes, italianos y franceses vuelven a vestir el traje de sus tatarabuelos.",
+        "Para seguir tirando del hilo, la Colonia está sorprendentemente bien escrita gracias a sus cronistas. Los nombres a retener: María Isabel García Cano, cronista oficial de Ochavillo, con \"El gran proyecto ilustrado de Carlos III y Olavide. Las Nuevas Poblaciones de Andalucía: Fuente Palmera (1768-1835)\" y \"Ideas, leyes y economía en las nuevas poblaciones carolinas: Fuente Palmera, Fuente Carreteros y Ochavillo del Río (1767-1872)\"; Francisco Tubío Adame, cronista oficial de Fuente Palmera, con su obra sobre la población de la Colonia; y el médico y divulgador Bernabé Galán. En pueblos chicos, la historia la salvan personas concretas con nombre y apellidos."
+      ],
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Retrato",
+          "caption": "Carlos III (retrato de Anton Raphael Mengs, c. 1760), impulsor del Fuero de las Nuevas Poblaciones de 1767 al que la Colonia debe su existencia.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Retrato_de_Carlos_III_de_Espa%C3%B1a.jpg",
+          "alt": "Retrato al óleo de Carlos III de España",
+          "credit": "Anton Raphael Mengs · Wikimedia Commons · Dominio público"
+        },
+        {
+          "type": "image",
+          "fignum": "Retrato",
+          "caption": "Pablo de Olavide, superintendente de las Nuevas Poblaciones y redactor del Fuero, en grabado de Juan Moreno Tejada sobre dibujo de Luis Paret (c. 1805).",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pablo_Olavide.jpg",
+          "alt": "Grabado del rostro de Pablo de Olavide",
+          "credit": "Juan Moreno Tejada · Wikimedia Commons · Dominio público"
+        },
+        {
+          "type": "image",
+          "fignum": "Mapa histórico",
+          "caption": "Andalucía en 1789: los cuatro reinos históricos y, en verde, la Intendencia de las Nuevas Poblaciones de Sierra Morena y Andalucía, a la que pertenecía la Colonia de Fuente Palmera.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/4reinosandalucia.png",
+          "alt": "Mapa de Andalucía de finales del siglo XVIII con la Intendencia de las Nuevas Poblaciones destacada",
+          "credit": "Jompy · Wikimedia Commons · CC BY-SA 3.0"
+        },
+        {
+          "type": "image",
+          "fignum": "Grabado",
+          "caption": "Representación de las familias colonizadoras centroeuropeas llegadas a Fuente Palmera en 1768. Sus apellidos siguen vivos en la Colonia dos siglos y medio después.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Familias_colonizadoras%2C_Fuente_Palmera.jpg",
+          "alt": "Ilustración de familias colonizadoras alemanas y flamencas del siglo XVIII",
+          "credit": "Wikimedia Commons · CC BY-SA"
+        },
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Toma del Canal del Bajo Guadalquivir en Palma del Río: la infraestructura de regadío que alcanzó la vega de Fuente Palmera y transformó la comarca en 1983.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Canal_del_Bajo_Guadalquivir%2C_Palma_del_R%C3%ADo.jpg",
+          "alt": "Toma del Canal del Bajo Guadalquivir en el embalse de Peñaflor, Palma del Río",
+          "credit": "Cárdenas · Wikimedia Commons · CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "id": "4-los-hitos-del-casco",
+      "level": 2,
+      "title": "Los hitos del casco (para el paseo del atardecer)",
+      "paragraphs": [
+        "El casco de Fuente Palmera se ve entero en poco más de media hora. Los cuatro hitos que merece la pena hilar están todos en un radio de doscientos metros alrededor de la Plaza Real, así que el paseo es más bien una vuelta corta que un itinerario. Van descritos, uno a uno, en el orden natural: se llega a la Plaza Real por el este, se ven la iglesia y el Pósito enfrentados en la propia plaza, y se remata bajando por la calle Portales."
+      ],
+      "figures": [],
+      "subsections": [
+        {
+          "id": "4-1-plaza-real",
+          "level": 3,
+          "title": "Plaza Real",
+          "paragraphs": [
+            "La Plaza Real es el corazón fundacional de Fuente Palmera y el punto de partida de toda visita. Está dibujada a regla y compás en el trazado ilustrado de 1768: rectangular, orientada según el eje del camino real, con la iglesia y el Pósito flanqueando el lado norte y el Ayuntamiento cerrándola por el sur. De ella parten cinco calles, siendo la más importante la calle Portales. Aquí se concentró siempre la vida civil, religiosa y económica de la Colonia, y aquí siguen las ferias, las procesiones y el mercado."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Plaza Real de Fuente Palmera, con la Iglesia de la Purísima Concepción y el Pósito formando el conjunto monumental del lado norte.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Plaza_Real_de_Fuente_Palmera.JPG",
+              "alt": "Vista de la Plaza Real de Fuente Palmera con la iglesia parroquial al fondo",
+              "credit": "Davidgalisteo · Wikimedia Commons · CC BY-SA"
+            }
+          ]
+        },
+        {
+          "id": "4-2-iglesia-purisima-concepcion",
+          "level": 3,
+          "title": "Iglesia de la Purísima Concepción",
+          "paragraphs": [
+            "Parroquia mayor de la Colonia, construida en el propio siglo XVIII siguiendo el modelo austero de los templos de las Nuevas Poblaciones: nave única, espadaña y encalado. La titular, la Purísima Concepción, refleja la devoción mariana propia de los colonos centroeuropeos católicos que Olavide reclutó por toda Europa. La iglesia es Bien de Interés Cultural y es el edificio más antiguo y significativo del pueblo."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Iglesia de la Purísima Concepción de Fuente Palmera. Fachada blanca y espadaña — la sobriedad típica de los templos de las Nuevas Poblaciones.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Iglesia_de_la_Pur%C3%ADsima_Concepci%C3%B3n_%28Fuente_Palmera%29.jpg",
+              "alt": "Fachada blanca con espadaña de la Iglesia de la Purísima Concepción de Fuente Palmera",
+              "credit": "Herrzzog · Wikimedia Commons · CC BY-SA 4.0"
+            },
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Segunda vista de la iglesia matriz de la Colonia, con la espadaña y la fachada encalada más nítidas.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Iglesia_de_la_Pur%C3%ADsima_Concepci%C3%B3n%2C_Fuente_Palmera.jpg",
+              "alt": "Iglesia de la Purísima Concepción de Fuente Palmera, otra perspectiva",
+              "credit": "CFA1877 · Wikimedia Commons · CC BY-SA 4.0"
+            }
+          ]
+        },
+        {
+          "id": "4-3-posito-real",
+          "level": 3,
+          "title": "Pósito Real",
+          "paragraphs": [
+            "Junto a la iglesia, en la propia Plaza Real, se levanta el Real Pósito de Labradores y Diezmos, el granero comunal de la Colonia. Es uno de los edificios civiles mejor conservados de las Nuevas Poblaciones y una pieza clave del sistema económico ilustrado: el pósito prestaba grano a los colonos en años malos y actuaba de reserva estratégica, un mecanismo pensado para que las suertes indivisibles del Fuero no se arruinaran a la primera mala cosecha. Hoy está restaurado y es una de las fachadas más fotogénicas del pueblo."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Pósito Real de Labradores y Diezmos (siglo XVIII), pieza del sistema económico ilustrado de las Nuevas Poblaciones.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/P%C3%B3sito_de_Fuente_Palmera.jpg",
+              "alt": "Fachada del Pósito de Fuente Palmera",
+              "credit": "Wikimedia Commons · CC BY-SA"
+            }
+          ]
+        },
+        {
+          "id": "4-4-ayuntamiento",
+          "level": 3,
+          "title": "Ayuntamiento",
+          "paragraphs": [
+            "Cerrando el conjunto monumental de la Plaza Real, el Ayuntamiento es la sede administrativa de los descendientes de aquellos colonos centroeuropeos de 1768. Que un pueblo de campiña —fundado por decreto real y poblado con alemanes, franceses e italianos— tenga hoy un consistorio propio con sus Dugo, Rossi, Mestre y Hilinger firmando actas es la mejor prueba de que el experimento carolino cuajó. Junto a la fachada de la iglesia y la del Pósito, forma la tríada institucional del pueblo: iglesia, granero, ayuntamiento."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Ayuntamiento de Fuente Palmera, sede administrativa de la Colonia dentro del conjunto monumental de la Plaza Real.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ayuntamiento_de_Fuente_Palmera.JPG",
+              "alt": "Fachada del ayuntamiento de Fuente Palmera",
+              "credit": "Davidgalisteo · Wikimedia Commons · CC BY-SA 4.0"
+            }
+          ]
+        },
+        {
+          "id": "4-5-calle-portales",
+          "level": 3,
+          "title": "Calle Portales",
+          "paragraphs": [
+            "De la Plaza Real arranca la calle Portales, la vía histórica del pueblo, llamada así por los soportales que originalmente la porticaban. En 1895 concentraba los talleres artesanos de la Colonia y era la arteria comercial del casco. De los soportales apenas queda memoria —el último arco sobrevivió embutido en una casa hasta que fue demolido—, pero el trazado y las fachadas encaladas mantienen el aire de calle mayor rural andaluza; recorrerla es leer el pueblo en línea recta."
+          ],
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Calle Portales de Fuente Palmera, la arteria histórica y comercial del casco fundacional.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Calle_Portales%2C_Fuente_Palmera.jpg",
+              "alt": "Calle Portales de Fuente Palmera con fachadas encaladas",
+              "credit": "Wikimedia Commons · CC BY-SA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

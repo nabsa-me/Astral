@@ -31,6 +31,23 @@ export interface IPlannerStop {
   /** Conveys planning progress: a route can be half-done. */
   status?: 'done' | 'planned';
   durationMin?: number;
+  /** When true, the stop is excluded from the zoom-out overview map clustering. */
+  hideOnOverview?: boolean;
+}
+
+/**
+ * A recommendation shown as an extra pin on the day map without appearing in
+ * the itinerary list. Use for options around a single planned stop (e.g. the
+ * possible restaurants around the "Comida" stop of the day).
+ */
+export interface IMapPoi {
+  id: string;
+  name: string;
+  coords: LatLngTuple;
+  category?: StopCategory;
+  guideId?: string;
+  sectionId?: string;
+  note?: string;
 }
 
 export interface IVacationDay {
@@ -41,6 +58,8 @@ export interface IVacationDay {
   paragraphs?: string[];
   /** Ordered itinerary for the day (planner view). */
   stops?: IPlannerStop[];
+  /** Extra map-only pins (recommendations) not shown in the itinerary list. */
+  mapPois?: IMapPoi[];
   map: IDayMap | null;
   /**
    * Ordered waypoints (stops + key intermediate street points from the guide)

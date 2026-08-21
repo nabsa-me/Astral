@@ -308,11 +308,7 @@
   line-height: 1;
 }
 
-.stop.is-done .stop-badge {
-  background: #6f1fd6;
-  color: var(--white);
-}
-
+.stop.is-done .stop-badge,
 .stop.is-planned .stop-badge {
   background: var(--color-background);
   border: 2px solid #9aa0a6;

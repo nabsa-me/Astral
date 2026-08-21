@@ -11,7 +11,16 @@
         "Por la mañana has visto los dos grandes monumentos que todo el mundo conoce: el Puente Romano y la Mezquita-Catedral. Esta guía es para lo que viene después, y propone algo distinto: en lugar de otro gran monumento, un recorrido por la Córdoba de la vida cotidiana, la que se teje entre callejas, patios, murallas y plazas. Es, en cierto modo, la cara íntima de la ciudad frente a la cara monumental de la mañana, y tiene su propia densidad histórica: en apenas un kilómetro caminando pasarás junto a un lienzo de muralla romana, atravesarás el barrio judío medieval mejor conservado de Andalucía, cruzarás las callejas más pintorescas de España y terminarás en una plaza mayor barroca con un pasado de toros, mercado e Inquisición. Todo ello trufado de la mejor gastronomía de la ciudad.",
         "El recorrido está pensado, además, para un lunes de agosto, con dos condicionantes que lo ordenan. El primero es el calor: en agosto Córdoba supera con holgura los cuarenta grados a media tarde, así que el plan busca deliberadamente la sombra de las callejas estrechas y el frescor de los patios en las horas duras, y reserva para el atardecer y la noche —cuando la ciudad revive— lo que se disfruta al aire libre. El segundo es que el lunes cierran el Alcázar, el Palacio de Viana y buena parte de los museos, y que no vas a hacer reservas; por eso todo lo que sigue es de entrada libre o espontánea, sin depender de horarios rígidos ni de reservar mesa. La idea es pasear sin prisa, dejarse perder por la Judería —perderse en ella es parte del plan— y llegar a la noche con hambre."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Callejón encalado típico de la Judería de Córdoba: el trazado laberíntico del viejo barrio.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/In_der_Juderia_von_C%C3%B3rdoba_-_panoramio.jpg",
+          "alt": "Callejón estrecho con muros blancos en la Judería de Córdoba",
+          "credit": "Martin Furtschegger · Wikimedia Commons · CC BY"
+        }
+      ]
     },
     {
       "id": "2-la-juderia-mil-anos-de-historia-en-un-laberinto",
@@ -172,7 +181,16 @@
         "Dos apuntes finales: si conduces de vuelta, modera la copa del atardecer; y deja el coche en los aparcamientos del río o del Paseo de la Victoria, que te dejan cerca del inicio y del final del paseo. Y sobre todo, no tengas prisa: la Judería está hecha para perderse, y las mejores esquinas de Córdoba son las que uno encuentra sin buscarlas.",
         "Guía preparada para una tarde-noche de lunes en agosto — 2026."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Calle de la Judería de Córdoba con fachadas encaladas: el escenario del paseo de la tarde.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Street_in_Juder%C3%ADa_-_C%C3%B3rdoba.JPG",
+          "alt": "Calle empedrada con fachadas encaladas en la Judería de Córdoba",
+          "credit": "José Luiz Bernardes Ribeiro · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     }
   ]
 }

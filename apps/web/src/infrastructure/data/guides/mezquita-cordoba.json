@@ -30,7 +30,16 @@
         "La tradición historiográfica sostiene que bajo la mezquita existió la basílica visigoda de San Vicente, el templo principal de la Córdoba cristiana, y que tras el 711 musulmanes y cristianos la compartieron durante unos cuarenta años —un arreglo documentado en otras ciudades del islam temprano, como Damasco— hasta que Abd al-Rahman I compró la mitad cristiana, la demolió y permitió a cambio reconstruir otras iglesias extramuros. Esta narración procede de fuentes árabes tardías (al-Razi, recogido siglos después por Ibn Idhari y al-Maqqari) y fue aparentemente confirmada por las excavaciones de Félix Hernández en los años 1930, cuyos restos puedes ver bajo el suelo acristalado cerca de la Puerta de las Palmas: mosaicos, muros y pilas que se exponen como \"basílica de San Vicente\".",
         "Ahora bien, debes saber que la arqueología reciente ha complicado el relato. Varios investigadores han señalado que los restos excavados corresponden con seguridad a un complejo episcopal tardoantiguo (un conjunto de edificios cristianos con dependencias, quizá un baptisterio), pero que la identificación precisa con una \"basílica de San Vicente\" compartida mitad a mitad es más frágil de lo que parece, y que el relato de la compra podría ser en parte una construcción literaria posterior, calcada deliberadamente del precedente de Damasco (donde los omeyas compraron la basílica de San Juan Bautista para construir la Gran Mezquita). Es decir: puede que la historia sea cierta, o puede que los cronistas omeyas la contaran así precisamente para que Córdoba repitiera a Damasco. En cualquier caso, para los omeyas la equivalencia Córdoba-Damasco era el mensaje. Ten esto presente ante la vitrina del mosaico: estás viendo simultáneamente arqueología real y propaganda historiográfica de hace mil años, y distinguirlas es uno de los debates vivos de la investigación."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Templo romano de Córdoba (calle Claudio Marcelo): vestigio del gran templo imperial de la Córdoba de la Bética.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/C%C3%B3rdoba_-_Templo_Romano_2.jpg",
+          "alt": "Columnas del templo romano de Córdoba en la calle Claudio Marcelo",
+          "credit": "Kallerna · Wikimedia Commons · CC BY-SA 4.0"
+        }
+      ]
     },
     {
       "id": "3-el-fundador-abd-al-rahman-i-y-la-teologia-politica-omeya",
@@ -111,7 +120,16 @@
             "El siglo IX es el de la consolidación del emirato y de una Córdoba que crece con fuerza. Abd al-Rahman II —el emir esteta, el que acoge al músico bagdadí Ziryab, árbitro de elegancias que revolucionó la cocina, la moda y la música andalusíes— derriba el muro de qibla y prolonga las once naves ocho tramos hacia el sur. La novedad crucial es que aquí, junto al acarreo, aparecen los primeros capiteles labrados ex profeso por talleres cordobeses, todavía imitando modelos romanos pero con un lenguaje propio cada vez más abstracto. Es el momento en que al-Andalus deja de reciclar la Antigüedad y empieza a producir su propio clasicismo. En esta zona la luz es hoy la más penumbrosa del edificio y el bosque de columnas alcanza su efecto más hipnótico, precisamente porque los cierres posteriores del patio la privaron de su iluminación original.",
             "De la época de su hijo Muhammad I (852–886) conserva el exterior una pieza capital que debes ver antes o después de tu visita interior: la Puerta de San Esteban (antigua Bab al-Wuzara, \"Puerta de los Visires\"), en la fachada oeste, fechada por inscripción en 855. Es la portada monumental islámica más antigua conservada de al-Andalus y fija para siglos la gramática compositiva andalusí: arco de herradura con dovelas bicolores, enmarcado por un alfiz (el rectángulo moldurado que abraza el arco, invención o al menos codificación cordobesa), con celosías y coronamiento de almenas. De esta fórmula descienden las portadas de Madinat al-Zahra, del arte taifa, almohade, mudéjar y nazarí, hasta la Alhambra."
           ],
-          "figures": []
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Los característicos arcos bicromados dobles del interior de la Mezquita: dovelas rojas y blancas superpuestas.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Double_arches_%2837141885645%29.jpg",
+              "alt": "Arcos de herradura superpuestos en rojo y blanco de la sala hipóstila de la Mezquita",
+              "credit": "Francisco Anzola · Wikimedia Commons · CC BY 2.0"
+            }
+          ]
         },
         {
           "id": "4-3-abd-al-rahman-iii-el-califato-y-el-alminar-929-961",
@@ -121,7 +139,16 @@
             "En 929 Abd al-Rahman III da el paso que sus antepasados evitaron: se proclama califa, Príncipe de los Creyentes. Para entender la magnitud del gesto hay que mirar el mapa: en Bagdad, el califato abasí agoniza tutelado por militares; en Ifriqiya (Túnez), una dinastía chií, los fatimíes, ha proclamado en 909 un califato rival con ambiciones universales que amenaza el Magreb y el comercio andalusí. La proclamación cordobesa responde a esa amenaza: por primera vez en la historia del islam coexisten tres califatos, y el mundo islámico occidental se convierte en un tablero de propaganda religiosa. Toda la producción artística del siglo X cordobés —Madinat al-Zahra, los marfiles, los bronces, y las intervenciones en la mezquita— debe leerse como parte de esa guerra fría ideológica contra los fatimíes.",
             "En la mezquita, su intervención principal no fue ampliar la sala (bastante tenía con construir de nueva planta la ciudad palatina de Madinat al-Zahra, a 8 km) sino amplificar su presencia urbana: ensanchó el patio y levantó en 951-952 un alminar nuevo de unos 47 metros, con doble caja de escaleras independientes que subían sin cruzarse, rematado por las tres manzanas doradas del yamur. Fue el rascacielos de su tiempo y el prototipo de los grandes alminares occidentales: la Giralda de Sevilla, la Kutubiyya de Marrakech y la torre de Hasan en Rabat son sus descendientes. Ese alminar no ha desaparecido: está dentro de la actual torre campanario, que lo envolvió como una funda tras los daños del terremoto de 1589. Al subir a la torre (entrada aparte) se ven tramos del alminar califal embutidos en la obra cristiana: una metáfora perfecta de todo el edificio."
           ],
-          "figures": []
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Torre campanario renacentista de la Mezquita-Catedral, que envuelve el antiguo alminar de Abd al-Rahman III.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Torre_campanario_de_la_Mezquita_de_C%C3%B3rdoba.JPG",
+              "alt": "Torre campanario de la Mezquita de Córdoba vista desde el Patio de los Naranjos",
+              "credit": "Wikimedia Commons · CC BY-SA"
+            }
+          ]
         },
         {
           "id": "4-4-al-hakam-ii-la-obra-maestra-962-971",
@@ -161,7 +188,16 @@
             "Como el río impedía crecer hacia el sur, Almanzor amplió hacia el este: ocho naves nuevas a lo largo de toda la profundidad del edificio, la intervención más extensa de todas (la mezquita alcanza sus dimensiones definitivas, unos 23.000 m², con capacidad estimada para decenas de miles de fieles: solo la superaba la mezquita de Samarra, y en Occidente nada se le acercaba). Pero es también la más pobre: las dovelas ya no alternan piedra y ladrillo, son de piedra con la bicromía simplemente pintada; los capiteles son serializados, correctos y sin alma. La consecuencia urbanística más visible es que el mihrab quedó descentrado: ya no está en el eje del edificio, sino desplazado al oeste, porque la ampliación no pudo hacerse simétrica. Cuando recorras la zona este y notes que \"algo\" es distinto —más mecánico, más frío— no es sugestión: es la diferencia entre el arte de un califa humanista y la propaganda de un caudillo con prisa.",
             "Apenas veinte años después de Almanzor, el califato se hundió en la guerra civil (la fitna, 1009–1031), Madinat al-Zahra fue saqueada y arrasada, y Córdoba no volvió a ser capital de nada. La mezquita quedó como el monumento superviviente de un mundo desaparecido: cuando la contemples, recuerda que ya era una reliquia de esplendor perdido para los propios andalusíes de los siglos XI y XII, que la veían como nosotros vemos las ruinas de Roma."
           ],
-          "figures": []
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Una de las naves interiores de la Mezquita-Catedral en dirección al muro de qibla.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Inside_the_Mezquita_%2827616805426%29.jpg",
+              "alt": "Vista longitudinal de una nave con arcos bicromados de la Mezquita de Córdoba",
+              "credit": "Bobo Boom · Wikimedia Commons · CC BY 2.0"
+            }
+          ]
         }
       ]
     },
@@ -174,7 +210,16 @@
         "Era, primero, el lugar de la jutba, el sermón del viernes, que incluía obligatoriamente la mención del soberano legítimo: pronunciar la jutba en nombre de alguien era reconocer su soberanía, y omitirla era la forma canónica de la rebelión. Cada viernes, la mezquita de Córdoba era el escenario donde el Estado omeya se renovaba ritualmente ante miles de testigos; por eso la proclamación del califato en 929 se hizo efectiva, precisamente, cambiando la titulación en la jutba. Era, segundo, sede judicial: el cadí de Córdoba, el juez supremo de al-Andalus, despachaba audiencia entre sus columnas, y la escuela jurídica malikí —implantada oficialmente desde el siglo IX y celosamente ortodoxa— tuvo aquí su fortaleza intelectual. Era, tercero, universidad de hecho: los maestros enseñaban en círculos (halqas) junto a columnas concretas, y estudiantes de todo el islam occidental y de la Europa cristiana pasaron por Córdoba (la leyenda del futuro papa Silvestre II estudiando ciencia en al-Andalus, aunque novelada, refleja una realidad de transferencia de saberes). Era, además, depósito de la bayt al-mal (el tesoro comunitario, custodiado en una dependencia), archivo de la memoria dinástica y en su biblioteca se custodiaba uno de los tesoros más venerados de los omeyas: un ejemplar del Corán que la tradición atribuía al califa Utman, manchado —se decía— con su sangre, que se sacaba en procesión y sobre el que juraban los soberanos. Este mushaf funcionaba como una auténtica reliquia de Estado, un paralelo funcional exacto de las reliquias de la realeza cristiana.",
         "Entender esto explica también la maqsura (el recinto acotado ante el mihrab, reservado al califa y su corte) y el sabat, el pasadizo elevado que comunicaba el alcázar con la maqsura atravesando la calle: el soberano aparecía y desaparecía del espacio comunitario sin mezclarse con él, una escenografía del poder que los omeyas cordobeses llevaron a un refinamiento extremo y que en Madinat al-Zahra alcanzó su forma palaciega plena."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Bosque de columnas y arcos superpuestos de la sala hipóstila: la mezquita mayor era, en sí misma, todo un urbanismo interior.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/C%C3%B3rdoba_2015_10_23_2700_%2825615695483%29.jpg",
+          "alt": "Panorámica interior de la Mezquita de Córdoba con la columnata y los arcos bicromados",
+          "credit": "Harvey Barrison · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "6-el-enigma-de-la-orientacion-por-que-el-mihrab-no-mira-a-la-meca",
@@ -183,7 +228,16 @@
       "paragraphs": [
         "Desde Córdoba, La Meca queda al este-sureste (azimut en torno a 100º). El muro de qibla de la mezquita mira al sur-suroeste (unos 150º-160º), una desviación de unos 50 grados que ha hecho correr ríos de tinta. Las explicaciones propuestas, no excluyentes entre sí, son cuatro. La primera es la hipótesis siria: la mezquita replicaría la orientación de la Gran Mezquita de Damasco (donde el sur sí apunta correctamente a La Meca), de modo que los omeyas cordobeses rezarían \"en paralelo\" a su patria perdida; es la explicación más romántica y encaja con todo el programa dinástico, pero es difícil de probar como intención. La segunda es urbanística: el edificio se alinea con la trama de calles heredada de la Córdoba romana y con los edificios preexistentes del solar (el complejo episcopal), y reorientarlo habría sido costoso y disruptivo. La tercera es jurídico-religiosa: la escuela malikí aceptaba orientarse hacia la \"dirección general\" (jiha) de La Meca y no exigía el azimut exacto, y en el islam temprano era común identificar la qibla con el sur sin más, por imitación de la orientación de la mezquita del Profeta en Medina. La cuarta es astronómica: algunos estudios sugieren que ciertas mezquitas tempranas se orientaban con métodos que replicaban la orientación del propio edificio de la Kaaba, no la dirección geográfica hacia ella, lo que en Córdoba produciría una desviación similar a la observada. Lo fascinante es que las ampliaciones posteriores, incluida la de al-Hakam II —que disponía de los mejores astrónomos de Occidente y sabía perfectamente hacia dónde caía La Meca—, mantuvieron la orientación fundacional: llegado cierto punto, la fidelidad al edificio del fundador pesó más que la corrección geográfica. La mezquita se orienta, en el fondo, hacia su propia memoria."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "El mihrab de al-Hakam II, corazón simbólico del edificio y foco de la polémica sobre la orientación de la qibla.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mihrab_de_la_mezquita_de_C%C3%B3rdoba_%2817060237467%29.jpg",
+          "alt": "Detalle del mihrab decorado con mosaicos bizantinos dorados",
+          "credit": "Ángel M. Felicísimo · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "7-la-cordoba-del-siglo-x-el-contexto-que-hace-comprensible-el-edificio",
@@ -193,7 +247,16 @@
         "La mezquita del siglo X solo se entiende dentro de la ciudad que la rodeaba. La Córdoba califal era, con toda probabilidad, la mayor aglomeración urbana de Europa occidental: las estimaciones serias oscilan entre 100.000 y 500.000 habitantes (las cifras de un millón que repiten las guías proceden de cronistas árabes propensos a la hipérbole; incluso la horquilla baja la situaba muy por encima de París o Roma en la misma época). Las fuentes describen cientos de baños públicos, alcantarillado, alumbrado en algunas calles, zocos especializados, una industria del libro con talleres de copistas —incluidas numerosas mujeres copistas, dato documentado que matiza muchos tópicos—, y una economía conectada desde el Sáhara (oro) hasta el Báltico (esclavos, pieles) y Bizancio (sedas, mosaicos). La ciudad palatina de Madinat al-Zahra, iniciada en 936, trasladó la corte a 8 km; te interesa saberlo porque explica la relación entre ambos monumentos: la mezquita quedó como el polo religioso y comunitario de la capital mientras el califa se retiraba a un Versalles propio, y el sabat y las apariciones rituales del viernes cosían simbólicamente esa distancia.",
         "Sobre la convivencia entre religiones conviene llegar con una idea calibrada, porque el monumento suele usarse como bandera de relatos opuestos. La realidad documentada es un sistema de jerarquía pactada, no de igualdad: judíos y cristianos (mozárabes) eran dhimmíes, comunidades protegidas que pagaban impuestos específicos y aceptaban una posición legal subordinada a cambio de autonomía interna y libertad de culto limitada. Ese marco permitió siglos de coexistencia productiva, bilingüismo, mestizaje cultural y carreras brillantes de no musulmanes en la administración; y también produjo tensiones violentas, como el movimiento de los mártires voluntarios de Córdoba (850-859), cristianos exaltados en torno a Eulogio que buscaron deliberadamente la ejecución blasfemando en público contra el islam, en protesta contra la arabización acelerada de su propia comunidad —el testimonio de Álvaro de Córdoba lamentando que los jóvenes cristianos preferían la poesía árabe al latín es uno de los documentos más citados de la historia cultural peninsular—. Ni el paraíso de las tres culturas ni el mito contrario de la opresión perpetua: un equilibrio real, desigual, cambiante y a ratos brillante, del que la mezquita fue el centro monumental. Los grandes nombres del pensamiento cordobés que suelen asociarse al monumento —el filósofo y jurista musulmán Averroes, el judío Maimónides— son en realidad posteriores al califato (siglo XII) y ambos acabaron sus vidas lejos de Córdoba, empujados por la intolerancia almohade: otro matiz que conviene conocer para no comprar postales históricas demasiado simples."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Medina Azahara, la ciudad palatina que Abd al-Rahman III levantó a las afueras de Córdoba en el siglo X.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Vista_del_conjunto_monumental.JPG",
+          "alt": "Panorámica de las ruinas de Medina Azahara",
+          "credit": "Cristina Carmona · Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "8-1236-la-catedral-dentro-de-la-mezquita",
@@ -230,7 +293,16 @@
             "El juicio merece, sin embargo, más matices de los que suele recibir. Primero, la obra es magnífica en sí misma: iniciada por Hernán Ruiz I el Viejo en gótico tardío (mira el ábside), continuada por su hijo Hernán Ruiz II —uno de los grandes arquitectos del Renacimiento español— y rematada hacia 1607 con las bóvedas manieristas de Juan de Ochoa, es un catálogo de ochenta años de arquitectura española, con un cimborrio ovalado espléndido. Segundo, la inserción fue más respetuosa de lo que parece: el crucero se apoya y se traba en la estructura islámica, la reutiliza, y su emplazamiento —en la ampliación de Almanzor y el borde de la de al-Hakam— evitó el mihrab y las zonas más sagradas. Tercero, y es el argumento más citado por los historiadores: convertida en catedral viva y monumentalizada, la mezquita quedó blindada. Los edificios islámicos sin uso desaparecieron casi todos; este sobrevivió íntegro en un noventa por ciento precisamente porque una institución poderosa lo habitó sin interrupción durante ocho siglos. La catedral no destruyó la mezquita: paradójicamente, la conservó.",
             "De los siglos XVII y XVIII no te pierdas la sillería del coro de Pedro Duque Cornejo (1748-1757), tallada en caoba americana —el material es en sí un documento: el imperio atlántico entrando en el edificio omeya—, considerada una de las cimas de la escultura barroca española, y el tesoro catedralicio en la capilla de Santa Teresa, presidido por la custodia procesional de Enrique de Arfe (1510s), una catedral gótica portátil de plata que sale cada Corpus."
           ],
-          "figures": []
+          "figures": [
+            {
+              "type": "image",
+              "fignum": "Foto",
+              "caption": "Crucero renacentista de la Catedral, plantado en 1523 en el corazón del bosque de columnas.",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cathedral_of_Cordoba.JPG",
+              "alt": "Interior catedralicio integrado en la Mezquita de Córdoba",
+              "credit": "Wikimedia Commons · CC BY-SA"
+            }
+          ]
         }
       ]
     },
@@ -252,7 +324,16 @@
       "paragraphs": [
         "La Mezquita-Catedral es hoy, además de un monumento, un campo de batalla simbólico de la España contemporánea, y conocer los términos del debate forma parte de entender el edificio. Tres frentes principales. El primero es la titularidad: en 2006, al amparo de una reforma legal que permitía a la Iglesia inmatricular templos, el Cabildo inscribió el monumento a su nombre en el Registro de la Propiedad por un procedimiento y una tasa simbólica que generaron una intensa polémica jurídica y política; plataformas ciudadanas y grupos políticos reclamaron la titularidad pública, se elaboraron informes municipales y autonómicos sobre la cuestión, y el asunto llegó al debate parlamentario, sin que la inscripción haya sido revertida. El segundo es el nombre: durante años los folletos oficiales tendieron a subrayar \"Catedral\" minimizando \"Mezquita\", lo que provocó protestas y campañas hasta consolidarse la denominación integradora \"Mezquita-Catedral\"; la disputa nominal es en realidad una disputa sobre qué relato de España encarna el edificio. El tercero es el uso religioso: comunidades musulmanas han solicitado repetidamente desde los años noventa poder orar en el interior o establecer algún uso compartido, peticiones siempre rechazadas por la Iglesia (que alega la unicidad del culto católico consagrado) y respaldadas por la normativa vigente; ha habido incidentes puntuales cuando grupos de fieles musulmanes intentaron rezar dentro. Detrás de cada frente laten preguntas de fondo sin respuesta pacífica: ¿de quién es la memoria de al-Andalus?, ¿puede un edificio ser patrimonio de todos y propiedad de una institución?, ¿es la historia española una historia de continuidad católica con un paréntesis islámico, o una historia plural de la que este edificio es el testigo mayor? Visitar la Mezquita-Catedral es entrar, se quiera o no, en esa conversación."
       ],
-      "figures": []
+      "figures": [
+        {
+          "type": "image",
+          "fignum": "Foto",
+          "caption": "Vista aérea del conjunto Mezquita-Catedral: la torre campanario cristiana emerge sobre el recinto islámico.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Mezquita-Catedral_de_C%C3%B3rdoba.jpg",
+          "alt": "Vista cenital del recinto de la Mezquita-Catedral de Córdoba",
+          "credit": "Wikimedia Commons · CC BY-SA"
+        }
+      ]
     },
     {
       "id": "11-itinerario-comentado-para-tu-visita-90-120-minutos",
