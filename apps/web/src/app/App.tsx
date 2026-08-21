@@ -32,7 +32,7 @@ const AppInner = () => {
 
 const App = () => (
   <div className="appRoot">
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AppInner />
     </BrowserRouter>
   </div>
