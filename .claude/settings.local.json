@@ -83,7 +83,11 @@
       "Bash(echo \"exit: $?\")",
       "Bash(kill %1)",
       "Bash(python *)",
-      "Bash(npx --prefix apps/web tsc --noEmit -p apps/web/tsconfig.json)"
+      "Bash(npx --prefix apps/web tsc --noEmit -p apps/web/tsconfig.json)",
+      "WebFetch(domain:docs.github.com)",
+      "Bash(npx --yes yaml-lint .github/workflows/deploy.yml)",
+      "Bash(xxd .github/workflows/deploy.yml)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
