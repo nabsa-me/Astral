@@ -5,7 +5,7 @@ import DesktopSideBar from './DesktopSideBar';
 import type { shownOrHiddenType } from './desktopTypes';
 
 const DesktopLayout = () => {
-  const [sideBarHidden, setSideBarHidden] = useState<shownOrHiddenType>('');
+  const [sideBarHidden, setSideBarHidden] = useState<shownOrHiddenType>('hidden');
 
   return (
     <div className="desktop-appRoot-fullPage">
